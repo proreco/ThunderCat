@@ -1,0 +1,35 @@
+C:\Users\KGB\documents\visual studio 2010\Projects\rocket_launcher\rocket_launcher\bin\Debug\rocket_launcher.exe
+C:\Users\KGB\documents\visual studio 2010\Projects\rocket_launcher\rocket_launcher\bin\Debug\rocket_launcher.pdb
+C:\Users\KGB\documents\visual studio 2010\Projects\rocket_launcher\rocket_launcher\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\KGB\documents\visual studio 2010\Projects\rocket_launcher\rocket_launcher\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\KGB\documents\visual studio 2010\Projects\rocket_launcher\rocket_launcher\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\KGB\documents\visual studio 2010\Projects\rocket_launcher\rocket_launcher\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\KGB\documents\visual studio 2010\Projects\rocket_launcher\rocket_launcher\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\KGB\documents\visual studio 2010\Projects\rocket_launcher\rocket_launcher\obj\x86\Debug\rocket_launcher.exe
+C:\Users\KGB\documents\visual studio 2010\Projects\rocket_launcher\rocket_launcher\obj\x86\Debug\rocket_launcher.pdb
+C:\Users\KGB\documents\visual studio 2010\Projects\rocket_launcher\rocket_launcher\bin\Debug\USBLib.DLL
+C:\Users\KGB-LapTop\Dropbox\classes\322\rocket_launcher\rocket_launcher\obj\x86\Debug\rocket_launcher.exe
+C:\Users\KGB-LapTop\Dropbox\classes\322\rocket_launcher\rocket_launcher\obj\x86\Debug\rocket_launcher.pdb
+C:\Users\KGB-LapTop\Dropbox\classes\322\rocket_launcher\rocket_launcher\bin\Debug\rocket_launcher.exe
+C:\Users\KGB-LapTop\Dropbox\classes\322\rocket_launcher\rocket_launcher\bin\Debug\rocket_launcher.pdb
+C:\Users\KGB-LapTop\Dropbox\classes\322\rocket_launcher\rocket_launcher\obj\x86\Debug\rocket_launcher.csprojResolveAssemblyReference.cache
+C:\Users\KGB-LapTop\Dropbox\classes\322\rocket_launcher\rocket_launcher\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\KGB-LapTop\Dropbox\classes\322\rocket_launcher\rocket_launcher\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\KGB-LapTop\Dropbox\classes\322\rocket_launcher\rocket_launcher\obj\x86\Debug\rocket_launcher.csproj.GenerateResource.Cache
+C:\Users\KGB\Dropbox\classes\322\rocket_launcher\rocket_launcher\obj\x86\Debug\rocket_launcher.exe
+C:\Users\KGB\Dropbox\classes\322\rocket_launcher\rocket_launcher\obj\x86\Debug\rocket_launcher.pdb
+C:\Users\KGB\Dropbox\classes\322\rocket_launcher\rocket_launcher\bin\Debug\rocket_launcher.exe
+C:\Users\KGB\Dropbox\classes\322\rocket_launcher\rocket_launcher\bin\Debug\rocket_launcher.pdb
+C:\Users\KGB\Dropbox\classes\322\rocket_launcher\rocket_launcher\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\KGB\Dropbox\classes\322\rocket_launcher\rocket_launcher\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\KGB\Dropbox\classes\322\rocket_launcher\rocket_launcher\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\KGB\Dropbox\classes\322\rocket_launcher\rocket_launcher\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\KGB\Dropbox\classes\322\rocket_launcher\rocket_launcher\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\KGB-LapTop\Dropbox\classes\323\rocket_launcher\rocket_launcher\obj\x86\Debug\rocket_launcher.exe
+C:\Users\KGB-LapTop\Dropbox\classes\323\rocket_launcher\rocket_launcher\obj\x86\Debug\rocket_launcher.pdb
+C:\Users\KGB-LapTop\Dropbox\classes\323\rocket_launcher\rocket_launcher\bin\Debug\rocket_launcher.exe
+C:\Users\KGB-LapTop\Dropbox\classes\323\rocket_launcher\rocket_launcher\bin\Debug\rocket_launcher.pdb
+C:\Users\KGB-LapTop\Dropbox\classes\323\rocket_launcher\rocket_launcher\obj\x86\Debug\rocket_launcher.csprojResolveAssemblyReference.cache
+C:\Users\KGB-LapTop\Dropbox\classes\323\rocket_launcher\rocket_launcher\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\KGB-LapTop\Dropbox\classes\323\rocket_launcher\rocket_launcher\obj\x86\Debug\rocket_launcher.csproj.GenerateResource.Cache
+C:\Users\KGB-LapTop\Dropbox\classes\323\rocket_launcher\rocket_launcher\obj\x86\Debug\WindowsFormsApplication1.AMSL.resources

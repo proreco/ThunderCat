@@ -8,7 +8,7 @@
     <ProjectGuid>{4E1EE24D-D776-4E8F-B16D-55BB7804718D}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WindowsFormsApplication1</RootNamespace>
+    <RootNamespace>ASML</RootNamespace>
     <AssemblyName>Asml-ThunderCats</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
@@ -55,9 +55,13 @@
     <Compile Include="ASML.Designer.cs">
       <DependentUpon>ASML.cs</DependentUpon>
     </Compile>
+    <Compile Include="File.cs" />
+    <Compile Include="INI.cs" />
+    <Compile Include="FileReader.cs" />
     <Compile Include="Launcher.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XML.cs" />
     <EmbeddedResource Include="ASML.resx">
       <DependentUpon>ASML.cs</DependentUpon>
     </EmbeddedResource>
@@ -69,6 +73,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

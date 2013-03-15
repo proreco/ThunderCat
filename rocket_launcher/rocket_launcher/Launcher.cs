@@ -13,7 +13,7 @@ using System.Media;
 using System.Diagnostics;
 using System.Threading;
 
-namespace WindowsFormsApplication1
+namespace launcher
 {
     public interface ILauncher
     {

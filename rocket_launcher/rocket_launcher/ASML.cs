@@ -12,22 +12,24 @@ using System.IO;
 using System.Media;
 using System.Diagnostics;
 using System.Threading;
+using launcher;
+using fileReader;
+using fileClass;
 
-namespace WindowsFormsApplication1
+namespace WinForm
 {
-    public partial class Asml : Form
+    partial class Asml : Form
     {
         ILauncher control;
         bool on = true;
 
+        public Asml(ILauncher interfaceControl, file target)
+        {
+            InitializeComponent();
+            control = interfaceControl;
 
-       public Asml(ILauncher interfaceControl)
-       {
-           InitializeComponent();
-           control = interfaceControl;
-       }
-
-        
+            TargetList.DataSource = target.list;
+        }
 
         //===============================LEFT===============================
 
@@ -44,7 +46,7 @@ namespace WindowsFormsApplication1
 
         private void timer1_Tick_1(object sender, EventArgs e)
         {
-            
+
             control.command_Left(100);
 
         }
@@ -126,16 +128,16 @@ namespace WindowsFormsApplication1
         private void button6_Click(object sender, EventArgs e)
         {
             control.command_switchLED(on);
-        //    int n = 1;
-        //    timer5.Enabled = true;
-            
-        //        timer5.Start();
-        //        do
-        //        {
-        //            this.control.moveMissileLauncher(this.control.LEFT, 1000);
-        //            this.control.moveMissileLauncher(this.control.RIGHT, 1000);
+            //    int n = 1;
+            //    timer5.Enabled = true;
 
-        //        } while (n <= 1);
+            //        timer5.Start();
+            //        do
+            //        {
+            //            this.control.moveMissileLauncher(this.control.LEFT, 1000);
+            //            this.control.moveMissileLauncher(this.control.RIGHT, 1000);
+
+            //        } while (n <= 1);
         }
 
         private void timer5_Tick(object sender, EventArgs e)
@@ -150,6 +152,7 @@ namespace WindowsFormsApplication1
             timer5.Stop();
 
             control.command_Stop();
-        }        
+        }
+
     }
 }

@@ -15,21 +15,32 @@ using System.Threading;
 
 namespace WindowsFormsApplication1
 {
-    class Launcher
+    public interface ILauncher
+    {
+        void command_Stop();
+        void command_Right(int degrees);
+        void command_Left(int degrees);
+        void command_Up(int degrees);
+        void command_Down(int degrees);
+        void command_Fire();
+        void command_switchLED(Boolean turnOn);
+        void command_reset();
+    }
+    public class Launcher : ILauncher
     {
         List<string> _items = new List<string>();
         private bool DevicePresent;
 
         //Bytes used in command
-        public byte[] UP;
-        public byte[] RIGHT;
-        public byte[] LEFT;
-        public byte[] DOWN;
+        private byte[] UP;
+        private byte[] RIGHT;
+        private byte[] LEFT;
+        private byte[] DOWN;
 
-        public byte[] FIRE;
-        public byte[] STOP;
-        public byte[] LED_OFF;
-        public byte[] LED_ON;
+        private byte[] FIRE;
+        private byte[] STOP;
+        private byte[] LED_OFF;
+        private byte[] LED_ON;
 
         private UsbHidPort USB;
 
@@ -89,28 +100,34 @@ namespace WindowsFormsApplication1
             this.USB.RegisterHandle(handle);
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        public void command_Stop()
         {
-          
+            this.SendUSBData(this.STOP);
         }
 
-        private void USB_OnDataRecieved(object sender, DataRecievedEventArgs args)
+        public void command_Right(int degrees)
         {
-
+            this.moveMissileLauncher(this.RIGHT, degrees);
         }
 
-        private void USB_OnSpecifiedDeviceArrived(object sender, EventArgs e)
+        public void command_Left(int degrees)
         {
-            this.DevicePresent = true;
-            if (this.USB.ProductId == 0x1010)
-            {
-                this.command_switchLED(true);
-            }
+            this.moveMissileLauncher(this.LEFT, degrees);
         }
 
-        private void USB_OnSpecifiedDeviceRemoved(object sender, EventArgs e)
+        public void command_Up(int degrees)
         {
-            this.DevicePresent = false;
+            this.moveMissileLauncher(this.UP, degrees);
+        }
+
+        public void command_Down(int degrees)
+        {
+            this.moveMissileLauncher(this.DOWN, degrees);
+        }
+
+        public void command_Fire()
+        {
+            this.moveMissileLauncher(this.FIRE, 5000);
         }
 
         public void command_switchLED(Boolean turnOn)
@@ -129,7 +146,31 @@ namespace WindowsFormsApplication1
             }
         }
 
-        public void SendUSBData(byte[] Data)
+
+        public void command_reset()
+        {
+            if (DevicePresent)
+            {
+                this.moveMissileLauncher(this.LEFT, 5500);
+                this.moveMissileLauncher(this.RIGHT, 2750);
+                this.moveMissileLauncher(this.UP, 2000);
+                this.moveMissileLauncher(this.DOWN, 500);
+            }
+        }
+
+        private void moveMissileLauncher(byte[] Data, int interval)
+        {
+            if (DevicePresent)
+            {
+                this.command_switchLED(true);
+                this.SendUSBData(Data);
+                Thread.Sleep(interval);
+                this.SendUSBData(this.STOP);
+                this.command_switchLED(false);
+            }
+        }
+
+        private void SendUSBData(byte[] Data)
         {
             if (this.USB.SpecifiedDevice != null)
             {
@@ -137,16 +178,24 @@ namespace WindowsFormsApplication1
             }
         }
 
-        public void moveMissileLauncher(byte[] Data, int interval)
+
+        private void USB_OnDataRecieved(object sender, DataRecievedEventArgs args)
         {
-            if (DevicePresent)
+
+        }
+
+        private void USB_OnSpecifiedDeviceArrived(object sender, EventArgs e)
+        {
+            this.DevicePresent = true;
+            if (this.USB.ProductId == 0x1010)
             {
                 this.command_switchLED(true);
-                SendUSBData(Data);
-                Thread.Sleep(interval);
-                this.SendUSBData(this.STOP);
-
             }
+        }
+
+        private void USB_OnSpecifiedDeviceRemoved(object sender, EventArgs e)
+        {
+            this.DevicePresent = false;
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApplication1
 {
-    partial class AMSL
+    partial class Asml
     {
         /// <summary>
         /// Required designer variable.
@@ -147,11 +147,11 @@
             // Version
             // 
             this.Version.AutoSize = true;
-            this.Version.Location = new System.Drawing.Point(523, 280);
+            this.Version.Location = new System.Drawing.Point(525, 9);
             this.Version.Name = "Version";
             this.Version.Size = new System.Drawing.Size(43, 13);
             this.Version.TabIndex = 9;
-            this.Version.Text = "v. 0.0.1";
+            this.Version.Text = "v. 0.0.2";
             // 
             // GroupName
             // 
@@ -163,7 +163,7 @@
             this.GroupName.TabIndex = 10;
             this.GroupName.Text = "Thunder Cats";
             // 
-            // Form1
+            // Asml
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -178,8 +178,8 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "Asml";
+            this.Text = "Asml-Thunder Cats";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

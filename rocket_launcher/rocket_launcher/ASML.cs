@@ -13,17 +13,20 @@ using System.Media;
 using System.Diagnostics;
 using System.Threading;
 
-
 namespace WindowsFormsApplication1
 {
-   public partial class AMSL : Form
+    public partial class Asml : Form
     {
-       Launcher control = new Launcher();
+        ILauncher control;
+        bool on = true;
 
-        public AMSL()
-        {
-            InitializeComponent();
-        }
+
+       public Asml(ILauncher interfaceControl)
+       {
+           InitializeComponent();
+           control = interfaceControl;
+       }
+
         
 
         //===============================LEFT===============================
@@ -42,7 +45,7 @@ namespace WindowsFormsApplication1
         private void timer1_Tick_1(object sender, EventArgs e)
         {
             
-            this.control.moveMissileLauncher(this.control.LEFT, 100);
+            control.command_Left(100);
 
         }
 
@@ -63,7 +66,7 @@ namespace WindowsFormsApplication1
         private void timer2_Tick(object sender, EventArgs e)
         {
 
-            this.control.moveMissileLauncher(this.control.RIGHT, 100);
+            control.command_Right(100);
 
         }
 
@@ -86,7 +89,7 @@ namespace WindowsFormsApplication1
         private void timer3_Tick(object sender, EventArgs e)
         {
 
-            this.control.moveMissileLauncher(this.control.UP, 100);
+            control.command_Up(100);
 
         }
 
@@ -107,7 +110,7 @@ namespace WindowsFormsApplication1
         private void timer4_Tick(object sender, EventArgs e)
         {
 
-            this.control.moveMissileLauncher(this.control.DOWN, 100);
+            control.command_Down(100);
 
         }
 
@@ -115,13 +118,14 @@ namespace WindowsFormsApplication1
 
         private void button5_Click(object sender, EventArgs e)
         {
-            this.control.moveMissileLauncher(this.control.FIRE, 5000); 
+            control.command_Fire();
         }
 
         //==============================START===============================
 
         private void button6_Click(object sender, EventArgs e)
         {
+            control.command_switchLED(on);
         //    int n = 1;
         //    timer5.Enabled = true;
             
@@ -136,7 +140,7 @@ namespace WindowsFormsApplication1
 
         private void timer5_Tick(object sender, EventArgs e)
         {
-            this.control.moveMissileLauncher(this.control.LEFT, 1000);
+            //this.control.
         }
 
         //===============================STOP===============================
@@ -144,9 +148,8 @@ namespace WindowsFormsApplication1
         private void button7_Click(object sender, EventArgs e)
         {
             timer5.Stop();
-    
-            this.control.SendUSBData(this.control.LED_OFF);
-        }
-        
+
+            control.command_Stop();
+        }        
     }
 }

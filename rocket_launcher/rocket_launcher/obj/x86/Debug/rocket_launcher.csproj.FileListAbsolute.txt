@@ -33,3 +33,11 @@ C:\Users\KGB-LapTop\Dropbox\classes\323\rocket_launcher\rocket_launcher\obj\x86\
 C:\Users\KGB-LapTop\Dropbox\classes\323\rocket_launcher\rocket_launcher\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
 C:\Users\KGB-LapTop\Dropbox\classes\323\rocket_launcher\rocket_launcher\obj\x86\Debug\rocket_launcher.csproj.GenerateResource.Cache
 C:\Users\KGB-LapTop\Dropbox\classes\323\rocket_launcher\rocket_launcher\obj\x86\Debug\WindowsFormsApplication1.AMSL.resources
+C:\Users\KGB\Desktop\ThunderCat\rocket_launcher\rocket_launcher\obj\x86\Debug\rocket_launcher.csprojResolveAssemblyReference.cache
+C:\Users\KGB\Desktop\ThunderCat\rocket_launcher\rocket_launcher\obj\x86\Debug\WindowsFormsApplication1.ASML.resources
+C:\Users\KGB\Desktop\ThunderCat\rocket_launcher\rocket_launcher\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\KGB\Desktop\ThunderCat\rocket_launcher\rocket_launcher\obj\x86\Debug\rocket_launcher.csproj.GenerateResource.Cache
+C:\Users\KGB\Desktop\ThunderCat\rocket_launcher\rocket_launcher\bin\Debug\Asml-ThunderCats.exe
+C:\Users\KGB\Desktop\ThunderCat\rocket_launcher\rocket_launcher\bin\Debug\Asml-ThunderCats.pdb
+C:\Users\KGB\Desktop\ThunderCat\rocket_launcher\rocket_launcher\obj\x86\Debug\Asml-ThunderCats.exe
+C:\Users\KGB\Desktop\ThunderCat\rocket_launcher\rocket_launcher\obj\x86\Debug\Asml-ThunderCats.pdb

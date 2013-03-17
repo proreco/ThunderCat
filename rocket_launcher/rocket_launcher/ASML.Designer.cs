@@ -44,6 +44,7 @@
             this.TargetList = new System.Windows.Forms.ListBox();
             this.Version = new System.Windows.Forms.Label();
             this.GroupName = new System.Windows.Forms.Label();
+            this.reset = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -128,7 +129,7 @@
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(450, 233);
+            this.button7.Location = new System.Drawing.Point(397, 233);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(75, 23);
             this.button7.TabIndex = 6;
@@ -163,11 +164,22 @@
             this.GroupName.TabIndex = 10;
             this.GroupName.Text = "Thunder Cats";
             // 
+            // reset
+            // 
+            this.reset.Location = new System.Drawing.Point(493, 233);
+            this.reset.Name = "reset";
+            this.reset.Size = new System.Drawing.Size(49, 23);
+            this.reset.TabIndex = 11;
+            this.reset.Text = "Reset";
+            this.reset.UseVisualStyleBackColor = true;
+            this.reset.Click += new System.EventHandler(this.reset_Click);
+            // 
             // Asml
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(580, 298);
+            this.Controls.Add(this.reset);
             this.Controls.Add(this.GroupName);
             this.Controls.Add(this.Version);
             this.Controls.Add(this.TargetList);
@@ -208,6 +220,7 @@
         private System.Windows.Forms.ListBox TargetList;
         private System.Windows.Forms.Label Version;
         private System.Windows.Forms.Label GroupName;
+        private System.Windows.Forms.Button reset;
     }
 }
 

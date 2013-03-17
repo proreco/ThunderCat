@@ -40,3 +40,4 @@ C:\Users\KGB\Desktop\ThunderCat\rocket_launcher\rocket_launcher\obj\x86\Debug\As
 C:\Users\KGB\Desktop\ThunderCat\rocket_launcher\rocket_launcher\obj\x86\Debug\Asml-ThunderCats.pdb
 C:\Users\KGB\Desktop\ThunderCat\rocket_launcher\rocket_launcher\obj\x86\Debug\WinForm.Asml.resources
 C:\Users\KGB\Desktop\ThunderCat\rocket_launcher\rocket_launcher\obj\x86\Debug\ASML.Properties.Resources.resources
+C:\Users\KGB\Desktop\ThunderCat\rocket_launcher\rocket_launcher\obj\x86\Debug\rocket_launcher.csprojResolveAssemblyReference.cache

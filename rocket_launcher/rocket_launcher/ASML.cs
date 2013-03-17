@@ -12,7 +12,7 @@ using System.IO;
 using System.Media;
 using System.Diagnostics;
 using System.Threading;
-using launcher;
+using adapter;
 using fileReader;
 using fileClass;
 
@@ -23,10 +23,10 @@ namespace WinForm
         ILauncher control;
         bool on = true;
 
-        public Asml(ILauncher interfaceControl, file target)
+        public Asml(file target)
         {
             InitializeComponent();
-            control = interfaceControl;
+            control = new LauncherAdapter();
 
             TargetList.DataSource = target.list;
         }
@@ -47,7 +47,7 @@ namespace WinForm
         private void timer1_Tick_1(object sender, EventArgs e)
         {
 
-            control.command_Left(100);
+            control.command_Left(90);
 
         }
 
@@ -68,7 +68,7 @@ namespace WinForm
         private void timer2_Tick(object sender, EventArgs e)
         {
 
-            control.command_Right(100);
+            control.command_Right(90);
 
         }
 
@@ -128,21 +128,6 @@ namespace WinForm
         private void button6_Click(object sender, EventArgs e)
         {
             control.command_switchLED(on);
-            //    int n = 1;
-            //    timer5.Enabled = true;
-
-            //        timer5.Start();
-            //        do
-            //        {
-            //            this.control.moveMissileLauncher(this.control.LEFT, 1000);
-            //            this.control.moveMissileLauncher(this.control.RIGHT, 1000);
-
-            //        } while (n <= 1);
-        }
-
-        private void timer5_Tick(object sender, EventArgs e)
-        {
-            //this.control.
         }
 
         //===============================STOP===============================
@@ -150,8 +135,12 @@ namespace WinForm
         private void button7_Click(object sender, EventArgs e)
         {
             timer5.Stop();
-
             control.command_Stop();
+        }
+
+        private void reset_Click(object sender, EventArgs e)
+        {
+            control.command_reset();
         }
 
     }

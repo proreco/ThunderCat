@@ -15,18 +15,8 @@ using System.Threading;
 
 namespace launcher
 {
-    public interface ILauncher
-    {
-        void command_Stop();
-        void command_Right(int degrees);
-        void command_Left(int degrees);
-        void command_Up(int degrees);
-        void command_Down(int degrees);
-        void command_Fire();
-        void command_switchLED(Boolean turnOn);
-        void command_reset();
-    }
-    public class Launcher : ILauncher
+    
+    public class Launcher
     {
         List<string> _items = new List<string>();
         private bool DevicePresent;
@@ -46,10 +36,6 @@ namespace launcher
 
         public Launcher()
         {
-            //InitializeComponent();
-
-            _items.Add("One");
-            //TargetList.DataSource = _items;
 
             this.UP = new byte[10];
             this.UP[1] = 2;
@@ -152,7 +138,7 @@ namespace launcher
             if (DevicePresent)
             {
                 this.moveMissileLauncher(this.LEFT, 5500);
-                this.moveMissileLauncher(this.RIGHT, 2750);
+                this.moveMissileLauncher(this.RIGHT, 3500);
                 this.moveMissileLauncher(this.UP, 2000);
                 this.moveMissileLauncher(this.DOWN, 500);
             }

@@ -29,81 +29,82 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.left = new System.Windows.Forms.Button();
+            this.right = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.up = new System.Windows.Forms.Button();
+            this.down = new System.Windows.Forms.Button();
+            this.fire = new System.Windows.Forms.Button();
             this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.timer3 = new System.Windows.Forms.Timer(this.components);
             this.timer4 = new System.Windows.Forms.Timer(this.components);
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.start = new System.Windows.Forms.Button();
+            this.stop = new System.Windows.Forms.Button();
             this.timer5 = new System.Windows.Forms.Timer(this.components);
             this.TargetList = new System.Windows.Forms.ListBox();
             this.Version = new System.Windows.Forms.Label();
             this.GroupName = new System.Windows.Forms.Label();
             this.reset = new System.Windows.Forms.Button();
+            this.openFile = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // left
             // 
-            this.button1.Location = new System.Drawing.Point(310, 103);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 31);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "<<<";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button1_MouseDown);
-            this.button1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button1_MouseUp);
+            this.left.Location = new System.Drawing.Point(310, 103);
+            this.left.Name = "left";
+            this.left.Size = new System.Drawing.Size(75, 31);
+            this.left.TabIndex = 0;
+            this.left.Text = "<<<";
+            this.left.UseVisualStyleBackColor = true;
+            this.left.MouseDown += new System.Windows.Forms.MouseEventHandler(this.left_MouseDown);
+            this.left.MouseUp += new System.Windows.Forms.MouseEventHandler(this.left_MouseUp);
             // 
-            // button2
+            // right
             // 
-            this.button2.Location = new System.Drawing.Point(450, 103);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 31);
-            this.button2.TabIndex = 1;
-            this.button2.Text = ">>>";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button2_MouseDown);
-            this.button2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button2_MouseUp);
+            this.right.Location = new System.Drawing.Point(450, 103);
+            this.right.Name = "right";
+            this.right.Size = new System.Drawing.Size(75, 31);
+            this.right.TabIndex = 1;
+            this.right.Text = ">>>";
+            this.right.UseVisualStyleBackColor = true;
+            this.right.MouseDown += new System.Windows.Forms.MouseEventHandler(this.right_MouseDown);
+            this.right.MouseUp += new System.Windows.Forms.MouseEventHandler(this.right_MouseUp);
             // 
             // timer1
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick_1);
             // 
-            // button3
+            // up
             // 
-            this.button3.Location = new System.Drawing.Point(397, 32);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(37, 54);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "^\r\n^\r\n^";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button3_MouseDown);
-            this.button3.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button3_MouseUp);
+            this.up.Location = new System.Drawing.Point(397, 32);
+            this.up.Name = "up";
+            this.up.Size = new System.Drawing.Size(37, 54);
+            this.up.TabIndex = 2;
+            this.up.Text = "^\r\n^\r\n^";
+            this.up.UseVisualStyleBackColor = true;
+            this.up.MouseDown += new System.Windows.Forms.MouseEventHandler(this.up_MouseDown);
+            this.up.MouseUp += new System.Windows.Forms.MouseEventHandler(this.up_MouseUp);
             // 
-            // button4
+            // down
             // 
-            this.button4.Location = new System.Drawing.Point(397, 149);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(37, 57);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "V\r\nV\r\nV";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button4_MouseDown);
-            this.button4.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button4_MouseUp);
+            this.down.Location = new System.Drawing.Point(397, 149);
+            this.down.Name = "down";
+            this.down.Size = new System.Drawing.Size(37, 57);
+            this.down.TabIndex = 3;
+            this.down.Text = "V\r\nV\r\nV";
+            this.down.UseVisualStyleBackColor = true;
+            this.down.MouseDown += new System.Windows.Forms.MouseEventHandler(this.down_MouseDown);
+            this.down.MouseUp += new System.Windows.Forms.MouseEventHandler(this.down_MouseUp);
             // 
-            // button5
+            // fire
             // 
-            this.button5.Location = new System.Drawing.Point(397, 98);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(40, 40);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "Fire";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.fire.Location = new System.Drawing.Point(397, 98);
+            this.fire.Name = "fire";
+            this.fire.Size = new System.Drawing.Size(40, 40);
+            this.fire.TabIndex = 4;
+            this.fire.Text = "Fire";
+            this.fire.UseVisualStyleBackColor = true;
+            this.fire.Click += new System.EventHandler(this.fire_Click);
             // 
             // timer2
             // 
@@ -117,25 +118,25 @@
             // 
             this.timer4.Tick += new System.EventHandler(this.timer4_Tick);
             // 
-            // button6
+            // start
             // 
-            this.button6.Location = new System.Drawing.Point(310, 233);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
-            this.button6.TabIndex = 5;
-            this.button6.Text = "Start";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.start.Location = new System.Drawing.Point(310, 233);
+            this.start.Name = "start";
+            this.start.Size = new System.Drawing.Size(75, 23);
+            this.start.TabIndex = 5;
+            this.start.Text = "Start";
+            this.start.UseVisualStyleBackColor = true;
+            this.start.Click += new System.EventHandler(this.start_Click);
             // 
-            // button7
+            // stop
             // 
-            this.button7.Location = new System.Drawing.Point(397, 233);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 23);
-            this.button7.TabIndex = 6;
-            this.button7.Text = "Stop";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            this.stop.Location = new System.Drawing.Point(397, 233);
+            this.stop.Name = "stop";
+            this.stop.Size = new System.Drawing.Size(75, 23);
+            this.stop.TabIndex = 6;
+            this.stop.Text = "Stop";
+            this.stop.UseVisualStyleBackColor = true;
+            this.stop.Click += new System.EventHandler(this.stop_Click);
             // 
             // TargetList
             // 
@@ -152,7 +153,7 @@
             this.Version.Name = "Version";
             this.Version.Size = new System.Drawing.Size(43, 13);
             this.Version.TabIndex = 9;
-            this.Version.Text = "v. 0.1.0";
+            this.Version.Text = "v. 0.2.5";
             // 
             // GroupName
             // 
@@ -174,22 +175,33 @@
             this.reset.UseVisualStyleBackColor = true;
             this.reset.Click += new System.EventHandler(this.reset_Click);
             // 
+            // openFile
+            // 
+            this.openFile.Location = new System.Drawing.Point(97, 263);
+            this.openFile.Name = "openFile";
+            this.openFile.Size = new System.Drawing.Size(95, 23);
+            this.openFile.TabIndex = 12;
+            this.openFile.Text = "Open Target File";
+            this.openFile.UseVisualStyleBackColor = true;
+            this.openFile.Click += new System.EventHandler(this.openFile_Click);
+            // 
             // Asml
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(580, 298);
+            this.Controls.Add(this.openFile);
             this.Controls.Add(this.reset);
             this.Controls.Add(this.GroupName);
             this.Controls.Add(this.Version);
             this.Controls.Add(this.TargetList);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.stop);
+            this.Controls.Add(this.start);
+            this.Controls.Add(this.fire);
+            this.Controls.Add(this.down);
+            this.Controls.Add(this.up);
+            this.Controls.Add(this.right);
+            this.Controls.Add(this.left);
             this.Name = "Asml";
             this.Text = "Asml-Thunder Cats";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -205,22 +217,23 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button left;
+        private System.Windows.Forms.Button right;
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button up;
+        private System.Windows.Forms.Button down;
+        private System.Windows.Forms.Button fire;
         private System.Windows.Forms.Timer timer2;
         private System.Windows.Forms.Timer timer3;
         private System.Windows.Forms.Timer timer4;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button start;
+        private System.Windows.Forms.Button stop;
         private System.Windows.Forms.Timer timer5;
         private System.Windows.Forms.ListBox TargetList;
         private System.Windows.Forms.Label Version;
         private System.Windows.Forms.Label GroupName;
         private System.Windows.Forms.Button reset;
+        private System.Windows.Forms.Button openFile;
     }
 }
 

@@ -15,15 +15,12 @@ namespace Program
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
-        [STAThread]
-
-        
+        [STAThread] 
         static void Main(string[] args)
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            file Target = FileReader.Instance.addFile(args);
-            Application.Run(new Asml(Target));
+            Application.Run(new Asml());
         }
     }
 }

@@ -12,6 +12,7 @@ using System.IO;
 using System.Media;
 using System.Diagnostics;
 using System.Threading;
+using launcher_interface;
 using adapter;
 using fileReader;
 using fileClass;
@@ -20,128 +21,127 @@ namespace WinForm
 {
     partial class Asml : Form
     {
-        ILauncher control;
-        bool on = true;
+        IMissileLauncher control;
+        int points = 100;
+        file Target = null;
 
-        public Asml(file target)
+        public Asml()
         {
             InitializeComponent();
-            control = new LauncherAdapter();
-
-            TargetList.DataSource = target.list;
+            control = new LauncherAdapter();          
         }
 
         //===============================LEFT===============================
 
-        private void button1_MouseDown(object sender, MouseEventArgs e)
+        private void left_MouseDown(object sender, MouseEventArgs e)
         {
             timer1.Enabled = true;
             timer1.Start();
         }
 
-        private void button1_MouseUp(object sender, MouseEventArgs e)
+        private void left_MouseUp(object sender, MouseEventArgs e)
         {
             timer1.Stop();
         }
 
         private void timer1_Tick_1(object sender, EventArgs e)
         {
-
-            control.command_Left(90);
-
+            control.MoveBy(0, -points);
         }
 
-        //===============================RIGHT===============================
+        //===============================RIGHT==============================
 
-        private void button2_MouseDown(object sender, MouseEventArgs e)
+        private void right_MouseDown(object sender, MouseEventArgs e)
         {
             timer2.Enabled = true;
             timer2.Start();
-
         }
 
-        private void button2_MouseUp(object sender, MouseEventArgs e)
+        private void right_MouseUp(object sender, MouseEventArgs e)
         {
             timer2.Stop();
         }
 
         private void timer2_Tick(object sender, EventArgs e)
         {
-
-            control.command_Right(90);
-
+            control.MoveBy(0, points);
         }
 
-        //===============================UP===============================
+        //===============================UP================================
 
-        private void button3_MouseDown(object sender, MouseEventArgs e)
+        private void up_MouseDown(object sender, MouseEventArgs e)
         {
             timer3.Enabled = true;
             timer3.Start();
-
         }
 
-        private void button3_MouseUp(object sender, MouseEventArgs e)
+        private void up_MouseUp(object sender, MouseEventArgs e)
         {
             timer3.Stop();
         }
 
-
-
         private void timer3_Tick(object sender, EventArgs e)
         {
-
-            control.command_Up(100);
-
+            control.MoveBy(points, 0);
         }
 
         //===============================DOWN===============================
 
-        private void button4_MouseDown(object sender, MouseEventArgs e)
+        private void down_MouseDown(object sender, MouseEventArgs e)
         {
             timer4.Enabled = true;
             timer4.Start();
-
         }
 
-        private void button4_MouseUp(object sender, MouseEventArgs e)
+        private void down_MouseUp(object sender, MouseEventArgs e)
         {
             timer4.Stop();
         }
 
         private void timer4_Tick(object sender, EventArgs e)
         {
-
-            control.command_Down(100);
-
+            control.MoveBy(-points, 0);
         }
 
         //===============================FIRE===============================
 
-        private void button5_Click(object sender, EventArgs e)
+        private void fire_Click(object sender, EventArgs e)
         {
-            control.command_Fire();
+            control.Fire();
         }
 
         //==============================START===============================
 
-        private void button6_Click(object sender, EventArgs e)
+        private void start_Click(object sender, EventArgs e)
         {
-            control.command_switchLED(on);
         }
 
         //===============================STOP===============================
 
-        private void button7_Click(object sender, EventArgs e)
-        {
-            timer5.Stop();
-            control.command_Stop();
+        private void stop_Click(object sender, EventArgs e)
+        {           
         }
 
         private void reset_Click(object sender, EventArgs e)
         {
-            control.command_reset();
+            control.Reset();
         }
 
+        private void openFile_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog dialog = new OpenFileDialog();
+            
+            dialog.Filter = "XML Targets |*.xml|INI Targets|*.ini|All Files|*.*";
+            DialogResult result = dialog.ShowDialog();
+
+            if (result == System.Windows.Forms.DialogResult.OK)
+            {
+                string path = dialog.FileName;
+                Target = FileReader.Instance.addFile(path);
+            }
+
+            if (Target != null)
+                TargetList.DataSource = Target.list;
+        }
     }
 }

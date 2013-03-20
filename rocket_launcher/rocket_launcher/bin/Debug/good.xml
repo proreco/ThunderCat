@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Targets>
+	<Target xPos="3.2" yPos="323.32" zPos="3212." isFriend="False"/>
+	<Target xPos="3.2" yPos="323.32" zPos="3212." isFriend="True"/>
 
-<Target xPos="36" yPos="1" zPos="324" isFriend="False" />
-<Target xPos="45" yPos="1" zPos="5" isFriend="True" />
-<Target xPos="24" yPos="10" zPos="5" isFriend="False" />
+	<Target xPos="3.2" yPos="323.32" zPos="3212." isFriend="False"/>
 
 </Targets>

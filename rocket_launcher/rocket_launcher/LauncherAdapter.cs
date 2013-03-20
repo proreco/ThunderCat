@@ -3,70 +3,76 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using launcher;
+using launcher_interface;
 
 namespace adapter
 {
-    // Target
-    public interface ILauncher
-    {
-        void command_Stop();
-        void command_Right(int degrees);
-        void command_Left(int degrees);
-        void command_Up(int degrees);
-        void command_Down(int degrees);
-        void command_Fire();
-        void command_switchLED(Boolean turnOn);
-        void command_reset();
-    }
-    // Adapter itself
-    public class LauncherAdapter : ILauncher
+    // Adapter
+    public class LauncherAdapter : IMissileLauncher
     {
         Launcher adapter_launcher;
+        private double current_phi;
+        private double current_psi;
 
         public LauncherAdapter()
         {
             adapter_launcher = new Launcher();
         }
 
-        public void command_Stop()
+        public void MoveBy(double phi, double psi)
         {
-            adapter_launcher.command_Stop();
+            if (psi > 0)
+                adapter_launcher.command_Right(Convert.ToInt32(psi));
+            else
+                adapter_launcher.command_Left(Convert.ToInt32(psi * -1));
+            current_psi += psi;
+
+            if (phi > 0)
+                adapter_launcher.command_Up(Convert.ToInt32(phi));
+            else
+                adapter_launcher.command_Down(Convert.ToInt32(phi * -1));
+            current_phi += phi;
         }
 
-        public void command_Right(int degrees)
+        public void MoveTo(double phi, double psi)
         {
-            adapter_launcher.command_Right(degrees * 27);
+            // in process           
         }
 
-
-        public void command_Left(int degrees)
-        {
-            adapter_launcher.command_Left(degrees * 25);
-        }
-
-        public void command_Up(int degrees)
-        {
-            adapter_launcher.command_Up(degrees * 30);
-        }
-
-        public void command_Down(int degrees)
-        {
-            adapter_launcher.command_Down(degrees * 30);
-        }
-
-        public void command_Fire()
+        public void Fire()
         {
             adapter_launcher.command_Fire();
         }
 
-        public void command_switchLED(Boolean turnOn)
-        {
-            adapter_launcher.command_switchLED(turnOn);
+        public void Reset()
+        {           
+            adapter_launcher.command_reset();
+            current_psi = 0;
+            current_phi = 0;
         }
 
-        public void command_reset()
+        public double Phi
         {
-            adapter_launcher.command_reset();
+            get
+            {
+                return current_phi;
+            }
+            set
+            {
+                current_phi = value;
+            }
+        }
+
+        public double Psi
+        {
+            get
+            {
+                return current_psi;
+            }
+            set
+            {
+                current_psi = value;
+            }
         }
     }
 }

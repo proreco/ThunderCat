@@ -15,10 +15,8 @@ using System.Threading;
 
 namespace launcher
 {
-    
     public class Launcher
     {
-        List<string> _items = new List<string>();
         private bool DevicePresent;
 
         //Bytes used in command
@@ -132,7 +130,6 @@ namespace launcher
             }
         }
 
-
         public void command_reset()
         {
             if (DevicePresent)
@@ -140,7 +137,7 @@ namespace launcher
                 this.moveMissileLauncher(this.LEFT, 5500);
                 this.moveMissileLauncher(this.RIGHT, 3500);
                 this.moveMissileLauncher(this.UP, 2000);
-                this.moveMissileLauncher(this.DOWN, 500);
+                this.moveMissileLauncher(this.DOWN, 600);
             }
         }
 
@@ -163,7 +160,6 @@ namespace launcher
                 this.USB.SpecifiedDevice.SendData(Data);
             }
         }
-
 
         private void USB_OnDataRecieved(object sender, DataRecievedEventArgs args)
         {

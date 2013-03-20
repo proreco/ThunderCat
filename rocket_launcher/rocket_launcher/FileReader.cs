@@ -8,6 +8,7 @@ using fileClass;
 using Ini;
 using Xml;
 
+// File reader singleton factory
 namespace fileReader
 {
     public enum FileType
@@ -34,12 +35,11 @@ namespace fileReader
                 return instance;
             }
         }
-        public file addFile(string[] filepath)
+        public file addFile(string filefetch)
         {
             FileType fType = 0;
             string path="/0";
-            foreach (string filefetch in filepath)
-            {
+           
                 
                 string extension = Path.GetExtension(filefetch);
 
@@ -54,7 +54,7 @@ namespace fileReader
                 {
                     path = filefetch;
                 }
-            }
+            
             file file = null;
             switch (fType)
             {  

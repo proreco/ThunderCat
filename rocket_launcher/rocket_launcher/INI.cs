@@ -8,7 +8,7 @@ using fileClass;
 
 namespace Ini
 {
-
+    // INI file reader
     public class INI : file
     {
         public INI(string filepath)
@@ -16,7 +16,7 @@ namespace Ini
             ReadFile(filepath);
         }
 
-        public static bool CheckFile(string filepath)
+        public override bool CheckFile(string filepath)
         {
             string[] lines = File.ReadAllLines(filepath);
             foreach (string lineCheck in lines)
@@ -37,7 +37,7 @@ namespace Ini
             return true;
         }
 
-        public void ReadFile(string filepath)
+        public override void ReadFile(string filepath)
         {
 
             if (CheckFile(filepath))
@@ -54,11 +54,17 @@ namespace Ini
                         targetCount++;
                         list.Add("Target " + targetCount);
                     }
+                    else if (line.StartsWith(";"))
+                    {
+                    }
+                    else if (line.StartsWith("x") || line.StartsWith("y") || line.StartsWith("z"))
+                    {
+                        list.Add(line);
+                    }
                     else
                         list.Add(line);
                 }
             }
-            }
-            
-        }
+        }       
+      }
     }

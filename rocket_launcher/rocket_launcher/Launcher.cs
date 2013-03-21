@@ -135,7 +135,7 @@ namespace launcher
             if (DevicePresent)
             {
                 this.moveMissileLauncher(this.LEFT, 5500);
-                this.moveMissileLauncher(this.RIGHT, 3000);
+                this.moveMissileLauncher(this.RIGHT, 3500);
                 this.moveMissileLauncher(this.UP, 2000);
                 this.moveMissileLauncher(this.DOWN, 600);
             }

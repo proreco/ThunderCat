@@ -32,7 +32,7 @@ namespace fileReader
                 return instance;
             
         }
-
+        // Adds file to reader and checks if it is of a right format
         public file addFile(string filefetch)
         {
             FileType fType = 0;
@@ -41,12 +41,10 @@ namespace fileReader
                 
                 string extension = Path.GetExtension(filefetch);
 
-                if (extension == ".ini" || extension == ".INI")
+                if (extension == ".ini" || extension == ".INI" || extension == ".Ini")
                     fType = FileType.ini;
-                else if (extension == ".xml" || extension == ".XML")
+                else if (extension == ".xml" || extension == ".XML" || extension == ".Xml")
                     fType = FileType.xml;
-                else
-                    Console.WriteLine("Invalid file");
 
                 if (fType == FileType.ini || fType == FileType.xml)
                 {

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using System.Xml;
 using filesRead;
 
 namespace Xml
@@ -15,6 +16,7 @@ namespace Xml
         {
             ReadFile(filepath);
         }
+        // Check if file has a right format
         private bool CheckFile(string filepath)
         {
             string[] lines = File.ReadAllLines(filepath);
@@ -26,56 +28,45 @@ namespace Xml
             }
             return false;
         }
+        // ReadFile function calls Check functions 
+        // and then reads file and writes it to the target list
         public override void ReadFile(string filepath)
         {
             if (CheckFile(filepath))
             {
-                string pos;
-                int targetCount = 0;
-                int char10 = 10,
-                    char6 = 6,
-                    char2 = 2,
-                    char1 = 1;
+                using (XmlTextReader reader = new XmlTextReader(filepath))
+                {
+                    // The load the document DOM
+                    XmlDocument document = new XmlDocument();
+                    document.Load(reader);
 
-                string[] lines = File.ReadAllLines(filepath);
+                    // Grab the first node
+                    XmlNode mainNode = document.FirstChild;
+                    mainNode = mainNode.NextSibling;
 
-                    foreach (string line in lines)
-                    {                       
-                        if (line.IndexOf("<Target ") != -1)
-                        {
-                            targetCount++;
-                            list.Add("Target " + targetCount);
+                    //XmlElement element = document.GetElementById("Targets");
 
-                            int index1 = line.IndexOf("x") + char6;
-                            pos = line.Substring(index1);
-                            int index2 = pos.IndexOf(" ") - char1;
-                            pos = line.Substring(index1, index2);
-                            list.Add("x = "+ pos);
-                            
-                            index1 = line.IndexOf("y") + char6;
-                            pos = line.Substring(index1);
-                            index2 = pos.IndexOf(" ") - char1;
-                            pos = line.Substring(index1, index2);
-                            list.Add("y = "+ pos);
+                    // Then get the list of nodes containing the data we want. 
+                    XmlNodeList nodes = mainNode.ChildNodes; //.ChildNodes;
+                    int targetCount = 0;
+                    foreach (XmlNode node in nodes)
+                    {
+                        targetCount++;
+                        double yPos = Convert.ToDouble(node.Attributes["yPos"].Value);
+                        double xPos = Convert.ToDouble(node.Attributes["xPos"].Value);
+                        double zPos = Convert.ToDouble(node.Attributes["zPos"].Value);
+                        bool isFriend = Convert.ToBoolean(node.Attributes["isFriend"].Value);
 
-                            index1 = line.IndexOf("z") + char6;
-                            pos = line.Substring(index1);
-                            index2 = pos.IndexOf(" ") - char1;
-                            pos = line.Substring(index1, index2);
-                            list.Add("z = "+ pos);                      
+                        XmlAttribute attribute = node.Attributes[0];
+                        list.Add("Target " + targetCount);
+                        list.Add("x = " + xPos);
+                        list.Add("x = " + yPos);
+                        list.Add("x = " + zPos);
+                        list.Add("Friend = " + isFriend);
+                        list.Add("");
 
-                            index1 = line.IndexOf("is") + char10;
-                            pos = line.Substring(index1);
-                            index2 = pos.IndexOf("/") - char2;
-                            pos = line.Substring(index1, index2);
-
-                            if (pos == "True")
-                                list.Add("friend = yes");
-                            else
-                                list.Add("friend = No");
-                            list.Add("");
-                        }
                     }
+                }
             }
         }   
     }

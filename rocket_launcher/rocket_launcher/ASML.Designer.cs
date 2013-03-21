@@ -56,7 +56,6 @@
             this.left.TabIndex = 0;
             this.left.Text = "<<<";
             this.left.UseVisualStyleBackColor = true;
-            this.left.Click += new System.EventHandler(this.left_Click);
             this.left.MouseDown += new System.Windows.Forms.MouseEventHandler(this.left_MouseDown);
             this.left.MouseUp += new System.Windows.Forms.MouseEventHandler(this.left_MouseUp);
             // 

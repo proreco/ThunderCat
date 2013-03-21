@@ -22,7 +22,7 @@ namespace WinForm
     partial class Asml : Form
     {
         IMissileLauncher control;
-        int points = 100;
+        int points = 100;   // amount to move by
         file Target = null;
 
         public Asml()
@@ -32,7 +32,6 @@ namespace WinForm
         }      
 
         //===============================LEFT===============================
-
         private void left_MouseDown(object sender, MouseEventArgs e)
         {
             timer1.Enabled = true;
@@ -50,7 +49,6 @@ namespace WinForm
         }
 
         //===============================RIGHT==============================
-
         private void right_MouseDown(object sender, MouseEventArgs e)
         {
             timer2.Enabled = true;
@@ -68,7 +66,6 @@ namespace WinForm
         }
 
         //===============================UP================================
-
         private void up_MouseDown(object sender, MouseEventArgs e)
         {
             timer3.Enabled = true;
@@ -86,7 +83,6 @@ namespace WinForm
         }
 
         //===============================DOWN===============================
-
         private void down_MouseDown(object sender, MouseEventArgs e)
         {
             timer4.Enabled = true;
@@ -104,29 +100,32 @@ namespace WinForm
         }
 
         //===============================FIRE===============================
-
         private void fire_Click(object sender, EventArgs e)
         {
             control.Fire();
         }
 
         //==============================START===============================
-
         private void start_Click(object sender, EventArgs e)
         {
+            // to be implemented
         }
 
         //===============================STOP===============================
-
         private void stop_Click(object sender, EventArgs e)
-        {           
+        {
+            // to be implemented
         }
 
+        //===============================RESET===============================
         private void reset_Click(object sender, EventArgs e)
         {
             control.Reset();
         }
 
+        //==============================Open File============================
+        // opens file, sends it to file reader and returns with targets
+        // that get displayed in the TargetList list box
         private void openFile_Click(object sender, EventArgs e)
         {
             OpenFileDialog dialog = new OpenFileDialog();

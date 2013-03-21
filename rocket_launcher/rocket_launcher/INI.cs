@@ -15,7 +15,7 @@ namespace Ini
         {
             ReadFile(filepath);
         }
-
+        // Check if file has a right format
         private bool CheckFile(string filepath)
         {
             string[] lines = File.ReadAllLines(filepath);
@@ -36,7 +36,8 @@ namespace Ini
             }
             return true;
         }
-
+        // ReadFile function calls Check functions 
+        // and then reads file and writes it to the target list
         public override void ReadFile(string filepath)
         {
 
@@ -66,5 +67,5 @@ namespace Ini
                 }
             }
         }       
-      }
     }
+}

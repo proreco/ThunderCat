@@ -7,18 +7,19 @@ using launcherInterface;
 
 namespace adapter
 {
-    // Adapter
+    // Launcher Adapter
     public class LauncherAdapter : IMissileLauncher
     {
         Launcher adapter_launcher;
-        private double current_phi;
+        // Variables to save current positions of the turret
+        private double current_phi; 
         private double current_psi;
 
         public LauncherAdapter()
         {
             adapter_launcher = new Launcher();
         }
-
+        // Moves the missile launcher by a relative amount
         public void MoveBy(double phi, double psi)
         {
             if (psi >= 0)
@@ -33,17 +34,17 @@ namespace adapter
                 adapter_launcher.command_Down(Convert.ToInt32(phi * -1));
             current_phi += phi;
         }
-
+        // Moves the missile launcher to an absolute position.
         public void MoveTo(double phi, double psi)
         {
             // in process           
         }
-
+        // Fires a missile
         public void Fire()
         {
             adapter_launcher.command_Fire();
         }
-
+        // Resets the missile launcher and current positions to 0,0
         public void Reset()
         {           
             adapter_launcher.command_reset();

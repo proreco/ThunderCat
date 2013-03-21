@@ -21,35 +21,30 @@ namespace fileReader
         private FileReader()
         {
         }
-
         static public FileReader GetInstance()
-        {
-            
+        {          
                 if (instance == null)
                 {
                     instance = new FileReader();
                 }
-                return instance;
-            
+                return instance;         
         }
         // Adds file to reader and checks if it is of a right format
         public file addFile(string filefetch)
         {
             FileType fType = 0;
-            string path="/0";
-           
-                
-                string extension = Path.GetExtension(filefetch);
+            string path="/0";               
+            string extension = Path.GetExtension(filefetch);
 
-                if (extension == ".ini" || extension == ".INI" || extension == ".Ini")
-                    fType = FileType.ini;
-                else if (extension == ".xml" || extension == ".XML" || extension == ".Xml")
-                    fType = FileType.xml;
+            if (extension == ".ini" || extension == ".INI" || extension == ".Ini")
+                fType = FileType.ini;
+            else if (extension == ".xml" || extension == ".XML" || extension == ".Xml")
+                fType = FileType.xml;
 
-                if (fType == FileType.ini || fType == FileType.xml)
-                {
-                    path = filefetch;
-                }
+            if (fType == FileType.ini || fType == FileType.xml)
+            {
+                path = filefetch;
+            }
             
             file file = null;
             switch (fType)

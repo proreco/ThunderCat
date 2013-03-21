@@ -38,7 +38,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ASMLEngineSdk">
-      <HintPath>..\..\..\..\..\Desktop\cpts323\ProjectSDK\ASMLEngineSdk\bin\Debug\ASMLEngineSdk.dll</HintPath>
+      <HintPath>.\ASMLEngineSdk.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -51,7 +51,7 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="USBLib">
-      <HintPath>..\..\..\..\..\Desktop\USBLib.DLL</HintPath>
+      <HintPath>.\USBLib.DLL</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

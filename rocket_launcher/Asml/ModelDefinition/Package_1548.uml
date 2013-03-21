@@ -22,7 +22,7 @@
         <referencesInternal>
           <reference
             Id="3a8ca994-a6ae-4ce4-9c5e-e716008ee201"
-            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml"
             tag="ViewCode" />
         </referencesInternal>
         <appliedStereotypesInternal>
@@ -96,7 +96,7 @@
         </generalsInternal>
         <targetEnds>
           <association
-            Id="18fffaac-389c-40ca-9eac-9adf58dcd859"
+            Id="fe891458-fcf8-432f-91a8-fcb883c97a14"
             isDerived="false"
             sourceEndRoleName="Asml"
             targetEndRoleName="FileReader"
@@ -109,7 +109,7 @@
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
                 <memberEnd
-                  Id="da9105f6-2b72-4450-89ed-2f99f19a739f"
+                  Id="99e23a41-98fc-4464-8a45-e4cc858a3918"
                   name="Asml"
                   isLeaf="false"
                   isStatic="false"
@@ -122,7 +122,7 @@
               </associationHasOwnedEnds>
               <associationHasOwnedEnds>
                 <memberEnd
-                  Id="d92a287a-b076-41cc-94b9-63b3d24c7675"
+                  Id="15051a85-55b5-48f5-b759-377b65106607"
                   name="FileReader"
                   isLeaf="false"
                   isStatic="false"
@@ -150,7 +150,7 @@
             <referencesInternal>
               <reference
                 Id="d27114d3-4869-4039-91e0-ae206b206a6e"
-                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3Dcontrol"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3Dcontrol"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -198,9 +198,9 @@
             </appliedStereotypesInternal>
             <type_NamedElement>
               <interfaceMoniker
-                Id="cb6e1755-f53c-4ac6-bea7-ad77babe997a"
+                Id="c9ea819d-db33-47ef-99be-04050c8a8a92"
                 LastKnownName="IMissileLauncher"
-                LastKnownLocation="Package4_1539.uml" />
+                LastKnownLocation="Package_0041.uml" />
             </type_NamedElement>
           </property>
           <property
@@ -217,7 +217,7 @@
             <referencesInternal>
               <reference
                 Id="435ed995-27fc-4276-a3fe-8d172555f75f"
-                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3Dpoints"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3Dpoints"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -284,7 +284,7 @@
             <referencesInternal>
               <reference
                 Id="11438951-b798-42e3-bdfb-88d7eccb83c8"
-                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3DTarget"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3DTarget"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -332,9 +332,9 @@
             </appliedStereotypesInternal>
             <type_NamedElement>
               <classMoniker
-                Id="1d2da5b0-7a06-46cd-8496-837295362676"
+                Id="771e89ce-2e3f-4ead-ad83-332e1c274557"
                 LastKnownName="file"
-                LastKnownLocation="Package_1538.uml" />
+                LastKnownLocation="Package_0032.uml" />
             </type_NamedElement>
           </property>
           <property
@@ -351,7 +351,7 @@
             <referencesInternal>
               <reference
                 Id="32286228-eb5b-4be2-9fe9-02de49dc44cf"
-                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3Dcomponents"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3Dcomponents"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -418,7 +418,7 @@
             <referencesInternal>
               <reference
                 Id="20370960-56ad-41f4-9dd4-4f323cd04101"
-                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3Dleft"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3Dleft"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -485,7 +485,7 @@
             <referencesInternal>
               <reference
                 Id="34e363d1-c594-405c-9225-609f4b4a5345"
-                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3Dright"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3Dright"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -539,73 +539,6 @@
             </type_NamedElement>
           </property>
           <property
-            Id="584df97f-7591-46ee-ad3e-4b3e39250db5"
-            name="timer1"
-            visibility="Private"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false">
-            <referencesInternal>
-              <reference
-                Id="1d2a4b59-37da-4ca8-8f2c-d7451db55098"
-                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3Dtimer1"
-                tag="ViewCode" />
-            </referencesInternal>
-            <appliedStereotypesInternal>
-              <stereotypeInstance
-                Id="df4bddac-28d7-4e38-bc60-371a853d0d87"
-                name="field"
-                profile="CSharpProfile">
-                <propertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="3fb0cfc1-37b7-4898-9b0e-dabae79bbcee">
-                    <propertyInstance
-                      Id="72084053-bde8-4a46-be59-da56864b4ec0"
-                      name="ClrAttributes" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="749a6c61-6683-4e60-81c7-a3d2af781b3d">
-                    <propertyInstance
-                      Id="e2e79460-59f3-4de9-a12b-8cbc0f762cef"
-                      name="IsConst"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="e811064f-7b7f-4e53-9182-f0553bafb175">
-                    <propertyInstance
-                      Id="08b418bd-9303-4a5d-9823-97f71dbcd220"
-                      name="IsNullable"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="516455a7-ee92-4ca6-9648-23e30c413ee2">
-                    <propertyInstance
-                      Id="ed8f430b-8395-4e72-ada4-ddbb7ade5fc1"
-                      name="IsVolatile"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="0ad4c777-7f58-492b-9176-fbbd453a3bd8">
-                    <propertyInstance
-                      Id="c7559ed7-cedb-4897-9cfc-59bdef2be7aa"
-                      name="PackageVisibility"
-                      value="internal" />
-                  </stereotypeInstanceHasPropertyInstances>
-                </propertyInstances>
-              </stereotypeInstance>
-            </appliedStereotypesInternal>
-            <type_NamedElement>
-              <classMoniker
-                Id="ab085370-400c-40ad-8871-7b1373cce118"
-                LastKnownName="Timer"
-                LastKnownLocation="Package2_1548.uml" />
-            </type_NamedElement>
-          </property>
-          <property
             Id="2479cc9f-37ba-47d6-903b-06fb00d60f69"
             name="up"
             visibility="Private"
@@ -619,7 +552,7 @@
             <referencesInternal>
               <reference
                 Id="5451a61d-5ee4-42f3-80ff-870309025a7b"
-                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3Dup"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3Dup"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -686,7 +619,7 @@
             <referencesInternal>
               <reference
                 Id="38430d75-19d1-4355-867b-863dd8fba0c4"
-                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3Ddown"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3Ddown"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -753,7 +686,7 @@
             <referencesInternal>
               <reference
                 Id="f4a931f5-3837-4ce3-b449-3e85d765a67f"
-                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3Dfire"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3Dfire"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -807,207 +740,6 @@
             </type_NamedElement>
           </property>
           <property
-            Id="16293bee-be48-4e54-9359-293fd7a80db1"
-            name="timer2"
-            visibility="Private"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false">
-            <referencesInternal>
-              <reference
-                Id="66bd7ae6-4481-4d9f-96c3-8455594ec241"
-                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3Dtimer2"
-                tag="ViewCode" />
-            </referencesInternal>
-            <appliedStereotypesInternal>
-              <stereotypeInstance
-                Id="b1133a72-c0c6-4201-adc5-5e8ff4adc495"
-                name="field"
-                profile="CSharpProfile">
-                <propertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="12aa98dd-b51c-4b32-acdc-4dceab78818b">
-                    <propertyInstance
-                      Id="eab93a68-bdf7-4958-b6e6-f8a9894b8644"
-                      name="ClrAttributes" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="fe383113-fd4e-426d-b67b-dc5c39fc2657">
-                    <propertyInstance
-                      Id="2f419657-5443-4d12-be75-0d7cdf89b68e"
-                      name="IsConst"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="29f92c7a-5b47-4690-9c41-64a8c090b6fc">
-                    <propertyInstance
-                      Id="7ae26fdb-2097-4ed8-b65c-142a0db3e42d"
-                      name="IsNullable"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="c85c9d3d-f82a-483a-8bf2-ea924471c701">
-                    <propertyInstance
-                      Id="1478e998-b004-462d-9ebd-fee2d5bc7467"
-                      name="IsVolatile"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="670dd6c9-9163-4126-9d4c-0831bedb1bd8">
-                    <propertyInstance
-                      Id="27a99139-688f-49b4-8f4b-1f7cc6f0e7b4"
-                      name="PackageVisibility"
-                      value="internal" />
-                  </stereotypeInstanceHasPropertyInstances>
-                </propertyInstances>
-              </stereotypeInstance>
-            </appliedStereotypesInternal>
-            <type_NamedElement>
-              <classMoniker
-                Id="ab085370-400c-40ad-8871-7b1373cce118"
-                LastKnownName="Timer"
-                LastKnownLocation="Package2_1548.uml" />
-            </type_NamedElement>
-          </property>
-          <property
-            Id="0da0fdcc-ac9f-424c-9615-7cdc7acf5e7c"
-            name="timer3"
-            visibility="Private"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false">
-            <referencesInternal>
-              <reference
-                Id="ee83cdd2-9f67-4329-9ab6-365e3a56df87"
-                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3Dtimer3"
-                tag="ViewCode" />
-            </referencesInternal>
-            <appliedStereotypesInternal>
-              <stereotypeInstance
-                Id="cd085581-fc67-4ea0-b73e-fcd40004651f"
-                name="field"
-                profile="CSharpProfile">
-                <propertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="12767007-e777-4dce-96ca-fa227a3182f2">
-                    <propertyInstance
-                      Id="44840392-5e64-4b77-8283-9b1f95109749"
-                      name="ClrAttributes" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="abe65a41-e13f-45ee-9e65-7274c601258d">
-                    <propertyInstance
-                      Id="e297f893-2e88-41d5-bde5-83db16f77647"
-                      name="IsConst"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="494ad48d-db98-414e-a488-0fc9cb73d848">
-                    <propertyInstance
-                      Id="84e32990-e2eb-4fe3-bd20-c7b6c99099a3"
-                      name="IsNullable"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="1b77844b-ec81-4f33-819d-5df7eda7c886">
-                    <propertyInstance
-                      Id="f78e436d-6c71-43b0-91b2-2886664c9124"
-                      name="IsVolatile"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="15fbd97a-a11b-4c1c-becd-2c9137d9eaef">
-                    <propertyInstance
-                      Id="0bea8331-21ab-41d9-8d51-0dd2ad2b6d32"
-                      name="PackageVisibility"
-                      value="internal" />
-                  </stereotypeInstanceHasPropertyInstances>
-                </propertyInstances>
-              </stereotypeInstance>
-            </appliedStereotypesInternal>
-            <type_NamedElement>
-              <classMoniker
-                Id="ab085370-400c-40ad-8871-7b1373cce118"
-                LastKnownName="Timer"
-                LastKnownLocation="Package2_1548.uml" />
-            </type_NamedElement>
-          </property>
-          <property
-            Id="84f05e3b-5f67-402c-be64-6b6b8eb40bbb"
-            name="timer4"
-            visibility="Private"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false">
-            <referencesInternal>
-              <reference
-                Id="256a1cb1-a6ae-4fdc-b574-3475bb4b3cf1"
-                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3Dtimer4"
-                tag="ViewCode" />
-            </referencesInternal>
-            <appliedStereotypesInternal>
-              <stereotypeInstance
-                Id="759f24d8-1c0a-443f-bc40-f246f117e3ac"
-                name="field"
-                profile="CSharpProfile">
-                <propertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="82c827e1-0b1a-4fb9-b0aa-6b748aa60447">
-                    <propertyInstance
-                      Id="8c52de52-f402-407b-92ce-2426d1e55375"
-                      name="ClrAttributes" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="2df7791f-6931-4bdb-859c-d03f9223f449">
-                    <propertyInstance
-                      Id="b2d89bcb-95ca-4b75-9e03-8bb8ec6de08b"
-                      name="IsConst"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="ad67a27d-1e71-4622-927f-f4b9a87ccc22">
-                    <propertyInstance
-                      Id="23f7b288-0497-453c-98ab-70b993813c57"
-                      name="IsNullable"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="495dcae4-4b5e-475f-8c47-9e4e4bc57845">
-                    <propertyInstance
-                      Id="4793b60e-17e2-42cb-832a-bef1ed9bb499"
-                      name="IsVolatile"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="a2907bd1-48d7-4716-94d2-aa47dc07a778">
-                    <propertyInstance
-                      Id="dfb49a20-7d9a-4ed9-a538-f25cdbf23b05"
-                      name="PackageVisibility"
-                      value="internal" />
-                  </stereotypeInstanceHasPropertyInstances>
-                </propertyInstances>
-              </stereotypeInstance>
-            </appliedStereotypesInternal>
-            <type_NamedElement>
-              <classMoniker
-                Id="ab085370-400c-40ad-8871-7b1373cce118"
-                LastKnownName="Timer"
-                LastKnownLocation="Package2_1548.uml" />
-            </type_NamedElement>
-          </property>
-          <property
             Id="411e33e7-c1d9-4499-afd3-c2ce30d89966"
             name="start"
             visibility="Private"
@@ -1021,7 +753,7 @@
             <referencesInternal>
               <reference
                 Id="c67569e1-f920-46b2-a6b5-92fb3a9b7f4b"
-                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3Dstart"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3Dstart"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -1088,7 +820,7 @@
             <referencesInternal>
               <reference
                 Id="d6adddee-6489-4bc1-b733-60a7a5f8d46c"
-                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3Dstop"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3Dstop"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -1142,73 +874,6 @@
             </type_NamedElement>
           </property>
           <property
-            Id="dec291cd-9c71-4f1d-abe6-f87e25ad33ff"
-            name="timer5"
-            visibility="Private"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false">
-            <referencesInternal>
-              <reference
-                Id="6d766e85-121b-4d96-92f3-9b9ec20e8422"
-                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3Dtimer5"
-                tag="ViewCode" />
-            </referencesInternal>
-            <appliedStereotypesInternal>
-              <stereotypeInstance
-                Id="2c06aa2a-1795-4846-8fa7-6269e13729d7"
-                name="field"
-                profile="CSharpProfile">
-                <propertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="cc55b1b4-bf2d-4584-889d-b0f668e2b911">
-                    <propertyInstance
-                      Id="fc704d16-b18b-4e82-a426-9a196e0740cf"
-                      name="ClrAttributes" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="d18a306b-490b-4d06-a8b2-f3815183ae3e">
-                    <propertyInstance
-                      Id="5455a4c4-9dfd-4229-a20e-855b7edf72f1"
-                      name="IsConst"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="d5df188b-81e2-43cf-b01e-27cf549f3ed6">
-                    <propertyInstance
-                      Id="82017c3d-bdd5-4f4b-875d-4893956b2cad"
-                      name="IsNullable"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="5cde3177-2d41-4524-8211-52d8cfaf475e">
-                    <propertyInstance
-                      Id="2644a461-ae64-4454-b85f-348b7c8dffe9"
-                      name="IsVolatile"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="384babac-8570-4366-97c6-ea011c430ca8">
-                    <propertyInstance
-                      Id="0e6e6a38-47cc-4bb5-9aff-86558f8a1d79"
-                      name="PackageVisibility"
-                      value="internal" />
-                  </stereotypeInstanceHasPropertyInstances>
-                </propertyInstances>
-              </stereotypeInstance>
-            </appliedStereotypesInternal>
-            <type_NamedElement>
-              <classMoniker
-                Id="ab085370-400c-40ad-8871-7b1373cce118"
-                LastKnownName="Timer"
-                LastKnownLocation="Package2_1548.uml" />
-            </type_NamedElement>
-          </property>
-          <property
             Id="7fc69100-0009-4025-b46c-76d8072d4b10"
             name="TargetList"
             visibility="Private"
@@ -1222,7 +887,7 @@
             <referencesInternal>
               <reference
                 Id="865930bd-45fb-4b5d-b96b-3c1a7f2e001b"
-                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3DTargetList"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3DTargetList"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -1289,7 +954,7 @@
             <referencesInternal>
               <reference
                 Id="69739cf4-cbb0-4a76-bfe2-9542b1b3c07f"
-                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3DVersion"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3DVersion"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -1356,7 +1021,7 @@
             <referencesInternal>
               <reference
                 Id="394a9f23-54bc-4484-bb99-e0435edf87af"
-                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3DGroupName"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3DGroupName"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -1423,7 +1088,7 @@
             <referencesInternal>
               <reference
                 Id="dd4902a2-9875-425e-8b72-80d0fd6c37e8"
-                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3Dreset"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3Dreset"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -1490,7 +1155,7 @@
             <referencesInternal>
               <reference
                 Id="16760897-7fc9-4cb9-8ad9-43428511ea1a"
-                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3DopenFile"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3DopenFile"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -1543,6 +1208,274 @@
                 LastKnownLocation="Package2_1548.uml" />
             </type_NamedElement>
           </property>
+          <property
+            Id="b6237166-f520-4b59-9e92-24337d27f298"
+            name="timer_left"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="ebfd9cea-c203-47f8-87e6-37f836a973ba"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3Dtimer_left"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="cc3389be-4ee2-44fa-a293-faea7b91c525"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="22aaf2b5-0c8d-4ffd-a875-9e5d7f1b67e1">
+                    <propertyInstance
+                      Id="c3121cc0-a610-4f86-bdce-8b616e706e5a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b2bcdac3-37a7-4d23-b400-a0df6903acf0">
+                    <propertyInstance
+                      Id="0218c261-73b1-46f3-a477-3a838896cdb7"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fa1ec62b-4c15-47e8-a2cc-5e8e87ba62a0">
+                    <propertyInstance
+                      Id="dd822244-6b18-4c67-8073-bcfa3634c1e3"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3d4e8243-c782-490b-a4be-85c6b3d8c0c3">
+                    <propertyInstance
+                      Id="f23baccd-d437-4ae9-814c-02af30ae0009"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2ae7a51c-30d2-4cf9-ae53-bdabce34f28e">
+                    <propertyInstance
+                      Id="b1e53134-ff65-4e8b-a027-214ec7ffa902"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="ab085370-400c-40ad-8871-7b1373cce118"
+                LastKnownName="Timer"
+                LastKnownLocation="Package2_1548.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="febc3c07-53ed-4a72-9693-f2dc43087059"
+            name="timer_right"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="d3e0f847-4cd5-484b-8869-aeb66b5accff"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3Dtimer_right"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9c0aa69d-af9f-4b3a-9ddf-4d3e5b8ec5ec"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ed263490-8490-4654-b211-f772e77535c7">
+                    <propertyInstance
+                      Id="6f04daf0-4893-404a-9332-71a04a9e4c52"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="393b8a7b-6dad-40b9-8d55-9a0e0af47bbc">
+                    <propertyInstance
+                      Id="19bd850b-0833-4495-9019-04237d3c77cc"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bc50f4d9-2f92-4040-998b-ad6dd4971eb2">
+                    <propertyInstance
+                      Id="07ec5bbe-3f52-4e2e-ba05-9feda0ca8112"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="095751f8-33ef-4eee-9f8a-bedf92fa565f">
+                    <propertyInstance
+                      Id="8795e2d7-d1ca-4e46-ae31-5ff4bcd7327a"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="25f4b3cc-139d-49cc-8e27-ec9b5f4c1de0">
+                    <propertyInstance
+                      Id="ee7bb875-89c7-4064-8946-6ef535aaedbd"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="ab085370-400c-40ad-8871-7b1373cce118"
+                LastKnownName="Timer"
+                LastKnownLocation="Package2_1548.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="c373aed9-848a-4dc0-9170-1b99d6849385"
+            name="timer_up"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="e746414c-3161-4cc5-a93f-797cb7aff1ff"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3Dtimer_up"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e42827e8-060e-44f5-8c85-d328cb4aff61"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7049502e-aeee-4047-bac1-fb41e926af90">
+                    <propertyInstance
+                      Id="1d5a10df-693c-41f3-821e-b48fa7935b1f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5903eb46-b19b-4ff1-b27b-bec2612dfabd">
+                    <propertyInstance
+                      Id="507d23f0-1f64-45ac-83df-c51ba4e1bd24"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2233a747-84a9-4fa4-8701-70fb688db609">
+                    <propertyInstance
+                      Id="9e03e7c0-0cef-41cb-aed0-0f7ad5aca590"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ac55f8de-181b-489b-9e37-0e3be327948e">
+                    <propertyInstance
+                      Id="8a0d8d12-f8c7-4171-8db2-2651857872ef"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e32cff50-c452-43de-b8bd-fdeae736b4c3">
+                    <propertyInstance
+                      Id="95a3156f-2ebd-4f14-b5e4-80283de9cb96"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="ab085370-400c-40ad-8871-7b1373cce118"
+                LastKnownName="Timer"
+                LastKnownLocation="Package2_1548.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="ac2bb06c-47c2-427d-b128-01e4a8c61711"
+            name="timer_down"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="6cf9e69e-a945-44e5-b0de-0ac052a82d69"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3Dtimer_down"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ab8d7ceb-ba81-4238-8e70-6d9661a6b852"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2ace8a67-a8a6-444f-9e5a-1a219a68faa1">
+                    <propertyInstance
+                      Id="2f6684a1-f577-49c4-a626-02d6a06ea18b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="463884b8-0ec9-4a26-89e8-e0664b5ee0b8">
+                    <propertyInstance
+                      Id="cad94785-1695-4e3c-b452-f2adc1bf5299"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="62387349-c1b4-4db8-9d38-ecbe63bc7bd5">
+                    <propertyInstance
+                      Id="8e328627-ab78-420b-8498-4f16381f1000"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="48d418cc-0487-4d06-9fc1-e2c6bad070e6">
+                    <propertyInstance
+                      Id="4de7b2f7-f151-405b-96e1-62de561fd719"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b4482292-652d-4782-86e0-17251421c01a">
+                    <propertyInstance
+                      Id="d2113909-2a27-4220-8aad-95b6a87bf02c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="ab085370-400c-40ad-8871-7b1373cce118"
+                LastKnownName="Timer"
+                LastKnownLocation="Package2_1548.uml" />
+            </type_NamedElement>
+          </property>
         </ownedAttributesInternal>
         <ownedOperationsInternal>
           <operation
@@ -1557,7 +1490,7 @@
             <referencesInternal>
               <reference
                 Id="c6268732-fe04-4b79-8e37-c94938dc43ef"
-                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dleft_MouseDown OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMouseEventArgs)])"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dleft_MouseDown OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMouseEventArgs)])"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -1619,7 +1552,7 @@
                   <referencesInternal>
                     <reference
                       Id="a30a18fc-c8cd-4fe0-9bb7-856ab6cc8b69"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dleft_MouseDown OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMouseEventArgs)]) ParameterIdentifier%3Dsender"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dleft_MouseDown OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMouseEventArgs)]) ParameterIdentifier%3Dsender"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -1638,7 +1571,7 @@
                   <referencesInternal>
                     <reference
                       Id="74c431c3-2453-4855-add3-6d6c838dc97b"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dleft_MouseDown OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMouseEventArgs)]) ParameterIdentifier%3De"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dleft_MouseDown OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMouseEventArgs)]) ParameterIdentifier%3De"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -1663,7 +1596,7 @@
             <referencesInternal>
               <reference
                 Id="758fce65-9b0d-44db-ba5d-b23e1a7513f4"
-                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dleft_MouseUp OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMouseEventArgs)])"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dleft_MouseUp OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMouseEventArgs)])"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -1725,7 +1658,7 @@
                   <referencesInternal>
                     <reference
                       Id="38ccbc2f-07a6-4bf7-9a0e-1dc1fbce9dc0"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dleft_MouseUp OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMouseEventArgs)]) ParameterIdentifier%3Dsender"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dleft_MouseUp OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMouseEventArgs)]) ParameterIdentifier%3Dsender"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -1744,7 +1677,7 @@
                   <referencesInternal>
                     <reference
                       Id="42a5dd90-c183-4657-a096-1ae5a67f51fb"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dleft_MouseUp OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMouseEventArgs)]) ParameterIdentifier%3De"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dleft_MouseUp OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMouseEventArgs)]) ParameterIdentifier%3De"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -1752,112 +1685,6 @@
                       Id="5170cf31-aa05-49c3-938a-0af15c0fea63"
                       LastKnownName="MouseEventArgs"
                       LastKnownLocation="Package2_1548.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-            </ownedParameters>
-          </operation>
-          <operation
-            Id="a95221d5-4e67-41eb-8b0e-50a43f017cd1"
-            name="timer1_Tick_1"
-            visibility="Private"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false">
-            <referencesInternal>
-              <reference
-                Id="560f6f4d-dd92-45de-b74a-53394fe58da9"
-                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dtimer1_Tick_1 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])"
-                tag="ViewCode" />
-            </referencesInternal>
-            <appliedStereotypesInternal>
-              <stereotypeInstance
-                Id="5be16522-46c3-422d-b900-897997871e5a"
-                name="method"
-                profile="CSharpProfile">
-                <propertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="e0ce8e45-ef2f-4033-98f2-33458209d959">
-                    <propertyInstance
-                      Id="8dfcc418-de8d-4f76-96c5-5a2d9ecd7294"
-                      name="ClrAttributes" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="8cb31d11-a3c6-47b5-be71-4b573c40fda1">
-                    <propertyInstance
-                      Id="ce694728-ad61-4fda-b951-7ead3b8e3537"
-                      name="IsPartial"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="3be9e0d6-d99e-4ddb-8584-7b37341aaa6d">
-                    <propertyInstance
-                      Id="4a0fbb36-1636-4e16-b50b-7338750176d5"
-                      name="IsUnsafe"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="816c0619-6d54-4045-8434-1e566ab8caa0">
-                    <propertyInstance
-                      Id="8eec6b2c-9964-4389-b92a-41927e87c11f"
-                      name="Inheritance"
-                      value="none" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="11f8beb2-f62c-46ae-8958-bcb463adcdaf">
-                    <propertyInstance
-                      Id="c0b7780d-1b5c-409d-8573-6b05140250e2"
-                      name="PackageVisibility"
-                      value="internal" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="bfd7d833-8d99-4d84-b770-a6f13c9ee30a">
-                    <propertyInstance
-                      Id="e740ac0e-0761-4127-937b-2be7e93e25c9"
-                      name="params"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                </propertyInstances>
-              </stereotypeInstance>
-            </appliedStereotypesInternal>
-            <ownedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="e1d99100-ddd8-4510-a986-6ca1ced23e58"
-                  name="sender"
-                  direction="In">
-                  <referencesInternal>
-                    <reference
-                      Id="47d556cb-1879-4491-8c13-ef8fe92f4d73"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dtimer1_Tick_1 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender"
-                      tag="ViewCode" />
-                  </referencesInternal>
-                  <type_NamedElement>
-                    <classMoniker
-                      Id="344c1ce6-2d45-4cfb-b8aa-a289343d9d5f"
-                      LastKnownName="Object"
-                      LastKnownLocation="Package1_1538.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="38d86952-b545-4a53-81e6-934f18031d5d"
-                  name="e"
-                  direction="In">
-                  <referencesInternal>
-                    <reference
-                      Id="323ca75a-246c-47fc-8318-4521ce037ef5"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dtimer1_Tick_1 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De"
-                      tag="ViewCode" />
-                  </referencesInternal>
-                  <type_NamedElement>
-                    <classMoniker
-                      Id="7d7cdb80-e38b-4a5b-a777-82b7fe6133af"
-                      LastKnownName="EventArgs"
-                      LastKnownLocation="Package1_1538.uml" />
                   </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>
@@ -1875,7 +1702,7 @@
             <referencesInternal>
               <reference
                 Id="1ac2356a-062a-4806-9dd2-90a3448d1aa8"
-                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dright_MouseDown OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMouseEventArgs)])"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dright_MouseDown OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMouseEventArgs)])"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -1937,7 +1764,7 @@
                   <referencesInternal>
                     <reference
                       Id="ddd40917-5fd6-47cf-9e7b-cfc4242a586b"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dright_MouseDown OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMouseEventArgs)]) ParameterIdentifier%3Dsender"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dright_MouseDown OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMouseEventArgs)]) ParameterIdentifier%3Dsender"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -1956,7 +1783,7 @@
                   <referencesInternal>
                     <reference
                       Id="223a00ab-2cf7-4bdf-90f8-313def072f76"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dright_MouseDown OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMouseEventArgs)]) ParameterIdentifier%3De"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dright_MouseDown OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMouseEventArgs)]) ParameterIdentifier%3De"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -1981,7 +1808,7 @@
             <referencesInternal>
               <reference
                 Id="281f1a04-f701-4c06-9857-3328862fbec0"
-                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dright_MouseUp OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMouseEventArgs)])"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dright_MouseUp OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMouseEventArgs)])"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -2043,7 +1870,7 @@
                   <referencesInternal>
                     <reference
                       Id="8082c00a-9004-48fc-b1ce-45193ab24345"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dright_MouseUp OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMouseEventArgs)]) ParameterIdentifier%3Dsender"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dright_MouseUp OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMouseEventArgs)]) ParameterIdentifier%3Dsender"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -2062,7 +1889,7 @@
                   <referencesInternal>
                     <reference
                       Id="432b2c14-eeb4-4cdd-b04f-f48b3a4cf12d"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dright_MouseUp OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMouseEventArgs)]) ParameterIdentifier%3De"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dright_MouseUp OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMouseEventArgs)]) ParameterIdentifier%3De"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -2070,112 +1897,6 @@
                       Id="5170cf31-aa05-49c3-938a-0af15c0fea63"
                       LastKnownName="MouseEventArgs"
                       LastKnownLocation="Package2_1548.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-            </ownedParameters>
-          </operation>
-          <operation
-            Id="928d186a-3a6c-44a3-89d5-33c5f6c8f432"
-            name="timer2_Tick"
-            visibility="Private"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false">
-            <referencesInternal>
-              <reference
-                Id="65243b22-5769-48f2-81ba-6dfb42da06e8"
-                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dtimer2_Tick OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])"
-                tag="ViewCode" />
-            </referencesInternal>
-            <appliedStereotypesInternal>
-              <stereotypeInstance
-                Id="04a21c5c-61f1-44d7-aa76-8a10e0c3a7b5"
-                name="method"
-                profile="CSharpProfile">
-                <propertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="16a0358c-fe02-4c8e-a482-1f522fcff07f">
-                    <propertyInstance
-                      Id="cdc82080-5423-450a-ac9d-a17860079140"
-                      name="ClrAttributes" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="35f016a9-b996-4588-bb10-8dc76e2b2d17">
-                    <propertyInstance
-                      Id="05c29310-2661-461f-baf0-93b83025ea1b"
-                      name="IsPartial"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="38a80ef6-7439-4298-af16-bd0409549b9e">
-                    <propertyInstance
-                      Id="0dffe471-26a6-469c-ab64-5ba1eef2403b"
-                      name="IsUnsafe"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="1d8918d2-0df8-416d-92c2-e35960143aa6">
-                    <propertyInstance
-                      Id="5258f156-6125-49b3-a26d-8cdc41f097c7"
-                      name="Inheritance"
-                      value="none" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="3e29b5b5-f228-439a-b2bb-cd2ab9218a40">
-                    <propertyInstance
-                      Id="5178f491-0fc3-4144-ba69-625ff652aee8"
-                      name="PackageVisibility"
-                      value="internal" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="16588fa5-503c-4621-bf27-a5bd49efc047">
-                    <propertyInstance
-                      Id="29349d06-970c-42d9-bf8d-c69b0c2fb5a7"
-                      name="params"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                </propertyInstances>
-              </stereotypeInstance>
-            </appliedStereotypesInternal>
-            <ownedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="08f4bd34-4db8-4609-8dc3-a8cdd7643612"
-                  name="sender"
-                  direction="In">
-                  <referencesInternal>
-                    <reference
-                      Id="03dd5694-895d-4bb3-b9c9-02ff2e6d882c"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dtimer2_Tick OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender"
-                      tag="ViewCode" />
-                  </referencesInternal>
-                  <type_NamedElement>
-                    <classMoniker
-                      Id="344c1ce6-2d45-4cfb-b8aa-a289343d9d5f"
-                      LastKnownName="Object"
-                      LastKnownLocation="Package1_1538.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="ef666dde-6dbf-406c-a3ea-06eadb99b70a"
-                  name="e"
-                  direction="In">
-                  <referencesInternal>
-                    <reference
-                      Id="6c77176a-e53f-40eb-979b-6caabad79342"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dtimer2_Tick OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De"
-                      tag="ViewCode" />
-                  </referencesInternal>
-                  <type_NamedElement>
-                    <classMoniker
-                      Id="7d7cdb80-e38b-4a5b-a777-82b7fe6133af"
-                      LastKnownName="EventArgs"
-                      LastKnownLocation="Package1_1538.uml" />
                   </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>
@@ -2193,7 +1914,7 @@
             <referencesInternal>
               <reference
                 Id="13af0006-f4c7-497e-8859-a96e65efb441"
-                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dup_MouseDown OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMouseEventArgs)])"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dup_MouseDown OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMouseEventArgs)])"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -2255,7 +1976,7 @@
                   <referencesInternal>
                     <reference
                       Id="6f92dfb6-985f-47b9-ba98-e26476812aee"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dup_MouseDown OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMouseEventArgs)]) ParameterIdentifier%3Dsender"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dup_MouseDown OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMouseEventArgs)]) ParameterIdentifier%3Dsender"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -2274,7 +1995,7 @@
                   <referencesInternal>
                     <reference
                       Id="c1c8f269-6435-4673-8d49-43dbe90f56d0"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dup_MouseDown OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMouseEventArgs)]) ParameterIdentifier%3De"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dup_MouseDown OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMouseEventArgs)]) ParameterIdentifier%3De"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -2299,7 +2020,7 @@
             <referencesInternal>
               <reference
                 Id="06c6d61b-60da-4423-a600-7d31c8dd8807"
-                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dup_MouseUp OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMouseEventArgs)])"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dup_MouseUp OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMouseEventArgs)])"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -2361,7 +2082,7 @@
                   <referencesInternal>
                     <reference
                       Id="66818c6a-de3c-4669-b4b3-41a529c96a73"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dup_MouseUp OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMouseEventArgs)]) ParameterIdentifier%3Dsender"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dup_MouseUp OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMouseEventArgs)]) ParameterIdentifier%3Dsender"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -2380,7 +2101,7 @@
                   <referencesInternal>
                     <reference
                       Id="d8cc93a1-1ed9-44dd-b075-b94bd790bc54"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dup_MouseUp OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMouseEventArgs)]) ParameterIdentifier%3De"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dup_MouseUp OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMouseEventArgs)]) ParameterIdentifier%3De"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -2388,112 +2109,6 @@
                       Id="5170cf31-aa05-49c3-938a-0af15c0fea63"
                       LastKnownName="MouseEventArgs"
                       LastKnownLocation="Package2_1548.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-            </ownedParameters>
-          </operation>
-          <operation
-            Id="a05b5e6d-2ad5-4974-adf8-050ad2c746a6"
-            name="timer3_Tick"
-            visibility="Private"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false">
-            <referencesInternal>
-              <reference
-                Id="91698eeb-533b-4bb7-b1ae-b4ff09f74b7c"
-                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dtimer3_Tick OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])"
-                tag="ViewCode" />
-            </referencesInternal>
-            <appliedStereotypesInternal>
-              <stereotypeInstance
-                Id="6019d13a-d772-4afd-a0f0-3e79a26b77cb"
-                name="method"
-                profile="CSharpProfile">
-                <propertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="6fb11cda-7d9e-44f0-9f9f-fa9b6a5e0ddd">
-                    <propertyInstance
-                      Id="5ba17f70-3bee-4b41-8a84-3f74607ecddf"
-                      name="ClrAttributes" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="8874b223-3d31-4408-a26a-be018385a6f2">
-                    <propertyInstance
-                      Id="7e617203-c9c1-48e7-81f3-49617c8c5ec4"
-                      name="IsPartial"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="9c389fc3-1740-42a8-a203-e484667769a5">
-                    <propertyInstance
-                      Id="8641986b-b557-4ae1-9f63-2a8e2a0b6cf3"
-                      name="IsUnsafe"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="f9179707-10aa-41ac-a0db-016fa85ce6ec">
-                    <propertyInstance
-                      Id="46f7f714-f1bd-42bf-8f81-0fd304c81bcd"
-                      name="Inheritance"
-                      value="none" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="a692521c-4a5d-4042-aeea-50834678ff8a">
-                    <propertyInstance
-                      Id="7aecc050-e985-41ed-80ce-e2eef7a987da"
-                      name="PackageVisibility"
-                      value="internal" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="e9d911e6-28b3-40fa-b656-46bed9d706f8">
-                    <propertyInstance
-                      Id="6eb83fa5-b21b-4400-af0e-473d699c18fb"
-                      name="params"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                </propertyInstances>
-              </stereotypeInstance>
-            </appliedStereotypesInternal>
-            <ownedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="33a7e0b1-0a16-440f-b1ab-3bc5b4e9569f"
-                  name="sender"
-                  direction="In">
-                  <referencesInternal>
-                    <reference
-                      Id="11f555c6-01fc-421f-9232-7f962ebb8574"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dtimer3_Tick OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender"
-                      tag="ViewCode" />
-                  </referencesInternal>
-                  <type_NamedElement>
-                    <classMoniker
-                      Id="344c1ce6-2d45-4cfb-b8aa-a289343d9d5f"
-                      LastKnownName="Object"
-                      LastKnownLocation="Package1_1538.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="b8dbe65b-32a6-4363-b96d-ca1aa91cdb5c"
-                  name="e"
-                  direction="In">
-                  <referencesInternal>
-                    <reference
-                      Id="93654146-4c8b-47eb-9c69-f52c7e104a57"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dtimer3_Tick OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De"
-                      tag="ViewCode" />
-                  </referencesInternal>
-                  <type_NamedElement>
-                    <classMoniker
-                      Id="7d7cdb80-e38b-4a5b-a777-82b7fe6133af"
-                      LastKnownName="EventArgs"
-                      LastKnownLocation="Package1_1538.uml" />
                   </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>
@@ -2511,7 +2126,7 @@
             <referencesInternal>
               <reference
                 Id="756ffede-4875-45bb-9f03-d5de336721a7"
-                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Ddown_MouseDown OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMouseEventArgs)])"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Ddown_MouseDown OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMouseEventArgs)])"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -2573,7 +2188,7 @@
                   <referencesInternal>
                     <reference
                       Id="72196df7-5bb3-467c-a6c1-e66745fc7715"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Ddown_MouseDown OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMouseEventArgs)]) ParameterIdentifier%3Dsender"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Ddown_MouseDown OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMouseEventArgs)]) ParameterIdentifier%3Dsender"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -2592,7 +2207,7 @@
                   <referencesInternal>
                     <reference
                       Id="aa51da20-d05d-4085-b4ad-d9424d542982"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Ddown_MouseDown OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMouseEventArgs)]) ParameterIdentifier%3De"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Ddown_MouseDown OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMouseEventArgs)]) ParameterIdentifier%3De"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -2617,7 +2232,7 @@
             <referencesInternal>
               <reference
                 Id="ac7f31d8-4152-4e2d-bc88-49065a7c0d7b"
-                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Ddown_MouseUp OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMouseEventArgs)])"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Ddown_MouseUp OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMouseEventArgs)])"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -2679,7 +2294,7 @@
                   <referencesInternal>
                     <reference
                       Id="822f411c-b50c-4ced-b17d-7907c728e02f"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Ddown_MouseUp OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMouseEventArgs)]) ParameterIdentifier%3Dsender"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Ddown_MouseUp OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMouseEventArgs)]) ParameterIdentifier%3Dsender"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -2698,7 +2313,7 @@
                   <referencesInternal>
                     <reference
                       Id="b2391c65-6692-4520-94da-f773917b981a"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Ddown_MouseUp OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMouseEventArgs)]) ParameterIdentifier%3De"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Ddown_MouseUp OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMouseEventArgs)]) ParameterIdentifier%3De"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -2706,112 +2321,6 @@
                       Id="5170cf31-aa05-49c3-938a-0af15c0fea63"
                       LastKnownName="MouseEventArgs"
                       LastKnownLocation="Package2_1548.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-            </ownedParameters>
-          </operation>
-          <operation
-            Id="b9f7c3cc-3f3e-4cb7-a60b-a4cce2bb6d2b"
-            name="timer4_Tick"
-            visibility="Private"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false">
-            <referencesInternal>
-              <reference
-                Id="588c2fdc-66f4-41d5-90c8-14debfdaa9f9"
-                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dtimer4_Tick OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])"
-                tag="ViewCode" />
-            </referencesInternal>
-            <appliedStereotypesInternal>
-              <stereotypeInstance
-                Id="98d5bc76-5b69-4036-8666-949f9b30488b"
-                name="method"
-                profile="CSharpProfile">
-                <propertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="b47c4ab8-9184-4997-9e1d-0707b8be56fd">
-                    <propertyInstance
-                      Id="3961d9ae-ee56-45ee-8360-495db37f6a07"
-                      name="ClrAttributes" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="99a55122-8cfe-488f-b83d-3884e39137ae">
-                    <propertyInstance
-                      Id="47c818bb-4b3b-4023-801e-4841835add1f"
-                      name="IsPartial"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="8fa79acf-5106-48a6-be4c-e520430ccf73">
-                    <propertyInstance
-                      Id="6f3bd728-3150-465a-a11a-9aca6e1f8a11"
-                      name="IsUnsafe"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="cdad6ca6-7da7-407b-829c-293a27b896ae">
-                    <propertyInstance
-                      Id="64ae1be8-0751-4da8-a0a5-f0021fc625d4"
-                      name="Inheritance"
-                      value="none" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="79473178-ef95-46f5-b467-0a6b198478a7">
-                    <propertyInstance
-                      Id="d84e2f0e-b5ee-4800-a6e0-7a9b5343d0b5"
-                      name="PackageVisibility"
-                      value="internal" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="7f1da796-01ff-422f-aa5f-bd7163766a6a">
-                    <propertyInstance
-                      Id="8a05233f-1d04-412b-af1b-3f56ff8f85a9"
-                      name="params"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                </propertyInstances>
-              </stereotypeInstance>
-            </appliedStereotypesInternal>
-            <ownedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="e9889e0b-b87f-4718-8762-512043f1e592"
-                  name="sender"
-                  direction="In">
-                  <referencesInternal>
-                    <reference
-                      Id="928a4770-4d09-42dc-8c22-067bbc62481f"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dtimer4_Tick OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender"
-                      tag="ViewCode" />
-                  </referencesInternal>
-                  <type_NamedElement>
-                    <classMoniker
-                      Id="344c1ce6-2d45-4cfb-b8aa-a289343d9d5f"
-                      LastKnownName="Object"
-                      LastKnownLocation="Package1_1538.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="7c4f9b0f-2b9b-4fd7-ae9a-154aefe096f2"
-                  name="e"
-                  direction="In">
-                  <referencesInternal>
-                    <reference
-                      Id="4dcac3f0-16fd-4837-afea-a293b57754be"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dtimer4_Tick OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De"
-                      tag="ViewCode" />
-                  </referencesInternal>
-                  <type_NamedElement>
-                    <classMoniker
-                      Id="7d7cdb80-e38b-4a5b-a777-82b7fe6133af"
-                      LastKnownName="EventArgs"
-                      LastKnownLocation="Package1_1538.uml" />
                   </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>
@@ -2829,7 +2338,7 @@
             <referencesInternal>
               <reference
                 Id="f31e5cfb-5148-4c36-bdcf-b02d3de8cae9"
-                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dfire_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dfire_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -2891,7 +2400,7 @@
                   <referencesInternal>
                     <reference
                       Id="b938ec74-5994-453e-bf73-f190b1166873"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dfire_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dfire_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -2910,7 +2419,7 @@
                   <referencesInternal>
                     <reference
                       Id="1edbf9a7-f752-44e8-9f96-cd54932f55d6"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dfire_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dfire_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -2935,7 +2444,7 @@
             <referencesInternal>
               <reference
                 Id="e9a040af-68d2-4d90-90f6-cee794790933"
-                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dstart_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dstart_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -2997,7 +2506,7 @@
                   <referencesInternal>
                     <reference
                       Id="1ecedd4a-6cf7-4873-bc98-afba0e29d1bf"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dstart_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dstart_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -3016,7 +2525,7 @@
                   <referencesInternal>
                     <reference
                       Id="306930b6-ed5d-4f12-9675-7bfd76f966a9"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dstart_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dstart_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -3041,7 +2550,7 @@
             <referencesInternal>
               <reference
                 Id="2dc0056d-276f-46fa-9f76-dacd525b6340"
-                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dstop_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dstop_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -3103,7 +2612,7 @@
                   <referencesInternal>
                     <reference
                       Id="fd5e5ad7-a144-4954-9fbc-9d82006f3511"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dstop_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dstop_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -3122,7 +2631,7 @@
                   <referencesInternal>
                     <reference
                       Id="aa7522a7-2d8a-4f7b-ada7-291e454f7f24"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dstop_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dstop_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -3147,7 +2656,7 @@
             <referencesInternal>
               <reference
                 Id="59bc5e99-1f53-4f8b-a3c5-a69598bd9ec2"
-                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dreset_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dreset_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -3209,7 +2718,7 @@
                   <referencesInternal>
                     <reference
                       Id="97fe9103-786e-48c4-bce7-b98f558b9679"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dreset_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dreset_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -3228,7 +2737,7 @@
                   <referencesInternal>
                     <reference
                       Id="d69cf73c-8961-4095-910e-83ecaf840923"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dreset_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dreset_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -3253,7 +2762,7 @@
             <referencesInternal>
               <reference
                 Id="dfbc5c17-bf17-436a-a78c-01f9aa41b51a"
-                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3DopenFile_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3DopenFile_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -3315,7 +2824,7 @@
                   <referencesInternal>
                     <reference
                       Id="f2922407-f8a9-4dfa-82ff-6fee2cdd7ee8"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3DopenFile_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3DopenFile_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -3334,7 +2843,7 @@
                   <referencesInternal>
                     <reference
                       Id="12aec275-7141-4447-bf8a-fc6891307606"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3DopenFile_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3DopenFile_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -3359,7 +2868,7 @@
             <referencesInternal>
               <reference
                 Id="a6d16c58-0d8c-4794-b626-ac66a89ce5ee"
-                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3DDispose OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)])"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3DDispose OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)])"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -3421,7 +2930,7 @@
                   <referencesInternal>
                     <reference
                       Id="c42ae270-bbc1-48be-a3e5-5b16718da38c"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3DDispose OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]) ParameterIdentifier%3Ddisposing"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3DDispose OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]) ParameterIdentifier%3Ddisposing"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -3446,7 +2955,7 @@
             <referencesInternal>
               <reference
                 Id="3ad118a9-0075-45d4-8700-857b15b98ef9"
-                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3DInitializeComponent"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3DInitializeComponent"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -3512,7 +3021,7 @@
             <referencesInternal>
               <reference
                 Id="6009bf18-72ee-4b65-bbe8-3cfb652e8d97"
-                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3DForm1_Load OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3DForm1_Load OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -3574,7 +3083,7 @@
                   <referencesInternal>
                     <reference
                       Id="d67b68d0-65fb-4517-b509-6757f7812cea"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3DForm1_Load OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3DForm1_Load OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -3593,7 +3102,7 @@
                   <referencesInternal>
                     <reference
                       Id="19ff58e9-66b0-4b4d-9af1-e03a22bc0927"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3DForm1_Load OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3DForm1_Load OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -3607,7 +3116,431 @@
             </ownedParameters>
           </operation>
           <operation
-            Id="da52b7b5-3678-4cd7-8147-76bf59a35f41"
+            Id="239825ac-2e23-4b05-b621-ffe8c4d2969d"
+            name="timer_left_Tick_1"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="22e22ba2-0d6f-418c-b476-18fc53a35b5a"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dtimer_left_Tick_1 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="17d21716-8ed0-4124-ada7-61955c41565b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="deaae976-18dc-4d2f-8ff2-3ed5a908d616">
+                    <propertyInstance
+                      Id="871c3a9b-e1a9-48cd-a861-6453ccc2a359"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8463bbf8-a827-4c1d-a406-e9adc9bc6453">
+                    <propertyInstance
+                      Id="01aa17cf-1592-49da-b61c-443ff4184301"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bb498d4e-2141-4a8f-bbc1-a6f8b40af1b2">
+                    <propertyInstance
+                      Id="1cf3c76c-6637-47ee-bb09-acdaac24cfa4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a2f401b5-004f-4c31-84ea-31ae1880ba55">
+                    <propertyInstance
+                      Id="9c50524c-3815-469c-9241-c9f437214558"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9168be70-d046-40ae-836d-1d16e0f9184b">
+                    <propertyInstance
+                      Id="5b29e8a7-b983-4103-bd35-01efd3b46344"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ee25640f-93e8-4bfe-88df-2f0746064130">
+                    <propertyInstance
+                      Id="28c00fb4-9dda-4b56-848f-6598844f65a6"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d1a8aa94-2fea-4be4-8be3-593045e0e704"
+                  name="sender"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="b5c374c2-5837-424a-989f-0a235e05e302"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dtimer_left_Tick_1 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="344c1ce6-2d45-4cfb-b8aa-a289343d9d5f"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package1_1538.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="cee4afa3-e3a9-4409-bbd4-9841484f2f5a"
+                  name="e"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="c712e0ff-0101-477c-ba15-9377cceaebbe"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dtimer_left_Tick_1 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="7d7cdb80-e38b-4a5b-a777-82b7fe6133af"
+                      LastKnownName="EventArgs"
+                      LastKnownLocation="Package1_1538.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="7a0856df-37e3-4ef3-a8c3-8883cafd5bdd"
+            name="timer_right_Tick"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b7abca32-3e3d-4ceb-b111-069b1d99605b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dtimer_right_Tick OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="09a0c025-0bf1-41d3-b00a-baf5ef5b4355"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9d78bd25-13aa-4b0a-94fc-7d1bc2c441ed">
+                    <propertyInstance
+                      Id="274fec8b-1bf8-4829-aedc-ecdad9ce596d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="11beffc8-9e2c-448e-ad8a-aaee1cf06b0c">
+                    <propertyInstance
+                      Id="4b48454c-3aea-4811-8932-4f4ff1ca7d65"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="86f26e9e-0328-437d-9628-b8d23f6325d9">
+                    <propertyInstance
+                      Id="c2adeda2-20fb-4343-8595-17634f4628e3"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0786a435-c40c-42a8-bb00-f0f1619efcf4">
+                    <propertyInstance
+                      Id="cc32880e-7b30-4363-9caf-221d1598f73f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3f7ec2ea-071b-41b9-8261-0dafe7de80ca">
+                    <propertyInstance
+                      Id="112e53f3-a3fc-4e9e-aede-68d1b9c9359a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2d6bebb2-696e-433d-8f0c-60630a46bcf9">
+                    <propertyInstance
+                      Id="501f8a03-74eb-4cac-a642-f5e547ddce4b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ab921893-775e-4962-84db-4de87cf3be90"
+                  name="sender"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="4d66d291-a820-4b34-86ce-bb8139d4db6c"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dtimer_right_Tick OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="344c1ce6-2d45-4cfb-b8aa-a289343d9d5f"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package1_1538.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="53d9024c-8ac8-4bc4-ab45-54a268c7465e"
+                  name="e"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="90069e2e-e97e-43cd-bbf1-5b2ca2e72dd5"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dtimer_right_Tick OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="7d7cdb80-e38b-4a5b-a777-82b7fe6133af"
+                      LastKnownName="EventArgs"
+                      LastKnownLocation="Package1_1538.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="fde19047-d7f0-4081-ab3b-ee536b3e0cb5"
+            name="timer_up_Tick"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c524373c-a351-4d1f-a9d0-dc738297630c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dtimer_up_Tick OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="78b69f8b-067c-4535-8e37-09200e5365d4"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="73627a33-44c6-4b3f-ba01-a65108e99ba7">
+                    <propertyInstance
+                      Id="b7869653-609f-4500-b7d2-d3ed4eb7f8a9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2a2df595-65ec-4d6a-b96f-2746835b12d0">
+                    <propertyInstance
+                      Id="edc0ecc1-2840-4f50-9811-ef3e068d7205"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9b3b8666-494f-4e86-b171-f8e4baac60d7">
+                    <propertyInstance
+                      Id="0e813425-3014-4636-b1d8-033c2ef7baa6"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0e005342-a722-49b6-b190-eff79a6f7078">
+                    <propertyInstance
+                      Id="aeb98b1a-4cad-4da6-aa8a-5437755f08ee"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="46f6c1af-88a2-4c0a-bd87-bcc1111e196a">
+                    <propertyInstance
+                      Id="6405ad9e-7bd0-44ba-b168-59c188750205"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="517c59a6-31e6-481f-9289-488ec3b670a3">
+                    <propertyInstance
+                      Id="c9a15ffc-46dd-434f-8ac0-319a918c793a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="dd644f63-7627-4001-a6e0-460279307d89"
+                  name="sender"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="3a3f284b-a81a-4fa7-869f-774bee5d5a3c"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dtimer_up_Tick OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="344c1ce6-2d45-4cfb-b8aa-a289343d9d5f"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package1_1538.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="85432734-8e13-4432-a53b-679a9dcfe8fe"
+                  name="e"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="4ab0a63d-69c5-472f-b49a-104c5678e58e"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dtimer_up_Tick OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="7d7cdb80-e38b-4a5b-a777-82b7fe6133af"
+                      LastKnownName="EventArgs"
+                      LastKnownLocation="Package1_1538.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="5e67156a-9937-4e67-b266-2018f92769bb"
+            name="timer_down_Tick"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="6a362921-a4b9-46fc-822d-e0a5be425692"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dtimer_down_Tick OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9ad8ef91-d593-463f-909b-9fb538c7d105"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="52195e79-7812-4b1a-802c-ce7b524d4f4e">
+                    <propertyInstance
+                      Id="1dd46216-094e-426c-9cb0-5d8ac5cf6458"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1faa1dee-1f1b-408e-aeac-2414ff8a696f">
+                    <propertyInstance
+                      Id="37abf434-fe39-4e7b-a25b-e5e68f126071"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c8e9f883-3ca6-4aac-b8d4-6d25aaa3716b">
+                    <propertyInstance
+                      Id="5362ac1f-0670-48c4-9e7e-5ab3e8a15102"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a552025f-46c6-4927-905b-a827ce7a7ce7">
+                    <propertyInstance
+                      Id="2924b797-b7ed-4e56-8ab8-32d546a15fc6"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="37b0062c-51fb-4789-9a42-d62e67c78413">
+                    <propertyInstance
+                      Id="b29d13b4-ad34-4894-bfdd-e3d8805c9f9b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7d928704-a535-4766-8566-c19bb80def74">
+                    <propertyInstance
+                      Id="d696cd1e-fee3-4a13-8f68-c315c5561811"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="37df1878-7de3-4fb3-bf32-423c8fb67a2b"
+                  name="sender"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="2a15b129-eab1-4778-b496-73fbe43e815a"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dtimer_down_Tick OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="344c1ce6-2d45-4cfb-b8aa-a289343d9d5f"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package1_1538.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="32c0e164-7b92-44ef-8acd-09c069b740d0"
+                  name="e"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="0f993e84-d457-435a-94e5-dd070b710db2"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D(Name%3Dtimer_down_Tick OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="7d7cdb80-e38b-4a5b-a777-82b7fe6133af"
+                      LastKnownName="EventArgs"
+                      LastKnownLocation="Package1_1538.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="256fa746-607f-420a-bd3b-76bff100291e"
             name="Asml"
             isLeaf="false"
             isStatic="false"
@@ -3616,54 +3549,54 @@
             isQuery="false">
             <referencesInternal>
               <reference
-                Id="47560c2b-4868-48c9-883c-42f4254f5506"
-                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat-master%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DWinForm Type%3DAsml Member%3D.ctor"
+                Id="2477bf7f-a483-4c43-ad01-bebd054ddb5d"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DWinForm Type%3DAsml Member%3D.ctor"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
               <stereotypeInstance
-                Id="e2562e0f-c89c-4b8a-abf5-5ed442667fa3"
+                Id="18f213e4-e442-4e8e-bc83-8075b037e50f"
                 name="method"
                 profile="CSharpProfile">
                 <propertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="cb9d69bb-0b52-46d0-9aea-1883c00f47ab">
+                    Id="a22f30c4-048b-4ba6-abf0-30ca0812d9f3">
                     <propertyInstance
-                      Id="4d8c2542-da31-4610-b208-11be866b9cf5"
+                      Id="57e51365-e3bb-4fd7-8642-7202cfb2e428"
                       name="ClrAttributes" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="9a59607e-7106-460d-a86b-45c8a13d9cdd">
+                    Id="2fc0ebd9-49fc-40ca-ad67-fa6afd8f7e25">
                     <propertyInstance
-                      Id="c0294d02-0aa3-4bcd-abfb-49e27dfee92a"
+                      Id="ad302466-f384-482f-8d7e-cda6b92b2eb1"
                       name="IsPartial"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="83698709-880a-456f-bdfc-eaba4645c70d">
+                    Id="8c056d9a-7fa7-44e5-b13a-d93cf686a05a">
                     <propertyInstance
-                      Id="32d201ef-309b-41e9-836e-d75b9d9f0b3c"
+                      Id="dd6c3cdc-df5a-48d2-beeb-d3ebc212e6d2"
                       name="IsUnsafe"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="de63e34c-0556-44bf-b329-57ec3ab69c9e">
+                    Id="9ab159fe-a19f-47b3-a050-21c2f86b832b">
                     <propertyInstance
-                      Id="9c0d0b53-5554-440e-925c-17e5d7f34b3e"
+                      Id="6185130f-5221-4dd2-a8b4-146a98208125"
                       name="Inheritance"
                       value="none" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="0894d6d3-56f2-421f-a480-aa3d4fd0621d">
+                    Id="29e8f88f-74e9-4a2f-a258-dc6610892f85">
                     <propertyInstance
-                      Id="89d019e1-c379-4af0-a736-c3fb6f7005f3"
+                      Id="f4515ea0-4ecc-4d76-adff-d197632d61eb"
                       name="PackageVisibility"
                       value="internal" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="4db7113f-2c95-4d7f-809b-e910ad9b7828">
+                    Id="16b413b2-0d86-431c-88f0-0c24d99bfb46">
                     <propertyInstance
-                      Id="92436e98-7262-40e8-b418-4b12d9f2f2ab"
+                      Id="d3759f13-44e0-40d4-b317-1ad19ad2881f"
                       name="params"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>

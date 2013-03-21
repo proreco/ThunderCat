@@ -31,16 +31,15 @@
             this.components = new System.ComponentModel.Container();
             this.left = new System.Windows.Forms.Button();
             this.right = new System.Windows.Forms.Button();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.timer_left = new System.Windows.Forms.Timer(this.components);
             this.up = new System.Windows.Forms.Button();
             this.down = new System.Windows.Forms.Button();
             this.fire = new System.Windows.Forms.Button();
-            this.timer2 = new System.Windows.Forms.Timer(this.components);
-            this.timer3 = new System.Windows.Forms.Timer(this.components);
-            this.timer4 = new System.Windows.Forms.Timer(this.components);
+            this.timer_right = new System.Windows.Forms.Timer(this.components);
+            this.timer_up = new System.Windows.Forms.Timer(this.components);
+            this.timer_down = new System.Windows.Forms.Timer(this.components);
             this.start = new System.Windows.Forms.Button();
             this.stop = new System.Windows.Forms.Button();
-            this.timer5 = new System.Windows.Forms.Timer(this.components);
             this.TargetList = new System.Windows.Forms.ListBox();
             this.Version = new System.Windows.Forms.Label();
             this.GroupName = new System.Windows.Forms.Label();
@@ -70,9 +69,9 @@
             this.right.MouseDown += new System.Windows.Forms.MouseEventHandler(this.right_MouseDown);
             this.right.MouseUp += new System.Windows.Forms.MouseEventHandler(this.right_MouseUp);
             // 
-            // timer1
+            // timer_left
             // 
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick_1);
+            this.timer_left.Tick += new System.EventHandler(this.timer_left_Tick_1);
             // 
             // up
             // 
@@ -106,17 +105,17 @@
             this.fire.UseVisualStyleBackColor = true;
             this.fire.Click += new System.EventHandler(this.fire_Click);
             // 
-            // timer2
+            // timer_right
             // 
-            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
+            this.timer_right.Tick += new System.EventHandler(this.timer_right_Tick);
             // 
-            // timer3
+            // timer_up
             // 
-            this.timer3.Tick += new System.EventHandler(this.timer3_Tick);
+            this.timer_up.Tick += new System.EventHandler(this.timer_up_Tick);
             // 
-            // timer4
+            // timer_down
             // 
-            this.timer4.Tick += new System.EventHandler(this.timer4_Tick);
+            this.timer_down.Tick += new System.EventHandler(this.timer_down_Tick);
             // 
             // start
             // 
@@ -219,16 +218,15 @@
 
         private System.Windows.Forms.Button left;
         private System.Windows.Forms.Button right;
-        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Timer timer_left;
         private System.Windows.Forms.Button up;
         private System.Windows.Forms.Button down;
         private System.Windows.Forms.Button fire;
-        private System.Windows.Forms.Timer timer2;
-        private System.Windows.Forms.Timer timer3;
-        private System.Windows.Forms.Timer timer4;
+        private System.Windows.Forms.Timer timer_right;
+        private System.Windows.Forms.Timer timer_up;
+        private System.Windows.Forms.Timer timer_down;
         private System.Windows.Forms.Button start;
         private System.Windows.Forms.Button stop;
-        private System.Windows.Forms.Timer timer5;
         private System.Windows.Forms.ListBox TargetList;
         private System.Windows.Forms.Label Version;
         private System.Windows.Forms.Label GroupName;

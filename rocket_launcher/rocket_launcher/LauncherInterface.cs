@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace launcher_interface
+namespace launcherInterface
 {
     // Target
     public interface IMissileLauncher

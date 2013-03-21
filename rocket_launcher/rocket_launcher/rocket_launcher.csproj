@@ -9,7 +9,7 @@
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ASML</RootNamespace>
-    <AssemblyName>Asml-ThunderCats</AssemblyName>
+    <AssemblyName>Asml-ThunderCat</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
@@ -61,7 +61,7 @@
     <Compile Include="ASML.Designer.cs">
       <DependentUpon>ASML.cs</DependentUpon>
     </Compile>
-    <Compile Include="FileRead.cs" />
+    <Compile Include="FilesRead.cs" />
     <Compile Include="INI.cs" />
     <Compile Include="FileReader.cs" />
     <Compile Include="Launcher.cs" />

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
-using fileClass;
+using filesRead;
 
 namespace Xml
 {
@@ -15,7 +15,7 @@ namespace Xml
         {
             ReadFile(filepath);
         }
-        public override bool CheckFile(string filepath)
+        private bool CheckFile(string filepath)
         {
             string[] lines = File.ReadAllLines(filepath);
 

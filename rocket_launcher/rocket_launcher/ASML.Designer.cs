@@ -56,6 +56,7 @@
             this.left.TabIndex = 0;
             this.left.Text = "<<<";
             this.left.UseVisualStyleBackColor = true;
+            this.left.Click += new System.EventHandler(this.left_Click);
             this.left.MouseDown += new System.Windows.Forms.MouseEventHandler(this.left_MouseDown);
             this.left.MouseUp += new System.Windows.Forms.MouseEventHandler(this.left_MouseUp);
             // 
@@ -161,9 +162,9 @@
             this.GroupName.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GroupName.Location = new System.Drawing.Point(263, 9);
             this.GroupName.Name = "GroupName";
-            this.GroupName.Size = new System.Drawing.Size(83, 13);
+            this.GroupName.Size = new System.Drawing.Size(73, 13);
             this.GroupName.TabIndex = 10;
-            this.GroupName.Text = "Thunder Cats";
+            this.GroupName.Text = "ThunderCat";
             // 
             // reset
             // 
@@ -203,7 +204,7 @@
             this.Controls.Add(this.right);
             this.Controls.Add(this.left);
             this.Name = "Asml";
-            this.Text = "Asml-Thunder Cats";
+            this.Text = "Asml-ThunderCat";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

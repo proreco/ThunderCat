@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using launcher;
-using launcher_interface;
+using launcherInterface;
 
 namespace adapter
 {
@@ -21,13 +21,13 @@ namespace adapter
 
         public void MoveBy(double phi, double psi)
         {
-            if (psi > 0)
+            if (psi >= 0)
                 adapter_launcher.command_Right(Convert.ToInt32(psi));
             else
                 adapter_launcher.command_Left(Convert.ToInt32(psi * -1));
             current_psi += psi;
 
-            if (phi > 0)
+            if (phi >= 0)
                 adapter_launcher.command_Up(Convert.ToInt32(phi));
             else
                 adapter_launcher.command_Down(Convert.ToInt32(phi * -1));

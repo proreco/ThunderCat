@@ -6,7 +6,7 @@ using UsbLibrary;
 using adapter;
 using WinForm;
 using fileReader;
-using fileClass;
+using filesRead;
 
 namespace Program
 {

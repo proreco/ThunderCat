@@ -12,10 +12,10 @@ using System.IO;
 using System.Media;
 using System.Diagnostics;
 using System.Threading;
-using launcher_interface;
+using launcherInterface;
 using adapter;
 using fileReader;
-using fileClass;
+using filesRead;
 
 namespace WinForm
 {
@@ -29,7 +29,7 @@ namespace WinForm
         {
             InitializeComponent();
             control = new LauncherAdapter();          
-        }
+        }      
 
         //===============================LEFT===============================
 
@@ -137,7 +137,10 @@ namespace WinForm
             if (result == System.Windows.Forms.DialogResult.OK)
             {
                 string path = dialog.FileName;
-                Target = FileReader.Instance.addFile(path);
+
+                FileReader instance = FileReader.GetInstance();
+                Target = instance.addFile(path);
+                
             }
 
             if (Target != null)

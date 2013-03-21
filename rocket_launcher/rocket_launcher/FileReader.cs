@@ -4,9 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
-using fileClass;
-using Ini;
-using Xml;
+using filesRead;
 
 // File reader singleton factory
 namespace fileReader
@@ -24,17 +22,17 @@ namespace fileReader
         {
         }
 
-        public static FileReader Instance
+        static public FileReader GetInstance()
         {
-            get
-            {
+            
                 if (instance == null)
                 {
                     instance = new FileReader();
                 }
                 return instance;
-            }
+            
         }
+
         public file addFile(string filefetch)
         {
             FileType fType = 0;
@@ -59,10 +57,10 @@ namespace fileReader
             switch (fType)
             {  
                 case FileType.ini:
-                    file = new INI(path);
+                    file = new Ini.INI(path);
                     break;
                 case FileType.xml:
-                    file = new XML(path);
+                    file = new Xml.XML(path);
                     break;
                 default:
                     break;

@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="af1fb06b-0376-44fc-9480-9c670654e694"
+  name="Asml" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="e069f444-99d6-4df8-b1ee-25f259022bac">
+      <profileInstance
+        Id="3a3d2738-893f-4aa4-a90a-8ccf9d4f0759"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="2d0de3c7-17c9-4567-ab04-3185ef55db09"
+        LastKnownName="fileClass"
+        LastKnownLocation="Package_1538.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="54415d93-b81b-4de1-ae2f-9dbfc61a94a7"
+        LastKnownName="System"
+        LastKnownLocation="Package1_1538.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="322579b6-d8d1-4b7a-ac87-70f98c37b5a4"
+        LastKnownName="fileReader"
+        LastKnownLocation="Package4_1538.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="f2328af2-2a83-4b05-b934-bbcbac284410"
+        LastKnownName="Ini"
+        LastKnownLocation="Package_1539.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="f6477107-f141-4cbb-857f-97935aa78f6d"
+        LastKnownName="launcher"
+        LastKnownLocation="Package1_1539.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="76cb01bc-5cd3-4ff7-99e1-fb347a9e85dc"
+        LastKnownName="UsbLibrary"
+        LastKnownLocation="Package2_1539.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="36963ac4-83eb-473d-8976-80080413b2f4"
+        LastKnownName="adapter"
+        LastKnownLocation="Package3_1539.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="c4ad6415-d4aa-4b10-b635-4c6b9db5cf02"
+        LastKnownName="launcher_interface"
+        LastKnownLocation="Package4_1539.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="467bbc21-708a-4284-ab0e-c98bc77d125a"
+        LastKnownName="Program"
+        LastKnownLocation="Package5_1539.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="f340a8eb-6a54-4b69-b014-c5157864d83c"
+        LastKnownName="Xml"
+        LastKnownLocation="Package_1540.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="5cc34bec-adb1-45b0-a0b3-5d98c68753ff"
+        LastKnownName="WinForm"
+        LastKnownLocation="Package_1548.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="6f0756f0-4d64-44a0-8b96-dad577ffb8f0"
+        LastKnownName="filesRead"
+        LastKnownLocation="Package_0032.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="ee96a0ba-9087-41c1-a10c-bbf9df8ea1db"
+        LastKnownName="launcherInterface"
+        LastKnownLocation="Package_0041.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

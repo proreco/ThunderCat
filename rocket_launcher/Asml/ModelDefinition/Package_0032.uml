@@ -15,14 +15,13 @@
       <class
         Id="771e89ce-2e3f-4ead-ad83-332e1c274557"
         name="file"
-        visibility="Private"
-        isAbstract="false"
+        isAbstract="true"
         isLeaf="false"
         isActiveClass="false">
         <referencesInternal>
           <reference
             Id="ea16f672-1b4f-4b24-848d-eade8fcaff1c"
-            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DfilesRead Type%3Dfile"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCats%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCats.exe Namespace%3DfilesRead Type%3Dfile"
             tag="ViewCode" />
         </referencesInternal>
         <appliedStereotypesInternal>

@@ -16,34 +16,44 @@ using launcherInterface;
 using adapter;
 using fileReader;
 using filesRead;
+using targetManager;
 
 namespace WinForm
 {
     partial class Asml : Form
     {
         IMissileLauncher control;
+        TargetManager manager;
+
         int points = 100;   // amount to move by
         file Target = null;
 
         public Asml()
         {
             InitializeComponent();
-            control = new LauncherAdapter();          
+            control = new LauncherAdapter();
+            manager = new TargetManager();
+            manager.AddedTarget +=manager_AddedTarget;
+        }
+
+        private void manager_AddedTarget(object sender, file target)
+        {
+            TargetList.DataSource = target.list;
         }      
 
         //===============================LEFT===============================
         private void left_MouseDown(object sender, MouseEventArgs e)
         {
-            timer_left.Enabled = true;
-            timer_left.Start();
+            timer1.Enabled = true;
+            timer1.Start();
         }
 
         private void left_MouseUp(object sender, MouseEventArgs e)
         {
-            timer_left.Stop();
+            timer1.Stop();
         }
 
-        private void timer_left_Tick_1(object sender, EventArgs e)
+        private void timer1_Tick_1(object sender, EventArgs e)
         {
             control.MoveBy(0, -points);
         }
@@ -51,16 +61,16 @@ namespace WinForm
         //===============================RIGHT==============================
         private void right_MouseDown(object sender, MouseEventArgs e)
         {
-            timer_right.Enabled = true;
-            timer_right.Start();
+            timer2.Enabled = true;
+            timer2.Start();
         }
 
         private void right_MouseUp(object sender, MouseEventArgs e)
         {
-            timer_right.Stop();
+            timer2.Stop();
         }
 
-        private void timer_right_Tick(object sender, EventArgs e)
+        private void timer2_Tick(object sender, EventArgs e)
         {
             control.MoveBy(0, points);
         }
@@ -68,16 +78,16 @@ namespace WinForm
         //===============================UP================================
         private void up_MouseDown(object sender, MouseEventArgs e)
         {
-            timer_up.Enabled = true;
-            timer_up.Start();
+            timer3.Enabled = true;
+            timer3.Start();
         }
 
         private void up_MouseUp(object sender, MouseEventArgs e)
         {
-            timer_up.Stop();
+            timer3.Stop();
         }
 
-        private void timer_up_Tick(object sender, EventArgs e)
+        private void timer3_Tick(object sender, EventArgs e)
         {
             control.MoveBy(points, 0);
         }
@@ -85,16 +95,16 @@ namespace WinForm
         //===============================DOWN===============================
         private void down_MouseDown(object sender, MouseEventArgs e)
         {
-            timer_down.Enabled = true;
-            timer_down.Start();
+            timer4.Enabled = true;
+            timer4.Start();
         }
 
         private void down_MouseUp(object sender, MouseEventArgs e)
         {
-            timer_down.Stop();
+            timer4.Stop();
         }
 
-        private void timer_down_Tick(object sender, EventArgs e)
+        private void timer4_Tick(object sender, EventArgs e)
         {
             control.MoveBy(-points, 0);
         }
@@ -138,8 +148,7 @@ namespace WinForm
                 string path = dialog.FileName;
 
                 FileReader instance = FileReader.GetInstance();
-                Target = instance.addFile(path);
-                
+                manager.addTarget(instance.readFile(path));
             }
 
             if (Target != null)

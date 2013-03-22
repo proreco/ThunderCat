@@ -6,109 +6,24 @@
   <MessageClass Name="Error" Label="Error" Option="Show errors" />
   <MessageClass Name="Property" Label="Property" Option="Show metadata" />
   <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
-  <Message Timestamp="2013-03-21T14:36:56" Importance="High" Text="Reverse Engineering Started." />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::filesRead' -  (Package)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::filesRead::file' -  (Class)   (partially reverse engineered - definition not updated) " />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::launcherInterface' -  (Package)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::launcherInterface::IMissileLauncher' -  (Interface)   (partially reverse engineered - definition not updated) " />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::System' -  (Package)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::System::ComponentModel' -  (Package)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::System::ComponentModel::IContainer' -  (Interface)   (partially reverse engineered - definition not updated) " />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::System::EventArgs' -  (Class)   (partially reverse engineered - definition not updated) " />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::System::Object' -  (Class)   (partially reverse engineered - definition not updated) " />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::System::Windows' -  (Package)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::System::Windows::Forms' -  (Package)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::System::Windows::Forms::Button' -  (Class)   (partially reverse engineered - definition not updated) " />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::System::Windows::Forms::Form' -  (Class)   (partially reverse engineered - definition not updated) " />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::System::Windows::Forms::Label' -  (Class)   (partially reverse engineered - definition not updated) " />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::System::Windows::Forms::ListBox' -  (Class)   (partially reverse engineered - definition not updated) " />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::System::Windows::Forms::MouseEventArgs' -  (Class)   (partially reverse engineered - definition not updated) " />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::System::Windows::Forms::Timer' -  (Class)   (partially reverse engineered - definition not updated) " />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm' -  (Package)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Medium" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml' -  (Class)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::Asml' -  (Operation)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::components' -  (Property)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::control' -  (Property)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::Dispose' -  (Operation)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::Dispose::disposing' -  (Parameter)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::down' -  (Property)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::down_MouseDown' -  (Operation)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::down_MouseDown::e' -  (Parameter)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::down_MouseDown::sender' -  (Parameter)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::down_MouseUp' -  (Operation)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::down_MouseUp::e' -  (Parameter)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::down_MouseUp::sender' -  (Parameter)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::fire' -  (Property)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::fire_Click' -  (Operation)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::fire_Click::e' -  (Parameter)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::fire_Click::sender' -  (Parameter)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::Form1_Load' -  (Operation)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::Form1_Load::e' -  (Parameter)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::Form1_Load::sender' -  (Parameter)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::GroupName' -  (Property)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::InitializeComponent' -  (Operation)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::left' -  (Property)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::left_MouseDown' -  (Operation)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::left_MouseDown::e' -  (Parameter)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::left_MouseDown::sender' -  (Parameter)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::left_MouseUp' -  (Operation)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::left_MouseUp::e' -  (Parameter)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::left_MouseUp::sender' -  (Parameter)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::openFile' -  (Property)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::openFile_Click' -  (Operation)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::openFile_Click::e' -  (Parameter)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::openFile_Click::sender' -  (Parameter)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::points' -  (Property)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::reset' -  (Property)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::reset_Click' -  (Operation)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::reset_Click::e' -  (Parameter)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::reset_Click::sender' -  (Parameter)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::right' -  (Property)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::right_MouseDown' -  (Operation)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::right_MouseDown::e' -  (Parameter)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::right_MouseDown::sender' -  (Parameter)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::right_MouseUp' -  (Operation)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::right_MouseUp::e' -  (Parameter)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::right_MouseUp::sender' -  (Parameter)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::start' -  (Property)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::start_Click' -  (Operation)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::start_Click::e' -  (Parameter)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::start_Click::sender' -  (Parameter)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::stop' -  (Property)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::stop_Click' -  (Operation)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::stop_Click::e' -  (Parameter)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::stop_Click::sender' -  (Parameter)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::Target' -  (Property)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::TargetList' -  (Property)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::timer_down' -  (Property)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::timer_down_Tick' -  (Operation)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::timer_down_Tick::e' -  (Parameter)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::timer_down_Tick::sender' -  (Parameter)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::timer_left' -  (Property)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::timer_left_Tick_1' -  (Operation)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::timer_left_Tick_1::e' -  (Parameter)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::timer_left_Tick_1::sender' -  (Parameter)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::timer_right' -  (Property)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::timer_right_Tick' -  (Operation)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::timer_right_Tick::e' -  (Parameter)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::timer_right_Tick::sender' -  (Parameter)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::timer_up' -  (Property)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::timer_up_Tick' -  (Operation)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::timer_up_Tick::e' -  (Parameter)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::timer_up_Tick::sender' -  (Parameter)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::up' -  (Property)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::up_MouseDown' -  (Operation)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::up_MouseDown::e' -  (Parameter)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::up_MouseDown::sender' -  (Parameter)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::up_MouseUp' -  (Operation)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::up_MouseUp::e' -  (Parameter)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::up_MouseUp::sender' -  (Parameter)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::WinForm::Asml::Version' -  (Property)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Boolean' -  (PrimitiveType)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Integer' -  (PrimitiveType)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: Asml::WinForm::Asml to Asml::System::Windows::Forms::Form (Generalization)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: Asml::System::Windows::Forms::MouseEventArgs to Asml::System::EventArgs (Generalization)" />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="High" Text="(1) type(s) fully reverse engineered." />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="High" Text="(11) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
-  <Message Timestamp="2013-03-21T14:37:03" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+  <Message Timestamp="2013-03-21T00:41:01" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2013-03-21T00:41:04" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::launcherInterface' -  (Package)" />
+  <Message Timestamp="2013-03-21T00:41:04" Importance="Medium" Text="Element reverse engineered into the UML model: 'Asml::launcherInterface::IMissileLauncher' -  (Interface)" />
+  <Message Timestamp="2013-03-21T00:41:04" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::launcherInterface::IMissileLauncher::Fire' -  (Operation)" />
+  <Message Timestamp="2013-03-21T00:41:04" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::launcherInterface::IMissileLauncher::MoveBy' -  (Operation)" />
+  <Message Timestamp="2013-03-21T00:41:04" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::launcherInterface::IMissileLauncher::MoveBy::phi' -  (Parameter)" />
+  <Message Timestamp="2013-03-21T00:41:04" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::launcherInterface::IMissileLauncher::MoveBy::psi' -  (Parameter)" />
+  <Message Timestamp="2013-03-21T00:41:04" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::launcherInterface::IMissileLauncher::MoveTo' -  (Operation)" />
+  <Message Timestamp="2013-03-21T00:41:04" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::launcherInterface::IMissileLauncher::MoveTo::phi' -  (Parameter)" />
+  <Message Timestamp="2013-03-21T00:41:04" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::launcherInterface::IMissileLauncher::MoveTo::psi' -  (Parameter)" />
+  <Message Timestamp="2013-03-21T00:41:04" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::launcherInterface::IMissileLauncher::Phi' -  (Property)" />
+  <Message Timestamp="2013-03-21T00:41:04" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::launcherInterface::IMissileLauncher::Psi' -  (Property)" />
+  <Message Timestamp="2013-03-21T00:41:04" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::launcherInterface::IMissileLauncher::Reset' -  (Operation)" />
+  <Message Timestamp="2013-03-21T00:41:04" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::System' -  (Package)" />
+  <Message Timestamp="2013-03-21T00:41:04" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Asml::System::Double' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2013-03-21T00:41:04" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: Asml::launcherInterface::IMissileLauncher to Asml::System::Double (Association)" />
+  <Message Timestamp="2013-03-21T00:41:04" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: Asml::launcherInterface::IMissileLauncher to Asml::System::Double (Association)" />
+  <Message Timestamp="2013-03-21T00:41:04" Importance="High" Text="(1) type(s) fully reverse engineered." />
+  <Message Timestamp="2013-03-21T00:41:04" Importance="High" Text="(1) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
+  <Message Timestamp="2013-03-21T00:41:04" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
 </Log>

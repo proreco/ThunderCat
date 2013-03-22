@@ -40,7 +40,6 @@ namespace Ini
         // and then reads file and writes it to the target list
         public override void ReadFile(string filepath)
         {
-
             if (CheckFile(filepath))
             {
                 bool target = false;

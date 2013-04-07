@@ -204,15 +204,9 @@
             this.Controls.Add(this.left);
             this.Name = "Asml";
             this.Text = "Asml-ThunderCat";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
-        }
-
-        private void Form1_Load(object sender, System.EventArgs e)
-        {
-            throw new System.NotImplementedException();
         }
 
         #endregion

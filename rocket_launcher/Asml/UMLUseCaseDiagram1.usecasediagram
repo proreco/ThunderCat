@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="7f745575-61d3-4493-a258-032d9c963d57" name="UMLUseCaseDiagram1" linkedPackageId="db39fc29-f6b2-4c8e-8c90-187b730f7acf" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="8997a391-e9fb-4ce4-b2e0-8818eec156c9">
+      <profileInstance Id="798ae70e-9486-4395-9461-28e45d5ea4b2" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="7fc23cac-6770-414d-b1f3-3ff41e3b1de2">
+      <profileInstance Id="0a29da78-f72a-4e50-b406-676449d3251f" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="213b7092-bdfc-45c5-b819-3066676a39c7">
+      <profileInstance Id="3f56e775-d3fa-428a-bf7f-a297af0dd401" name="CSharpProfile">
+        <elementDefinition Id="3a3d2738-893f-4aa4-a90a-8ccf9d4f0759" />
+      </profileInstance>
+      <elementDefinition Id="e069f444-99d6-4df8-b1ee-25f259022bac" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="3799e388-02b5-4d2d-bf6a-846bdf575eac" name="Builder" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e4160862-f2e9-4579-b3e0-9ada4b099657" />
+        <targetEnds>
+          <association Id="99585823-041c-451f-9c93-83438fac12ed" isDerived="false" sourceEndRoleName="Builder" targetEndRoleName="Starting The Program" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="288e1133-532d-4ee7-a0e1-c7c074495f71" LastKnownName="Starting The Program" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e530fdf6-fc2b-4a27-a020-ac6e267067f4" name="Builder" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="e834e118-c74b-4af1-92f7-290d111168a5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e6878c04-8834-4bde-b633-54db1d6ba88e" name="Starting The Program" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="8512ab8b-a7c3-4b95-9fd5-4ff687204b5c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="0c7a9db6-9793-40a5-9225-ffa2ce01797e" />
+          </association>
+          <association Id="18c53c15-3ee8-43da-a7c5-e26364824784" isDerived="false" sourceEndRoleName="Builder" targetEndRoleName="Run Search and Destroy" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="155f6c2a-db23-472d-a67d-065002c6e52f" LastKnownName="Run Search and Destroy" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="77ca5c9b-7eff-4ff3-8af0-4ca444f04ba8" name="Builder" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="6f0aaa36-71aa-413a-b171-bbc4be91de77" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="80466635-b974-4f81-9013-12f193914df4" name="Run Search and Destroy" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d7b4df5c-2fda-49b7-9edc-71b991364396" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d46094f0-212c-48f7-9f81-b2f5acaffb47" />
+          </association>
+          <association Id="9809698c-a080-41cd-a44e-e2cb10615511" isDerived="false" sourceEndRoleName="Builder" targetEndRoleName="Manual Turret Control" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="fc241acc-84f4-4c13-91b6-d20ccda82c91" LastKnownName="Manual Turret Control" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8f882799-c4fe-4e19-9acd-5aa2f21f7a32" name="Builder" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a54bc73d-e978-4edd-9f13-d6904da490a5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="74b14dc7-4264-4c8e-abe2-1ada92e83f03" name="Manual Turret Control" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="9edb521c-f9d1-4a30-91ad-627c05881ca1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="831c2b4a-9ac0-4e3d-b1ac-c16216cee294" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="ac3f7aa3-39ba-4fd4-b7ae-5ca6152e0fc8" name="Judge" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="830afc7e-3e93-42af-903b-16b88b63fe60" />
+        <targetEnds>
+          <association Id="44b26cc6-732b-415a-9ea5-640f2e3cb444" isDerived="false" sourceEndRoleName="Judge" targetEndRoleName="Starting The Program" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="288e1133-532d-4ee7-a0e1-c7c074495f71" LastKnownName="Starting The Program" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f3f11b53-8b92-455c-ad49-2c612c77e05c" name="Judge" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="aff24b77-7e4e-4c6e-8ec5-5d599c0eb67a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="bcb33665-d0ed-482a-ae39-31a759bd9406" name="Starting The Program" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="44fcdd8f-8a19-40d3-bb0c-47f3c0957ab1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="8ada1206-789e-4238-baab-40c5b5871f1f" />
+          </association>
+          <association Id="0aed9202-1068-4310-b75c-ef00f648f7b8" isDerived="false" sourceEndRoleName="Judge" targetEndRoleName="Run Search and Destroy" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="155f6c2a-db23-472d-a67d-065002c6e52f" LastKnownName="Run Search and Destroy" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1d496915-c353-43bc-bd01-73ca49ab452d" name="Judge" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="95ea715b-da9a-47f9-ac66-e53107d381b2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="92319d00-02ca-4086-aca4-53519891e61b" name="Run Search and Destroy" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="de58f7b9-808d-4c73-99bc-a101554cdde8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="40cbb941-6d53-40c4-8658-6385e57270e3" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="b303eb4f-6c63-4918-bef1-700437d575f4" name="Fire Missiles From Idle" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a0a6744f-18b6-436d-bc2d-75b498346fab" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="7441e63d-7b5a-48fc-bb68-98d1e785d775" name="Fire Missiles from Search and Destroy" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="07bd3899-beac-4456-8112-8cb323380d22" />
+        <extendedCases>
+          <extend Id="33366daa-a6bb-4370-bb82-2be83302c8f7">
+            <useCaseMoniker Id="0ec42024-ac98-45d0-9d45-8d26098fa38a" LastKnownName="Identify Targets From Visual Data" />
+            <elementDefinition Id="5f5a5904-eafc-4d80-ad11-398b803299c2" />
+          </extend>
+          <extend Id="e769e807-7daa-4124-b3a9-4cc6ebdc3420">
+            <useCaseMoniker Id="044a3340-6b43-493a-b38d-73a2e7d4847a" LastKnownName="Identify Targets from Files" />
+            <elementDefinition Id="f9fa0e0d-6de3-4012-8acc-f7a77fed1dbd" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="155f6c2a-db23-472d-a67d-065002c6e52f" name="Run Search and Destroy" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="344310bf-2de8-4d32-b2d6-5a516a168cc2" />
+        <additions>
+          <include Id="fac06a92-da93-486e-a937-3483f6d4b175">
+            <useCaseMoniker Id="7441e63d-7b5a-48fc-bb68-98d1e785d775" LastKnownName="Fire Missiles from Search and Destroy" />
+            <elementDefinition Id="51cc9437-cde6-41a5-b3fd-e2402c69fd63" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="044a3340-6b43-493a-b38d-73a2e7d4847a" name="Identify Targets from Files" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b17095cc-0ae4-4852-b59a-827f91e2e085" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="0ec42024-ac98-45d0-9d45-8d26098fa38a" name="Identify Targets From Visual Data" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2eae9a8e-477d-418d-bb71-077fdff5b04e" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="288e1133-532d-4ee7-a0e1-c7c074495f71" name="Starting The Program" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d0c4e3e8-500a-4a31-bac6-b10ce8cd4eed" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="fc241acc-84f4-4c13-91b6-d20ccda82c91" name="Manual Turret Control" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="18cea05a-d1f1-4f38-b5d7-85a83977f49a" />
+        <extendedCases>
+          <extend Id="b8352706-1e40-422b-981c-eed9844fe636">
+            <useCaseMoniker Id="b303eb4f-6c63-4918-bef1-700437d575f4" LastKnownName="Fire Missiles From Idle" />
+            <elementDefinition Id="7d3d6ebb-7446-4287-b1ef-822d380c9141" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="db39fc29-f6b2-4c8e-8c90-187b730f7acf" name="Asml">
+    <elementDefinition Id="af1fb06b-0376-44fc-9480-9c670654e694" />
+  </package>
+</useCaseModelRoot>

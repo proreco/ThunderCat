@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm9="http://schemas.microsoft.com/dsltools/UseCaseModel"
   dslVersion="1.0.0.0"
   Id="af1fb06b-0376-44fc-9480-9c670654e694"
   name="Asml" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
@@ -101,6 +101,607 @@
         Id="ee96a0ba-9087-41c1-a10c-bbf9df8ea1db"
         LastKnownName="launcherInterface"
         LastKnownLocation="Package_0041.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="e4160862-f2e9-4579-b3e0-9ada4b099657"
+        name="Builder"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="0c7a9db6-9793-40a5-9225-ffa2ce01797e"
+            isDerived="false"
+            sourceEndRoleName="Builder"
+            targetEndRoleName="Starting The Program"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="d0c4e3e8-500a-4a31-bac6-b10ce8cd4eed"
+              LastKnownName="Starting The Program"
+              LastKnownLocation="Asml.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e834e118-c74b-4af1-92f7-290d111168a5"
+                  name="Builder"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8512ab8b-a7c3-4b95-9fd5-4ff687204b5c"
+                  name="Starting The Program"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="d46094f0-212c-48f7-9f81-b2f5acaffb47"
+            isDerived="false"
+            sourceEndRoleName="Builder"
+            targetEndRoleName="Run Search and Destroy"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="344310bf-2de8-4d32-b2d6-5a516a168cc2"
+              LastKnownName="Run Search and Destroy"
+              LastKnownLocation="Asml.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6f0aaa36-71aa-413a-b171-bbc4be91de77"
+                  name="Builder"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d7b4df5c-2fda-49b7-9edc-71b991364396"
+                  name="Run Search and Destroy"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="831c2b4a-9ac0-4e3d-b1ac-c16216cee294"
+            isDerived="false"
+            sourceEndRoleName="Builder"
+            targetEndRoleName="Manual Turret Control"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="18cea05a-d1f1-4f38-b5d7-85a83977f49a"
+              LastKnownName="Manual Turret Control"
+              LastKnownLocation="Asml.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a54bc73d-e978-4edd-9f13-d6904da490a5"
+                  name="Builder"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9edb521c-f9d1-4a30-91ad-627c05881ca1"
+                  name="Manual Turret Control"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="830afc7e-3e93-42af-903b-16b88b63fe60"
+        name="Judge"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="8ada1206-789e-4238-baab-40c5b5871f1f"
+            isDerived="false"
+            sourceEndRoleName="Judge"
+            targetEndRoleName="Starting The Program"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="d0c4e3e8-500a-4a31-bac6-b10ce8cd4eed"
+              LastKnownName="Starting The Program"
+              LastKnownLocation="Asml.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="aff24b77-7e4e-4c6e-8ec5-5d599c0eb67a"
+                  name="Judge"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="44fcdd8f-8a19-40d3-bb0c-47f3c0957ab1"
+                  name="Starting The Program"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="40cbb941-6d53-40c4-8658-6385e57270e3"
+            isDerived="false"
+            sourceEndRoleName="Judge"
+            targetEndRoleName="Run Search and Destroy"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="344310bf-2de8-4d32-b2d6-5a516a168cc2"
+              LastKnownName="Run Search and Destroy"
+              LastKnownLocation="Asml.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="95ea715b-da9a-47f9-ac66-e53107d381b2"
+                  name="Judge"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="de58f7b9-808d-4c73-99bc-a101554cdde8"
+                  name="Run Search and Destroy"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="f2f75314-c84d-49f6-8e4c-ceb584affbd4"
+        name="Subsystem1"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="a0a6744f-18b6-436d-bc2d-75b498346fab"
+        name="Fire Missiles From Idle"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="b4610df7-c8b4-4943-858e-dec0c0b66914">
+            <useCaseMoniker
+              Id="78d755d6-f5d9-45e1-adfb-58326a862b6a"
+              LastKnownName="User Clicks Fire Button"
+              LastKnownLocation="Asml.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="07bd3899-beac-4456-8112-8cb323380d22"
+        name="Fire Missiles from Search and Destroy"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="5f5a5904-eafc-4d80-ad11-398b803299c2">
+            <useCaseMoniker
+              Id="2eae9a8e-477d-418d-bb71-077fdff5b04e"
+              LastKnownName="Identify Targets From Visual Data"
+              LastKnownLocation="Asml.uml" />
+          </extend>
+          <extend
+            Id="f9fa0e0d-6de3-4012-8acc-f7a77fed1dbd">
+            <useCaseMoniker
+              Id="b17095cc-0ae4-4852-b59a-827f91e2e085"
+              LastKnownName="Identify Targets from Files"
+              LastKnownLocation="Asml.uml" />
+          </extend>
+        </extendedCases>
+        <additions>
+          <include
+            Id="48ab87b9-49e2-4f21-8682-60a4c401e722">
+            <useCaseMoniker
+              Id="8247db34-1b7f-434a-adc8-99cffc02b5e6"
+              LastKnownName="Program Identifies Target"
+              LastKnownLocation="Asml.uml" />
+          </include>
+          <include
+            Id="dc217e7a-4446-4be8-a1b8-926a2566037a">
+            <useCaseMoniker
+              Id="dff80e8b-d4d9-4cc8-a684-2c141e3953d5"
+              LastKnownName="Turret Rotates"
+              LastKnownLocation="Asml.uml" />
+          </include>
+          <include
+            Id="30b27870-f2d6-4f96-923d-088a0fa69f26">
+            <useCaseMoniker
+              Id="5d96d02c-a75e-42f0-9c18-dbc925b3b888"
+              LastKnownName="Turret Fires Missile"
+              LastKnownLocation="Asml.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="feae7dfa-391d-41dc-8874-52f0aaba23dc"
+        name="Missile does not fire"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="d64b920a-9d72-46c9-bb46-750a0b061d90"
+        name="More then one missile fires"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="eccc1632-3cc6-45cf-ab58-66f8a65f84ef"
+        name="Mis-identifies friend as enemy"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="071ebb06-5654-440f-8ef1-060a40b2fae9"
+        name="Gets wrong coordinates"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="2d505988-1598-485b-83e9-958ddafb0862"
+        name="Turrent not calibrated"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="8ca089c4-9ff3-4832-8c7e-8a5fd1239745"
+        name="Missile misses"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="164a3355-fce0-4e5a-a819-959959fb2dfe"
+        name="Missile hits friendly target"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="344310bf-2de8-4d32-b2d6-5a516a168cc2"
+        name="Run Search and Destroy"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="62289dce-9b6b-4864-910f-794af31d8d9e">
+            <useCaseMoniker
+              Id="842b183c-a63c-4705-8d64-4067c3ca8a3d"
+              LastKnownName="User Clicks Start"
+              LastKnownLocation="Asml.uml" />
+          </include>
+          <include
+            Id="48af0b3e-0153-4591-b0ce-81223805a720">
+            <useCaseMoniker
+              Id="b7ff4c4f-4041-4d95-82e5-ffc7359ce43e"
+              LastKnownName="Timer Starts"
+              LastKnownLocation="Asml.uml" />
+          </include>
+          <include
+            Id="81a15d94-ae8e-46b0-a63c-243a754a584a">
+            <useCaseMoniker
+              Id="2ef089b4-c976-4028-8963-9fd06570848d"
+              LastKnownName="Goes ti Idle and Timer Stops"
+              LastKnownLocation="Asml.uml" />
+          </include>
+          <include
+            Id="51cc9437-cde6-41a5-b3fd-e2402c69fd63">
+            <useCaseMoniker
+              Id="07bd3899-beac-4456-8112-8cb323380d22"
+              LastKnownName="Fire Missiles from Search and Destroy"
+              LastKnownLocation="Asml.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="e584609d-52ec-45a1-8e90-abfe1fb4bea0"
+        name="Timer Doesn't start"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="9d3f3034-6362-4fe7-b080-58f0f1f6a669"
+        name="Timer fails to stop"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="2b49499e-b705-4542-bb19-9744d79f2632"
+        name="Program Fails to start Search and Destroy"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="45ed6d5d-2c4d-49e6-8ed5-4a234b81b5c6"
+        name="Not All Missiles fire"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="f4c1c7c4-bfc1-4354-989b-bc8d894aca51"
+        name="Timer Does not reset"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="78d755d6-f5d9-45e1-adfb-58326a862b6a"
+        name="User Clicks Fire Button"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="2b8581ee-6c9e-4c1e-9dc9-df7ed5a202f8">
+            <useCaseMoniker
+              Id="feae7dfa-391d-41dc-8874-52f0aaba23dc"
+              LastKnownName="Missile does not fire"
+              LastKnownLocation="Asml.uml" />
+          </extend>
+          <extend
+            Id="e3de4b77-9540-4a4b-a9d1-4d5a60807909">
+            <useCaseMoniker
+              Id="d64b920a-9d72-46c9-bb46-750a0b061d90"
+              LastKnownName="More then one missile fires"
+              LastKnownLocation="Asml.uml" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="8247db34-1b7f-434a-adc8-99cffc02b5e6"
+        name="Program Identifies Target"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="2025b389-96aa-4c3c-a907-62640f2f6b90">
+            <useCaseMoniker
+              Id="071ebb06-5654-440f-8ef1-060a40b2fae9"
+              LastKnownName="Gets wrong coordinates"
+              LastKnownLocation="Asml.uml" />
+          </extend>
+          <extend
+            Id="96140493-9f42-4c34-89ba-5d220a078ad3">
+            <useCaseMoniker
+              Id="eccc1632-3cc6-45cf-ab58-66f8a65f84ef"
+              LastKnownName="Mis-identifies friend as enemy"
+              LastKnownLocation="Asml.uml" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="dff80e8b-d4d9-4cc8-a684-2c141e3953d5"
+        name="Turret Rotates"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="05f70c86-e593-466d-b6b5-f5413d1e3090">
+            <useCaseMoniker
+              Id="2d505988-1598-485b-83e9-958ddafb0862"
+              LastKnownName="Turrent not calibrated"
+              LastKnownLocation="Asml.uml" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="5d96d02c-a75e-42f0-9c18-dbc925b3b888"
+        name="Turret Fires Missile"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="d5a0d6a2-8855-490f-a4e2-ab5f5f3ed09b">
+            <useCaseMoniker
+              Id="8ca089c4-9ff3-4832-8c7e-8a5fd1239745"
+              LastKnownName="Missile misses"
+              LastKnownLocation="Asml.uml" />
+          </extend>
+          <extend
+            Id="bfea7033-4fb9-47a4-addc-8bcdb007cf47">
+            <useCaseMoniker
+              Id="164a3355-fce0-4e5a-a819-959959fb2dfe"
+              LastKnownName="Missile hits friendly target"
+              LastKnownLocation="Asml.uml" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="842b183c-a63c-4705-8d64-4067c3ca8a3d"
+        name="User Clicks Start"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="4d94f50f-0a5d-4d1e-818e-483f66bd6af3">
+            <useCaseMoniker
+              Id="2b49499e-b705-4542-bb19-9744d79f2632"
+              LastKnownName="Program Fails to start Search and Destroy"
+              LastKnownLocation="Asml.uml" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="b7ff4c4f-4041-4d95-82e5-ffc7359ce43e"
+        name="Timer Starts"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="bd09d168-f69c-4780-a4a6-caf8053ab147">
+            <useCaseMoniker
+              Id="e584609d-52ec-45a1-8e90-abfe1fb4bea0"
+              LastKnownName="Timer Doesn't start"
+              LastKnownLocation="Asml.uml" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="2ef089b4-c976-4028-8963-9fd06570848d"
+        name="Goes ti Idle and Timer Stops"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="f9e2e10b-2343-497e-8b2c-cd076197bf87">
+            <useCaseMoniker
+              Id="9d3f3034-6362-4fe7-b080-58f0f1f6a669"
+              LastKnownName="Timer fails to stop"
+              LastKnownLocation="Asml.uml" />
+          </extend>
+          <extend
+            Id="5cd2966f-212e-4916-b402-859d09351ea3">
+            <useCaseMoniker
+              Id="45ed6d5d-2c4d-49e6-8ed5-4a234b81b5c6"
+              LastKnownName="Not All Missiles fire"
+              LastKnownLocation="Asml.uml" />
+          </extend>
+          <extend
+            Id="2aaccf37-aa61-480b-95cc-ec0b042506d6">
+            <useCaseMoniker
+              Id="f4c1c7c4-bfc1-4354-989b-bc8d894aca51"
+              LastKnownName="Timer Does not reset"
+              LastKnownLocation="Asml.uml" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="b17095cc-0ae4-4852-b59a-827f91e2e085"
+        name="Identify Targets from Files"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="2eae9a8e-477d-418d-bb71-077fdff5b04e"
+        name="Identify Targets From Visual Data"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="d0c4e3e8-500a-4a31-bac6-b10ce8cd4eed"
+        name="Starting The Program"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="18cea05a-d1f1-4f38-b5d7-85a83977f49a"
+        name="Manual Turret Control"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="7d3d6ebb-7446-4287-b1ef-822d380c9141">
+            <useCaseMoniker
+              Id="a0a6744f-18b6-436d-bc2d-75b498346fab"
+              LastKnownName="Fire Missiles From Idle"
+              LastKnownLocation="Asml.uml" />
+          </extend>
+        </extendedCases>
+      </useCase>
     </packageHasNamedElement>
   </packagedElements>
   <primitiveType

@@ -9,9 +9,9 @@ using filesRead;
 namespace Ini
 {
     // INI file reader
-    public class INI : file
+    public class INIreader : file
     {
-        public INI(string filepath)
+        public INIreader(string filepath)
         {
             ReadFile(filepath);
         }
@@ -40,6 +40,7 @@ namespace Ini
         // and then reads file and writes it to the target list
         public override void ReadFile(string filepath)
         {
+
             if (CheckFile(filepath))
             {
                 bool target = false;

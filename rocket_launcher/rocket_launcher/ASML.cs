@@ -12,11 +12,13 @@ using System.IO;
 using System.Media;
 using System.Diagnostics;
 using System.Threading;
-using launcherInterface;
+using ASMLEngineSdk;
 using adapter;
 using fileReader;
 using filesRead;
 using targetManager;
+using threads;
+using modeType;
 
 namespace WinForm
 {
@@ -24,9 +26,12 @@ namespace WinForm
     {
         IMissileLauncher control;
         TargetManager manager;
+        Threads thread;
 
         int points = 100;   // amount to move by
-        file Target = null;
+        int mode;
+        file Target;
+        ModeType Mode;
 
         public Asml()
         {
@@ -39,21 +44,20 @@ namespace WinForm
         private void manager_AddedTarget(object sender, file target)
         {
             TargetList.DataSource = target.list;
-        }      
-
+        }
         //===============================LEFT===============================
         private void left_MouseDown(object sender, MouseEventArgs e)
         {
-            timer1.Enabled = true;
-            timer1.Start();
+            timer_left.Enabled = true;
+            timer_left.Start();
         }
 
         private void left_MouseUp(object sender, MouseEventArgs e)
         {
-            timer1.Stop();
+            timer_left.Stop();
         }
 
-        private void timer1_Tick_1(object sender, EventArgs e)
+        private void timer_left_Tick_1(object sender, EventArgs e)
         {
             control.MoveBy(0, -points);
         }
@@ -61,16 +65,16 @@ namespace WinForm
         //===============================RIGHT==============================
         private void right_MouseDown(object sender, MouseEventArgs e)
         {
-            timer2.Enabled = true;
-            timer2.Start();
+            timer_right.Enabled = true;
+            timer_right.Start();
         }
 
         private void right_MouseUp(object sender, MouseEventArgs e)
         {
-            timer2.Stop();
+            timer_right.Stop();
         }
 
-        private void timer2_Tick(object sender, EventArgs e)
+        private void timer_right_Tick(object sender, EventArgs e)
         {
             control.MoveBy(0, points);
         }
@@ -78,16 +82,16 @@ namespace WinForm
         //===============================UP================================
         private void up_MouseDown(object sender, MouseEventArgs e)
         {
-            timer3.Enabled = true;
-            timer3.Start();
+            timer_up.Enabled = true;
+            timer_up.Start();
         }
 
         private void up_MouseUp(object sender, MouseEventArgs e)
         {
-            timer3.Stop();
+            timer_up.Stop();
         }
 
-        private void timer3_Tick(object sender, EventArgs e)
+        private void timer_up_Tick(object sender, EventArgs e)
         {
             control.MoveBy(points, 0);
         }
@@ -95,16 +99,16 @@ namespace WinForm
         //===============================DOWN===============================
         private void down_MouseDown(object sender, MouseEventArgs e)
         {
-            timer4.Enabled = true;
-            timer4.Start();
+            timer_down.Enabled = true;
+            timer_down.Start();
         }
 
         private void down_MouseUp(object sender, MouseEventArgs e)
         {
-            timer4.Stop();
+            timer_down.Stop();
         }
 
-        private void timer4_Tick(object sender, EventArgs e)
+        private void timer_down_Tick(object sender, EventArgs e)
         {
             control.MoveBy(-points, 0);
         }
@@ -118,13 +122,13 @@ namespace WinForm
         //==============================START===============================
         private void start_Click(object sender, EventArgs e)
         {
-            // to be implemented
+            thread.Start();
         }
 
         //===============================STOP===============================
         private void stop_Click(object sender, EventArgs e)
         {
-            // to be implemented
+            thread.Stop();
         }
 
         //===============================RESET===============================
@@ -153,6 +157,19 @@ namespace WinForm
 
             if (Target != null)
                 TargetList.DataSource = Target.list;
+        }
+
+        private void modes_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+            mode = modes.SelectedIndex;
+            if (mode == (int)ModeType.fireAll)
+                Mode = ModeType.fireAll;
+            else if (mode == (int)ModeType.fireFoes)
+                Mode = ModeType.fireFoes;
+            else
+                Mode = ModeType.fireFriends;
+            MessageBox.Show(Mode.ToString());
         }
     }
 }

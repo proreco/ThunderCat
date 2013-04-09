@@ -10,9 +10,9 @@ using filesRead;
 namespace Xml
 {
     // XML file reader
-    public sealed class XML : file
+    public sealed class XMLreader : file
     {
-        public XML(string filepath)
+        public XMLreader(string filepath)
         {
             ReadFile(filepath);
         }

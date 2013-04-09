@@ -55,10 +55,10 @@ namespace fileReader
             switch (fType)
             {  
                 case FileType.ini:
-                    file = new Ini.INI(path);
+                    file = new Ini.INIreader(path);
                     break;
                 case FileType.xml:
-                    file = new Xml.XML(path);
+                    file = new Xml.XMLreader(path);
                     break;
                 default:
                     break;

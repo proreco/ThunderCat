@@ -62,15 +62,16 @@
       <DependentUpon>ASML.cs</DependentUpon>
     </Compile>
     <Compile Include="FilesRead.cs" />
-    <Compile Include="INI.cs" />
     <Compile Include="FileReader.cs" />
+    <Compile Include="INIreader.cs" />
     <Compile Include="Launcher.cs" />
     <Compile Include="LauncherAdapter.cs" />
-    <Compile Include="LauncherInterface.cs" />
+    <Compile Include="modeType.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TargetManager.cs" />
-    <Compile Include="XML.cs" />
+    <Compile Include="Threads.cs" />
+    <Compile Include="XMLreader.cs" />
     <EmbeddedResource Include="ASML.resx">
       <DependentUpon>ASML.cs</DependentUpon>
     </EmbeddedResource>

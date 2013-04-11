@@ -3,6 +3,13 @@
   dslVersion="1.0.0.0"
   Id="af1fb06b-0376-44fc-9480-9c670654e694"
   name="Asml" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <ownedCommentsInternal>
+    <comment
+      Id="62ef1e03-6143-48ce-afad-dff2b86654e9">
+      <body>Missile Launcher
+</body>
+    </comment>
+  </ownedCommentsInternal>
   <profileInstances>
     <packageHasProfileInstances
       Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">

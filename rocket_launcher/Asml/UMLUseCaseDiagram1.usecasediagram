@@ -1,25 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="7f745575-61d3-4493-a258-032d9c963d57" name="UMLUseCaseDiagram1" linkedPackageId="db39fc29-f6b2-4c8e-8c90-187b730f7acf" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
-  <profileInstances>
-    <packageHasProfileInstances Id="8997a391-e9fb-4ce4-b2e0-8818eec156c9">
-      <profileInstance Id="798ae70e-9486-4395-9461-28e45d5ea4b2" name="StandardProfileL2">
-        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
-      </profileInstance>
-      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="7fc23cac-6770-414d-b1f3-3ff41e3b1de2">
-      <profileInstance Id="0a29da78-f72a-4e50-b406-676449d3251f" name="StandardProfileL3">
-        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
-      </profileInstance>
-      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="213b7092-bdfc-45c5-b819-3066676a39c7">
-      <profileInstance Id="3f56e775-d3fa-428a-bf7f-a297af0dd401" name="CSharpProfile">
-        <elementDefinition Id="3a3d2738-893f-4aa4-a90a-8ccf9d4f0759" />
-      </profileInstance>
-      <elementDefinition Id="e069f444-99d6-4df8-b1ee-25f259022bac" />
-    </packageHasProfileInstances>
-  </profileInstances>
+  <ownedCommentsInternal>
+    <comment Id="bfa907e1-edae-4db5-9f8c-709362344fca">
+      <elementDefinition Id="62ef1e03-6143-48ce-afad-dff2b86654e9" />
+      <body>Missile Launcher
+</body>
+    </comment>
+  </ownedCommentsInternal>
   <packagedElements>
     <useCaseModelRootHasTypes>
       <actor Id="3799e388-02b5-4d2d-bf6a-846bdf575eac" name="Builder" isAbstract="false" isLeaf="false">
@@ -175,5 +162,25 @@
   </packagedElements>
   <package Id="db39fc29-f6b2-4c8e-8c90-187b730f7acf" name="Asml">
     <elementDefinition Id="af1fb06b-0376-44fc-9480-9c670654e694" />
+    <profileInstances>
+      <packageHasProfileInstances Id="8997a391-e9fb-4ce4-b2e0-8818eec156c9">
+        <profileInstance Id="798ae70e-9486-4395-9461-28e45d5ea4b2" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="7fc23cac-6770-414d-b1f3-3ff41e3b1de2">
+        <profileInstance Id="0a29da78-f72a-4e50-b406-676449d3251f" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="213b7092-bdfc-45c5-b819-3066676a39c7">
+        <profileInstance Id="3f56e775-d3fa-428a-bf7f-a297af0dd401" name="CSharpProfile">
+          <elementDefinition Id="3a3d2738-893f-4aa4-a90a-8ccf9d4f0759" />
+        </profileInstance>
+        <elementDefinition Id="e069f444-99d6-4df8-b1ee-25f259022bac" />
+      </packageHasProfileInstances>
+    </profileInstances>
   </package>
 </useCaseModelRoot>

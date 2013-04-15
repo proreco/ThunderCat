@@ -33,7 +33,7 @@ namespace fileReader
             
         }
         // Adds file to reader and checks if it is of a right format
-        public file readFile(string filefetch)
+        public reader readFile(string filefetch)
         {
             FileType fType = 0;
             string path="/0";
@@ -51,7 +51,7 @@ namespace fileReader
                     path = filefetch;
                 }
             
-            file file = null;
+            reader file = null;
             switch (fType)
             {  
                 case FileType.ini:

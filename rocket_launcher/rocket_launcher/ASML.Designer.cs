@@ -45,14 +45,22 @@
             this.GroupName = new System.Windows.Forms.Label();
             this.reset = new System.Windows.Forms.Button();
             this.openFile = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.modes = new System.Windows.Forms.ComboBox();
+            this.modeLabel = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.phiLabel = new System.Windows.Forms.Label();
+            this.thetaLabel = new System.Windows.Forms.Label();
+            this.timer_SD = new System.Windows.Forms.Timer(this.components);
+            this.label3 = new System.Windows.Forms.Label();
+            this.timeLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // left
             // 
-            this.left.Location = new System.Drawing.Point(205, 125);
+            this.left.Location = new System.Drawing.Point(21, 319);
             this.left.Name = "left";
             this.left.Size = new System.Drawing.Size(58, 40);
             this.left.TabIndex = 0;
@@ -63,7 +71,7 @@
             // 
             // right
             // 
-            this.right.Location = new System.Drawing.Point(319, 125);
+            this.right.Location = new System.Drawing.Point(135, 319);
             this.right.Name = "right";
             this.right.Size = new System.Drawing.Size(62, 40);
             this.right.TabIndex = 1;
@@ -78,7 +86,7 @@
             // 
             // up
             // 
-            this.up.Location = new System.Drawing.Point(269, 67);
+            this.up.Location = new System.Drawing.Point(85, 261);
             this.up.Name = "up";
             this.up.Size = new System.Drawing.Size(44, 52);
             this.up.TabIndex = 2;
@@ -89,7 +97,7 @@
             // 
             // down
             // 
-            this.down.Location = new System.Drawing.Point(269, 171);
+            this.down.Location = new System.Drawing.Point(85, 365);
             this.down.Name = "down";
             this.down.Size = new System.Drawing.Size(44, 53);
             this.down.TabIndex = 3;
@@ -100,7 +108,7 @@
             // 
             // fire
             // 
-            this.fire.Location = new System.Drawing.Point(269, 125);
+            this.fire.Location = new System.Drawing.Point(85, 319);
             this.fire.Name = "fire";
             this.fire.Size = new System.Drawing.Size(44, 40);
             this.fire.TabIndex = 4;
@@ -122,7 +130,7 @@
             // 
             // start
             // 
-            this.start.Location = new System.Drawing.Point(198, 259);
+            this.start.Location = new System.Drawing.Point(12, 437);
             this.start.Name = "start";
             this.start.Size = new System.Drawing.Size(65, 23);
             this.start.TabIndex = 5;
@@ -132,7 +140,7 @@
             // 
             // stop
             // 
-            this.stop.Location = new System.Drawing.Point(269, 259);
+            this.stop.Location = new System.Drawing.Point(83, 437);
             this.stop.Name = "stop";
             this.stop.Size = new System.Drawing.Size(57, 23);
             this.stop.TabIndex = 6;
@@ -143,7 +151,7 @@
             // TargetList
             // 
             this.TargetList.FormattingEnabled = true;
-            this.TargetList.Location = new System.Drawing.Point(28, 32);
+            this.TargetList.Location = new System.Drawing.Point(12, 9);
             this.TargetList.Name = "TargetList";
             this.TargetList.Size = new System.Drawing.Size(164, 212);
             this.TargetList.TabIndex = 8;
@@ -151,17 +159,17 @@
             // Version
             // 
             this.Version.AutoSize = true;
-            this.Version.Location = new System.Drawing.Point(570, 9);
+            this.Version.Location = new System.Drawing.Point(613, 9);
             this.Version.Name = "Version";
             this.Version.Size = new System.Drawing.Size(43, 13);
             this.Version.TabIndex = 9;
-            this.Version.Text = "v. 0.3.1";
+            this.Version.Text = "v. 0.5.5";
             // 
             // GroupName
             // 
             this.GroupName.AutoSize = true;
             this.GroupName.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GroupName.Location = new System.Drawing.Point(263, 9);
+            this.GroupName.Location = new System.Drawing.Point(284, 9);
             this.GroupName.Name = "GroupName";
             this.GroupName.Size = new System.Drawing.Size(73, 13);
             this.GroupName.TabIndex = 10;
@@ -169,7 +177,7 @@
             // 
             // reset
             // 
-            this.reset.Location = new System.Drawing.Point(332, 259);
+            this.reset.Location = new System.Drawing.Point(146, 437);
             this.reset.Name = "reset";
             this.reset.Size = new System.Drawing.Size(49, 23);
             this.reset.TabIndex = 11;
@@ -179,21 +187,13 @@
             // 
             // openFile
             // 
-            this.openFile.Location = new System.Drawing.Point(28, 259);
+            this.openFile.Location = new System.Drawing.Point(12, 227);
             this.openFile.Name = "openFile";
             this.openFile.Size = new System.Drawing.Size(95, 23);
             this.openFile.TabIndex = 12;
             this.openFile.Text = "Open Target File";
             this.openFile.UseVisualStyleBackColor = true;
             this.openFile.Click += new System.EventHandler(this.openFile_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(416, 43);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(197, 201);
-            this.pictureBox1.TabIndex = 13;
-            this.pictureBox1.TabStop = false;
             // 
             // modes
             // 
@@ -202,19 +202,98 @@
             "Fire All",
             "Fire Foes",
             "Fire Friends"});
-            this.modes.Location = new System.Drawing.Point(416, 261);
+            this.modes.Location = new System.Drawing.Point(55, 493);
             this.modes.Name = "modes";
             this.modes.Size = new System.Drawing.Size(110, 21);
             this.modes.TabIndex = 14;
             this.modes.SelectedIndexChanged += new System.EventHandler(this.modes_SelectedIndexChanged);
             // 
+            // modeLabel
+            // 
+            this.modeLabel.AutoSize = true;
+            this.modeLabel.Location = new System.Drawing.Point(12, 496);
+            this.modeLabel.Name = "modeLabel";
+            this.modeLabel.Size = new System.Drawing.Size(37, 13);
+            this.modeLabel.TabIndex = 15;
+            this.modeLabel.Text = "Mode:";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(216, 49);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(441, 439);
+            this.pictureBox1.TabIndex = 16;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(263, 33);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(25, 13);
+            this.label1.TabIndex = 17;
+            this.label1.Text = "Phi:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(341, 33);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(38, 13);
+            this.label2.TabIndex = 18;
+            this.label2.Text = "Theta:";
+            // 
+            // phiLabel
+            // 
+            this.phiLabel.AutoSize = true;
+            this.phiLabel.Location = new System.Drawing.Point(294, 33);
+            this.phiLabel.Name = "phiLabel";
+            this.phiLabel.Size = new System.Drawing.Size(0, 13);
+            this.phiLabel.TabIndex = 19;
+            // 
+            // thetaLabel
+            // 
+            this.thetaLabel.AutoSize = true;
+            this.thetaLabel.Location = new System.Drawing.Point(382, 33);
+            this.thetaLabel.Name = "thetaLabel";
+            this.thetaLabel.Size = new System.Drawing.Size(0, 13);
+            this.thetaLabel.TabIndex = 20;
+            // 
+            // timer_SD
+            // 
+            this.timer_SD.Tick += new System.EventHandler(this.timer_SD_Tick);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(510, 33);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(33, 13);
+            this.label3.TabIndex = 21;
+            this.label3.Text = "Time:";
+            // 
+            // timeLabel
+            // 
+            this.timeLabel.AutoSize = true;
+            this.timeLabel.Location = new System.Drawing.Point(549, 33);
+            this.timeLabel.Name = "timeLabel";
+            this.timeLabel.Size = new System.Drawing.Size(0, 13);
+            this.timeLabel.TabIndex = 22;
+            // 
             // Asml
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(634, 313);
-            this.Controls.Add(this.modes);
+            this.ClientSize = new System.Drawing.Size(668, 523);
+            this.Controls.Add(this.timeLabel);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.thetaLabel);
+            this.Controls.Add(this.phiLabel);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.modeLabel);
+            this.Controls.Add(this.modes);
             this.Controls.Add(this.openFile);
             this.Controls.Add(this.reset);
             this.Controls.Add(this.GroupName);
@@ -253,8 +332,16 @@
         private System.Windows.Forms.Label GroupName;
         private System.Windows.Forms.Button reset;
         private System.Windows.Forms.Button openFile;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.ComboBox modes;
+        private System.Windows.Forms.Label modeLabel;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label phiLabel;
+        private System.Windows.Forms.Label thetaLabel;
+        private System.Windows.Forms.Timer timer_SD;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label timeLabel;
     }
 }
 

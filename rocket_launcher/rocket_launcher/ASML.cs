@@ -26,24 +26,33 @@ namespace WinForm
     {
         IMissileLauncher control;
         TargetManager manager;
-        Threads thread;
+        Threads thread = new Threads();
+        Thread threadSD;
+        Stopwatch stopwatch = new Stopwatch();
 
-        int points = 100;   // amount to move by
+        int degree = 4;   // amount to move by
         int mode;
-        file Target;
+        int target_number;
+        reader Target;
         ModeType Mode;
+        bool stopped = true;
 
         public Asml()
         {
             InitializeComponent();
+
             control = new LauncherAdapter();
             manager = new TargetManager();
+            
             manager.AddedTarget +=manager_AddedTarget;
+            manager.AddedTarget += manager_AddedTarget;
         }
 
-        private void manager_AddedTarget(object sender, file target)
+        private void manager_AddedTarget(object sender, reader target)
         {
             TargetList.DataSource = target.list;
+            target_number = target.list.Count / 7;
+            phiLabel.Text = Convert.ToString(target_number);
         }
         //===============================LEFT===============================
         private void left_MouseDown(object sender, MouseEventArgs e)
@@ -55,11 +64,12 @@ namespace WinForm
         private void left_MouseUp(object sender, MouseEventArgs e)
         {
             timer_left.Stop();
-        }
+        } 
 
         private void timer_left_Tick_1(object sender, EventArgs e)
         {
-            control.MoveBy(0, -points);
+            control.MoveBy(0, -degree);
+            thetaLabel.Text = control.Theta.ToString();
         }
 
         //===============================RIGHT==============================
@@ -76,7 +86,8 @@ namespace WinForm
 
         private void timer_right_Tick(object sender, EventArgs e)
         {
-            control.MoveBy(0, points);
+            control.MoveBy(0, degree);
+            thetaLabel.Text = control.Theta.ToString();
         }
 
         //===============================UP================================
@@ -93,7 +104,8 @@ namespace WinForm
 
         private void timer_up_Tick(object sender, EventArgs e)
         {
-            control.MoveBy(points, 0);
+            control.MoveBy(degree, 0);
+            phiLabel.Text = control.Phi.ToString();
         }
 
         //===============================DOWN===============================
@@ -110,7 +122,8 @@ namespace WinForm
 
         private void timer_down_Tick(object sender, EventArgs e)
         {
-            control.MoveBy(-points, 0);
+            control.MoveBy(-degree, 0);
+            phiLabel.Text = control.Phi.ToString();
         }
 
         //===============================FIRE===============================
@@ -122,19 +135,43 @@ namespace WinForm
         //==============================START===============================
         private void start_Click(object sender, EventArgs e)
         {
-            thread.Start();
+            //thread.Start();
+            //while (target_number != 0)
+            //{
+            if (stopped)
+            {
+                threadSD = new Thread(() => thread.method(manager, control));
+                threadSD.Start();
+            }
+                manager.SetTarget(target_number);
+                phiLabel.Text = Convert.ToString(manager.X);
+                timer_SD.Enabled = true;
+                target_number--;
+                //Thread.Sleep(100);
+            //}
+            stopwatch.Restart();
         }
-
         //===============================STOP===============================
         private void stop_Click(object sender, EventArgs e)
         {
-            thread.Stop();
+            //thread.Stop();
+            thread.RequestStop();
+            //stopped = true;
+            stopwatch.Stop();
+        }
+
+        private void timer_SD_Tick(object sender, EventArgs e)
+        {
+            TimeSpan timeSpan = stopwatch.Elapsed;
+            timeLabel.Text = timeSpan.ToString("mm\\:ss") ;
         }
 
         //===============================RESET===============================
         private void reset_Click(object sender, EventArgs e)
         {
             control.Reset();
+            phiLabel.Text = control.Phi.ToString();
+            thetaLabel.Text = control.Theta.ToString();
         }
 
         //==============================Open File============================
@@ -154,9 +191,6 @@ namespace WinForm
                 FileReader instance = FileReader.GetInstance();
                 manager.addTarget(instance.readFile(path));
             }
-
-            if (Target != null)
-                TargetList.DataSource = Target.list;
         }
 
         private void modes_SelectedIndexChanged(object sender, EventArgs e)

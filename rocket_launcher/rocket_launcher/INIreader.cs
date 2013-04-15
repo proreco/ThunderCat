@@ -5,11 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 using filesRead;
+using WinForm;
 
 namespace Ini
 {
     // INI file reader
-    public class INIreader : file
+    public class INIreader : reader
     {
         public INIreader(string filepath)
         {
@@ -40,7 +41,6 @@ namespace Ini
         // and then reads file and writes it to the target list
         public override void ReadFile(string filepath)
         {
-
             if (CheckFile(filepath))
             {
                 bool target = false;
@@ -59,11 +59,16 @@ namespace Ini
                     {
                     }
                     else if (line.StartsWith("x") || line.StartsWith("y") || line.StartsWith("z"))
+                        list.Add(line);
+                    else if (line == "friend = yes")
+                        list.Add("Friend = True");
+                    else if (line == "friend = no")
+                        list.Add("Friend = False");
+                    else if (line.StartsWith("name  "))
                     {
-                        list.Add(line);
+                        list.Add("Name" + line.Remove(0, 6));
+                        list.Add("\n");
                     }
-                    else
-                        list.Add(line);
                 }
             }
         }       

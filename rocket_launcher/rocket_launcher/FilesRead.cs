@@ -6,7 +6,7 @@ using System.Text;
 namespace filesRead
 {
     // Abstract class for INI and XML readers
-    public abstract class file
+    public abstract class reader
     {
         public List<string> list = new List<string>();
         public abstract void ReadFile(string filepath);

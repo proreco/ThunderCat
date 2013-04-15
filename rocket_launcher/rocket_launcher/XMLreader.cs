@@ -10,7 +10,7 @@ using filesRead;
 namespace Xml
 {
     // XML file reader
-    public sealed class XMLreader : file
+    public sealed class XMLreader : reader
     {
         public XMLreader(string filepath)
         {
@@ -34,17 +34,21 @@ namespace Xml
         {
             if (CheckFile(filepath))
             {
-                using (XmlTextReader reader = new XmlTextReader(filepath))
+                XmlReaderSettings readerSettings = new XmlReaderSettings();
+                readerSettings.IgnoreComments = true;
+                using (XmlReader reader = XmlReader.Create(filepath, readerSettings))
                 {
                     // The load the document DOM
                     XmlDocument document = new XmlDocument();
                     document.Load(reader);
 
+                    
+
                     // Grab the first node
                     XmlNode mainNode = document.FirstChild;
                     mainNode = mainNode.NextSibling;
 
-                    //XmlElement element = document.GetElementById("Targets");
+                    XmlElement element = document.GetElementById("Targets");
 
                     // Then get the list of nodes containing the data we want. 
                     XmlNodeList nodes = mainNode.ChildNodes; //.ChildNodes;
@@ -52,19 +56,20 @@ namespace Xml
                     foreach (XmlNode node in nodes)
                     {
                         targetCount++;
+                        bool isFriend = Convert.ToBoolean(node.Attributes["isFriend"].Value);
                         double yPos = Convert.ToDouble(node.Attributes["yPos"].Value);
                         double xPos = Convert.ToDouble(node.Attributes["xPos"].Value);
                         double zPos = Convert.ToDouble(node.Attributes["zPos"].Value);
-                        bool isFriend = Convert.ToBoolean(node.Attributes["isFriend"].Value);
+                        string Name = Convert.ToString(node.Attributes["Name"].Value);
 
                         XmlAttribute attribute = node.Attributes[0];
                         list.Add("Target " + targetCount);
                         list.Add("x = " + xPos);
-                        list.Add("x = " + yPos);
-                        list.Add("x = " + zPos);
+                        list.Add("y = " + yPos);
+                        list.Add("z = " + zPos);
                         list.Add("Friend = " + isFriend);
-                        list.Add("");
-
+                        list.Add("Name = " + Name);
+                        list.Add("\n");
                     }
                 }
             }

@@ -4,13 +4,35 @@ using System.Linq;
 using System.Drawing;
 using System.Text;
 using System.Threading;
+using System.Windows.Forms;
 using ASMLEngineSdk;
 using adapter;
+using targetManager;
 
 namespace threads
 {
     class Threads
     {
+
+        internal void method(TargetManager manager, IMissileLauncher control)
+        {
+            while (!_shouldStop)
+            {
+                control.MoveBy(0, 100);
+                if(!_shouldStop)
+                control.MoveBy(0, -100);
+                _shouldStop = true;
+            }
+            _shouldStop = false;
+            
+        }
+
+        public void RequestStop()
+        {
+            _shouldStop = true;
+        }
+
+        private volatile bool _shouldStop;
         #region Members
         /// <summary>
         /// Object for synchronizing
@@ -82,9 +104,9 @@ namespace threads
         {
 
             ThreadStart start1 = new ThreadStart(ImagingThread);
-            ThreadStart start2 = new ThreadStart(SearchDestroy);
+            //ThreadStart start2 = new ThreadStart(SearchDestroy);
             m_thread = new Thread(start1);
-            m_thread = new Thread(start2);
+            //m_thread = new Thread(start2);
             m_thread.Start();
         }
         /// <summary>
@@ -134,18 +156,6 @@ namespace threads
             }  
         }
 
-        private void SearchDestroy()
-        {
-            while (!_shouldStop)
-                ;
-        }
-
-        public void RequestStop()
-        {
-            _shouldStop = true;
-        }
-
-        private volatile bool _shouldStop;
         #endregion
 
         #region Properties
@@ -190,6 +200,8 @@ namespace threads
             return m_lastData;
         }
         #endregion
+
+        
     }
     
 

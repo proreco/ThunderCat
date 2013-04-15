@@ -13,31 +13,68 @@ namespace adapter
         Launcher adapter_launcher;
         // Variables to save current positions of the turret
         private double current_phi; 
-        private double current_psi;
+        private double current_theta;
 
         public LauncherAdapter()
         {
             adapter_launcher = new Launcher();
         }
         // Moves the missile launcher by a relative amount
-        public void MoveBy(double phi, double psi)
+        public void MoveBy(double phi, double theta)
         {
-            if (psi >= 0)
-                adapter_launcher.command_Right(Convert.ToInt32(psi));
+            if (theta >= 0)
+                adapter_launcher.command_Right(Convert.ToInt32(theta*24.5));
             else
-                adapter_launcher.command_Left(Convert.ToInt32(psi * -1));
-            current_psi += psi;
+                adapter_launcher.command_Left(Convert.ToInt32(theta * -23.1));
+            current_theta += theta;
 
             if (phi >= 0)
-                adapter_launcher.command_Up(Convert.ToInt32(phi));
+                adapter_launcher.command_Up(Convert.ToInt32(phi*23));
             else
-                adapter_launcher.command_Down(Convert.ToInt32(phi * -1));
+                adapter_launcher.command_Down(Convert.ToInt32(phi * -23));
             current_phi += phi;
         }
         // Moves the missile launcher to an absolute position.
-        public void MoveTo(double phi, double psi)
+        public void MoveTo(double phi, double theta)
         {
-            // in process           
+            if (theta > 0)
+            {
+                if (current_theta >= 0)
+                {
+                    if (theta > current_theta)
+                        adapter_launcher.command_Right(Convert.ToInt32(theta - current_theta));
+                    else
+                        adapter_launcher.command_Left(Convert.ToInt32(current_theta - theta));
+                    current_theta = theta;
+                }
+                else
+                {
+                    adapter_launcher.command_Right(Convert.ToInt32((theta - current_theta) * -1));
+                    current_theta = theta;
+                }
+            }
+            else
+            {
+                if (current_theta < 0)
+                {
+                    if (theta > current_theta)
+                        adapter_launcher.command_Right(Convert.ToInt32(theta - current_theta));
+                    else
+                        adapter_launcher.command_Left(Convert.ToInt32(current_theta - theta));
+                    current_theta = theta;
+                }
+                else
+                {
+                    adapter_launcher.command_Left(Convert.ToInt32((current_theta - theta) * -1));
+                    current_theta = theta;
+                }
+            }
+
+            if (phi > current_phi)
+                adapter_launcher.command_Up(Convert.ToInt32(phi));
+            else
+                adapter_launcher.command_Down(Convert.ToInt32(phi * -1));
+            current_phi = phi;          
         }
         // Fires a missile
         public void Fire()
@@ -48,7 +85,7 @@ namespace adapter
         public void Reset()
         {           
             adapter_launcher.command_reset();
-            current_psi = 0;
+            current_theta = 0;
             current_phi = 0;
         }
 
@@ -64,15 +101,15 @@ namespace adapter
             }
         }
 
-        public double Psi
+        public double Theta
         {
             get
             {
-                return current_psi;
+                return current_theta;
             }
             set
             {
-                current_psi = value;
+                current_theta = value;
             }
         }
     }

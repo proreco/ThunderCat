@@ -9,9 +9,9 @@ namespace targetManager
 {
     class TargetManager
     {
-        int x, y, z;
-        bool friend;
-        string name;
+        private int x, y, z;
+        private bool friend;
+        private string name;
         private List<string> targetList = new List<string>();
 
         /// <summary>
@@ -81,6 +81,10 @@ namespace targetManager
         {
             get { return name; }
             set { name = value; }
+        }
+        public List<string> TargetList
+        {
+            get { return targetList; }
         }
     }
 }

@@ -17,23 +17,21 @@ using adapter;
 using fileReader;
 using filesRead;
 using targetManager;
-using threads;
 using modeType;
+using mediator;
 
 namespace WinForm
 {
     partial class Asml : Form
     {
         IMissileLauncher control;
-        TargetManager manager;
-        Threads thread = new Threads();
-        Thread threadSD;
+        TargetManager target;
+        Thread threadD;
+        Mediator mediator;
         Stopwatch stopwatch = new Stopwatch();
 
         int degree = 4;   // amount to move by
         int mode;
-        int target_number;
-        reader Target;
         ModeType Mode;
         bool stopped = true;
 
@@ -42,17 +40,16 @@ namespace WinForm
             InitializeComponent();
 
             control = new LauncherAdapter();
-            manager = new TargetManager();
+            target = new TargetManager();
+            mediator = new Mediator();
             
-            manager.AddedTarget +=manager_AddedTarget;
-            manager.AddedTarget += manager_AddedTarget;
+            target.AddedTarget +=manager_AddedTarget;
         }
 
         private void manager_AddedTarget(object sender, reader target)
         {
             TargetList.DataSource = target.list;
-            target_number = target.list.Count / 7;
-            phiLabel.Text = Convert.ToString(target_number);
+            
         }
         //===============================LEFT===============================
         private void left_MouseDown(object sender, MouseEventArgs e)
@@ -136,26 +133,26 @@ namespace WinForm
         private void start_Click(object sender, EventArgs e)
         {
             //thread.Start();
-            //while (target_number != 0)
-            //{
-            if (stopped)
-            {
-                threadSD = new Thread(() => thread.method(manager, control));
-                threadSD.Start();
-            }
-                manager.SetTarget(target_number);
-                phiLabel.Text = Convert.ToString(manager.X);
+
+
+            mediator.Start();
+                phiLabel.Text = Convert.ToString(target.X);
                 timer_SD.Enabled = true;
-                target_number--;
+
+                threadD = new Thread(() => mediator.destroy(target, control, Mode));
+                threadD.Start();
+
+                
                 //Thread.Sleep(100);
-            //}
+
+            
             stopwatch.Restart();
         }
         //===============================STOP===============================
         private void stop_Click(object sender, EventArgs e)
         {
             //thread.Stop();
-            thread.RequestStop();
+            mediator.Stop();
             //stopped = true;
             stopwatch.Stop();
         }
@@ -189,7 +186,7 @@ namespace WinForm
                 string path = dialog.FileName;
 
                 FileReader instance = FileReader.GetInstance();
-                manager.addTarget(instance.readFile(path));
+                target.addTarget(instance.readFile(path));
             }
         }
 
@@ -203,7 +200,6 @@ namespace WinForm
                 Mode = ModeType.fireFoes;
             else
                 Mode = ModeType.fireFriends;
-            MessageBox.Show(Mode.ToString());
         }
     }
 }

@@ -63,11 +63,13 @@
     <Compile Include="ASML.Designer.cs">
       <DependentUpon>ASML.cs</DependentUpon>
     </Compile>
+    <Compile Include="Converter.cs" />
     <Compile Include="FilesRead.cs" />
     <Compile Include="FileReaderFactory.cs" />
     <Compile Include="INIreader.cs" />
     <Compile Include="Launcher.cs" />
     <Compile Include="LauncherAdapter.cs" />
+    <Compile Include="Mediator.cs" />
     <Compile Include="modeType.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -91,3 +91,7 @@ C:\Users\KGB-LapTop\Desktop\ThunderCat\rocket_launcher\rocket_launcher\obj\x86\D
 C:\Users\KGB-LapTop\Desktop\ThunderCat\rocket_launcher\rocket_launcher\obj\x86\Debug\WinForm.Asml.resources
 C:\Users\KGB-LapTop\Desktop\ThunderCat\rocket_launcher\rocket_launcher\obj\x86\Debug\ASML.Properties.Resources.resources
 C:\Users\KGB-LapTop\Desktop\ThunderCat\rocket_launcher\rocket_launcher\obj\x86\Debug\rocket_launcher.csproj.GenerateResource.Cache
+C:\Users\KGB-LapTop\Desktop\ThunderCat\rocket_launcher\rocket_launcher\bin\Debug\Emgu.CV.dll
+C:\Users\KGB-LapTop\Desktop\ThunderCat\rocket_launcher\rocket_launcher\bin\Debug\Emgu.Util.dll
+C:\Users\KGB-LapTop\Desktop\ThunderCat\rocket_launcher\rocket_launcher\bin\Debug\Emgu.CV.xml
+C:\Users\KGB-LapTop\Desktop\ThunderCat\rocket_launcher\rocket_launcher\bin\Debug\Emgu.Util.xml

@@ -47,7 +47,7 @@
             this.openFile = new System.Windows.Forms.Button();
             this.modes = new System.Windows.Forms.ComboBox();
             this.modeLabel = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.cameraBox = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.phiLabel = new System.Windows.Forms.Label();
@@ -55,12 +55,15 @@
             this.timer_SD = new System.Windows.Forms.Timer(this.components);
             this.label3 = new System.Windows.Forms.Label();
             this.timeLabel = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.startVideo = new System.Windows.Forms.Button();
+            this.stopVideo = new System.Windows.Forms.Button();
+            this.imageTimer = new System.Windows.Forms.Timer(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.cameraBox)).BeginInit();
             this.SuspendLayout();
             // 
             // left
             // 
-            this.left.Location = new System.Drawing.Point(21, 319);
+            this.left.Location = new System.Drawing.Point(20, 103);
             this.left.Name = "left";
             this.left.Size = new System.Drawing.Size(58, 40);
             this.left.TabIndex = 0;
@@ -71,7 +74,7 @@
             // 
             // right
             // 
-            this.right.Location = new System.Drawing.Point(135, 319);
+            this.right.Location = new System.Drawing.Point(134, 103);
             this.right.Name = "right";
             this.right.Size = new System.Drawing.Size(62, 40);
             this.right.TabIndex = 1;
@@ -86,7 +89,7 @@
             // 
             // up
             // 
-            this.up.Location = new System.Drawing.Point(85, 261);
+            this.up.Location = new System.Drawing.Point(84, 45);
             this.up.Name = "up";
             this.up.Size = new System.Drawing.Size(44, 52);
             this.up.TabIndex = 2;
@@ -97,7 +100,7 @@
             // 
             // down
             // 
-            this.down.Location = new System.Drawing.Point(85, 365);
+            this.down.Location = new System.Drawing.Point(84, 149);
             this.down.Name = "down";
             this.down.Size = new System.Drawing.Size(44, 53);
             this.down.TabIndex = 3;
@@ -108,7 +111,7 @@
             // 
             // fire
             // 
-            this.fire.Location = new System.Drawing.Point(85, 319);
+            this.fire.Location = new System.Drawing.Point(84, 103);
             this.fire.Name = "fire";
             this.fire.Size = new System.Drawing.Size(44, 40);
             this.fire.TabIndex = 4;
@@ -130,7 +133,7 @@
             // 
             // start
             // 
-            this.start.Location = new System.Drawing.Point(12, 437);
+            this.start.Location = new System.Drawing.Point(13, 283);
             this.start.Name = "start";
             this.start.Size = new System.Drawing.Size(65, 23);
             this.start.TabIndex = 5;
@@ -140,7 +143,7 @@
             // 
             // stop
             // 
-            this.stop.Location = new System.Drawing.Point(83, 437);
+            this.stop.Location = new System.Drawing.Point(84, 283);
             this.stop.Name = "stop";
             this.stop.Size = new System.Drawing.Size(57, 23);
             this.stop.TabIndex = 6;
@@ -151,7 +154,7 @@
             // TargetList
             // 
             this.TargetList.FormattingEnabled = true;
-            this.TargetList.Location = new System.Drawing.Point(12, 9);
+            this.TargetList.Location = new System.Drawing.Point(16, 337);
             this.TargetList.Name = "TargetList";
             this.TargetList.Size = new System.Drawing.Size(164, 212);
             this.TargetList.TabIndex = 8;
@@ -159,17 +162,17 @@
             // Version
             // 
             this.Version.AutoSize = true;
-            this.Version.Location = new System.Drawing.Point(613, 9);
+            this.Version.Location = new System.Drawing.Point(808, 9);
             this.Version.Name = "Version";
             this.Version.Size = new System.Drawing.Size(43, 13);
             this.Version.TabIndex = 9;
-            this.Version.Text = "v. 0.5.5";
+            this.Version.Text = "v. 0.6.0";
             // 
             // GroupName
             // 
             this.GroupName.AutoSize = true;
             this.GroupName.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GroupName.Location = new System.Drawing.Point(284, 9);
+            this.GroupName.Location = new System.Drawing.Point(429, 9);
             this.GroupName.Name = "GroupName";
             this.GroupName.Size = new System.Drawing.Size(73, 13);
             this.GroupName.TabIndex = 10;
@@ -177,7 +180,7 @@
             // 
             // reset
             // 
-            this.reset.Location = new System.Drawing.Point(146, 437);
+            this.reset.Location = new System.Drawing.Point(147, 283);
             this.reset.Name = "reset";
             this.reset.Size = new System.Drawing.Size(49, 23);
             this.reset.TabIndex = 11;
@@ -187,7 +190,7 @@
             // 
             // openFile
             // 
-            this.openFile.Location = new System.Drawing.Point(12, 227);
+            this.openFile.Location = new System.Drawing.Point(16, 555);
             this.openFile.Name = "openFile";
             this.openFile.Size = new System.Drawing.Size(95, 23);
             this.openFile.TabIndex = 12;
@@ -202,28 +205,28 @@
             "Fire All",
             "Fire Foes",
             "Fire Friends"});
-            this.modes.Location = new System.Drawing.Point(55, 493);
+            this.modes.Location = new System.Drawing.Point(57, 245);
             this.modes.Name = "modes";
-            this.modes.Size = new System.Drawing.Size(110, 21);
+            this.modes.Size = new System.Drawing.Size(139, 21);
             this.modes.TabIndex = 14;
             this.modes.SelectedIndexChanged += new System.EventHandler(this.modes_SelectedIndexChanged);
             // 
             // modeLabel
             // 
             this.modeLabel.AutoSize = true;
-            this.modeLabel.Location = new System.Drawing.Point(12, 496);
+            this.modeLabel.Location = new System.Drawing.Point(14, 248);
             this.modeLabel.Name = "modeLabel";
             this.modeLabel.Size = new System.Drawing.Size(37, 13);
             this.modeLabel.TabIndex = 15;
             this.modeLabel.Text = "Mode:";
             // 
-            // pictureBox1
+            // cameraBox
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(216, 49);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(441, 439);
-            this.pictureBox1.TabIndex = 16;
-            this.pictureBox1.TabStop = false;
+            this.cameraBox.Location = new System.Drawing.Point(216, 49);
+            this.cameraBox.Name = "cameraBox";
+            this.cameraBox.Size = new System.Drawing.Size(635, 500);
+            this.cameraBox.TabIndex = 16;
+            this.cameraBox.TabStop = false;
             // 
             // label1
             // 
@@ -280,18 +283,44 @@
             this.timeLabel.Size = new System.Drawing.Size(0, 13);
             this.timeLabel.TabIndex = 22;
             // 
+            // startVideo
+            // 
+            this.startVideo.Location = new System.Drawing.Point(695, 555);
+            this.startVideo.Name = "startVideo";
+            this.startVideo.Size = new System.Drawing.Size(75, 23);
+            this.startVideo.TabIndex = 23;
+            this.startVideo.Text = "start";
+            this.startVideo.UseVisualStyleBackColor = true;
+            this.startVideo.Click += new System.EventHandler(this.startVideo_Click);
+            // 
+            // stopVideo
+            // 
+            this.stopVideo.Location = new System.Drawing.Point(776, 555);
+            this.stopVideo.Name = "stopVideo";
+            this.stopVideo.Size = new System.Drawing.Size(75, 23);
+            this.stopVideo.TabIndex = 24;
+            this.stopVideo.Text = "stop";
+            this.stopVideo.UseVisualStyleBackColor = true;
+            this.stopVideo.Click += new System.EventHandler(this.stopVideo_Click);
+            // 
+            // imageTimer
+            // 
+            this.imageTimer.Tick += new System.EventHandler(this.imageTimer_Tick);
+            // 
             // Asml
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(668, 523);
+            this.ClientSize = new System.Drawing.Size(863, 590);
+            this.Controls.Add(this.stopVideo);
+            this.Controls.Add(this.startVideo);
             this.Controls.Add(this.timeLabel);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.thetaLabel);
             this.Controls.Add(this.phiLabel);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.cameraBox);
             this.Controls.Add(this.modeLabel);
             this.Controls.Add(this.modes);
             this.Controls.Add(this.openFile);
@@ -308,7 +337,7 @@
             this.Controls.Add(this.left);
             this.Name = "Asml";
             this.Text = "Asml-ThunderCat";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cameraBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -334,7 +363,7 @@
         private System.Windows.Forms.Button openFile;
         private System.Windows.Forms.ComboBox modes;
         private System.Windows.Forms.Label modeLabel;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox cameraBox;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label phiLabel;
@@ -342,6 +371,9 @@
         private System.Windows.Forms.Timer timer_SD;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label timeLabel;
+        private System.Windows.Forms.Button startVideo;
+        private System.Windows.Forms.Button stopVideo;
+        private System.Windows.Forms.Timer imageTimer;
     }
 }
 

@@ -18,22 +18,25 @@ using fileReader;
 using filesRead;
 using targetManager;
 using modeType;
-using mediator;
+using controller;
+using Emgu.CV;
+using Emgu.CV.Structure;
 
 namespace WinForm
 {
     partial class Asml : Form
     {
         IMissileLauncher control;
+        Capture camera;
         TargetManager target;
         Thread threadD;
-        Mediator mediator;
-        Stopwatch stopwatch = new Stopwatch();
+        Controller mediator;
+        bool isProcessing;
+        Stopwatch stopwatch;
 
         int degree = 4;   // amount to move by
         int mode;
         ModeType Mode;
-        bool stopped = true;
 
         public Asml()
         {
@@ -41,7 +44,10 @@ namespace WinForm
 
             control = new LauncherAdapter();
             target = new TargetManager();
-            mediator = new Mediator();
+            mediator = new Controller();
+            camera = new Capture();
+            stopwatch = new Stopwatch();
+            isProcessing = false;
             
             target.AddedTarget +=manager_AddedTarget;
         }
@@ -201,5 +207,35 @@ namespace WinForm
             else
                 Mode = ModeType.fireFriends;
         }
+
+        private void startVideo_Click(object sender, EventArgs e)
+        {
+            imageTimer.Enabled = (imageTimer.Enabled == false);
+            isProcessing = false;
+        }
+
+        private void stopVideo_Click(object sender, EventArgs e)
+        {
+            imageTimer.Enabled = !(imageTimer.Enabled == true);
+        }
+
+        private void GetImage()
+        {
+            Image<Bgr, byte> image = camera.QueryFrame();
+            Image windowsFormImage = image.ToBitmap();
+            cameraBox.Image = windowsFormImage;
+        }
+
+        private void imageTimer_Tick(object sender, EventArgs e)
+        {
+            GetImage();
+            if (isProcessing)
+            {
+                // simulate a lot of processing
+                Thread.Sleep(3000);
+            }
+
+        }
+
     }
 }

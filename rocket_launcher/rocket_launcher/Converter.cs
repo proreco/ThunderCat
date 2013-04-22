@@ -14,8 +14,8 @@ namespace converter
 
         public Converter (double x, double y, double z)
         {
-            phi = Math.Round(Math.Atan(x / y) * 180 / Math.PI);
-            theta = Math.Round(Math.Atan(z / y) * 180 / Math.PI);
+            theta = Math.Round(Math.Atan(x / y) * 180 / Math.PI);
+            phi = Math.Round(Math.Atan(z / y) * 180 / Math.PI);
         }
 
         public double Phi
@@ -25,7 +25,7 @@ namespace converter
         }
         public double Theta
         {
-            get { return phi; }
+            get { return theta; }
             set { theta = value; }
         }
     }

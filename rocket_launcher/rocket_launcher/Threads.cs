@@ -8,31 +8,14 @@ using System.Windows.Forms;
 using ASMLEngineSdk;
 using adapter;
 using targetManager;
+using Emgu.CV;
+using Emgu.CV.Structure;
 
 namespace threads
 {
     class Threads
     {
 
-        internal void method(TargetManager manager, IMissileLauncher control)
-        {
-            while (!_shouldStop)
-            {
-                control.MoveBy(0, 100);
-                if(!_shouldStop)
-                control.MoveBy(0, -100);
-                _shouldStop = true;
-            }
-            _shouldStop = false;
-            
-        }
-
-        public void RequestStop()
-        {
-            _shouldStop = true;
-        }
-
-        private volatile bool _shouldStop;
         #region Members
         /// <summary>
         /// Object for synchronizing
@@ -41,7 +24,9 @@ namespace threads
         /// <summary>
         /// The last data acquired from the camera.
         /// </summary>
-        private string m_lastData;
+        private Image<Bgr, byte> m_lastData;
+
+        private Capture m_camera;
         /// <summary>
         /// Processing thread.
         /// </summary>
@@ -64,7 +49,7 @@ namespace threads
         /// <summary>
         /// Fired when data is ready.        
         /// </summary>
-        public event EventHandler<ExampleEventArgs> DataCaptured;
+        public event EventHandler<CEventArgs> DataCaptured;
         /// <summary>
         /// Fired when the processing is started.
         /// </summary>
@@ -92,6 +77,8 @@ namespace threads
             // This is used to prevent deadlocks, thread safe way like a mutex.
             m_lockObject = new object();
 
+            m_camera = new Capture();
+
             // All initialization code goes here...
             SetupThread();
         }
@@ -104,9 +91,7 @@ namespace threads
         {
 
             ThreadStart start1 = new ThreadStart(ImagingThread);
-            //ThreadStart start2 = new ThreadStart(SearchDestroy);
             m_thread = new Thread(start1);
-            //m_thread = new Thread(start2);
             m_thread.Start();
         }
         /// <summary>
@@ -143,12 +128,11 @@ namespace threads
                             // we know nothing else can touch it.
                             lock (m_lockObject)
                             {
-                                m_lastData = DateTime.Now.ToString();
+                                m_lastData = m_camera.QueryFrame();
                             }
-
                             if (this.DataCaptured != null && m_lastData != null)
                             {
-                                this.DataCaptured(this, new ExampleEventArgs(m_lastData));
+                                this.DataCaptured(this, new CEventArgs(m_lastData));
                             }
                         }
                     }
@@ -195,7 +179,7 @@ namespace threads
             }
         }
 
-        public string GetLastData()
+        public Image<Bgr, byte> GetLastData()
         {
             return m_lastData;
         }
@@ -205,13 +189,14 @@ namespace threads
     }
     
 
-        public class ExampleEventArgs : EventArgs
+        public class CEventArgs : EventArgs
         {
+
             /// <summary>
             /// Constructor.
             /// </summary>
             /// <param name="data">Data to share with rest of the application.</param>
-            public ExampleEventArgs(string data)
+            public CEventArgs(Image<Bgr, byte> data)
             {
                 LastData = data;
             }
@@ -219,7 +204,7 @@ namespace threads
             /// <summary>
             /// Gets the last data .
             /// </summary>
-            public string LastData
+            public Image<Bgr, byte> LastData
             {
                 get;
                 // we use a private set, so that no one can mess with the 

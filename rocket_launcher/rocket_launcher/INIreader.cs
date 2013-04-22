@@ -58,8 +58,10 @@ namespace Ini
                     else if (line.StartsWith(";"))
                     {
                     }
-                    else if (line.StartsWith("x") || line.StartsWith("y") || line.StartsWith("z"))
+                    else if (line.StartsWith("x") || line.StartsWith("y"))
                         list.Add(line);
+                    else if (line.StartsWith("z") && line.EndsWith("."))
+                        list.Add(line.TrimEnd('.'));
                     else if (line == "friend = yes")
                         list.Add("Friend = True");
                     else if (line == "friend = no")

@@ -26,6 +26,7 @@ namespace targetManager
         {
             if (AddedTarget != null)
             {
+                targetList.Clear();
                 targetList.AddRange(target.list);
                 AddedTarget(this, target);
             }
@@ -46,11 +47,11 @@ namespace targetManager
                         y = Convert.ToInt32(line.Remove(0, 4));
                     else if (line.StartsWith("z"))
                         z = Convert.ToInt32(line.Remove(0, 4));
-                    else if (line == "friend = yes")
+                    else if (line == "Friend = True")
                         friend = true;
-                    else if (line == "friend = no")
+                    else if (line == "Friend = False")
                         friend = false;
-                    else if (line.StartsWith("name  "))
+                    else if (line.StartsWith("Name = "))
                         name = line.Remove(0, 7);
                     targetEnd++;
                 }

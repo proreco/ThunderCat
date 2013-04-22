@@ -57,7 +57,6 @@
             this.timeLabel = new System.Windows.Forms.Label();
             this.startVideo = new System.Windows.Forms.Button();
             this.stopVideo = new System.Windows.Forms.Button();
-            this.imageTimer = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.cameraBox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -303,10 +302,6 @@
             this.stopVideo.UseVisualStyleBackColor = true;
             this.stopVideo.Click += new System.EventHandler(this.stopVideo_Click);
             // 
-            // imageTimer
-            // 
-            this.imageTimer.Tick += new System.EventHandler(this.imageTimer_Tick);
-            // 
             // Asml
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -373,7 +368,6 @@
         private System.Windows.Forms.Label timeLabel;
         private System.Windows.Forms.Button startVideo;
         private System.Windows.Forms.Button stopVideo;
-        private System.Windows.Forms.Timer imageTimer;
     }
 }
 

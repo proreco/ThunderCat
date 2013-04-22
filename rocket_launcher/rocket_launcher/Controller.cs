@@ -16,7 +16,7 @@ namespace controller
     class Controller
     {
 
-        internal void destroy(TargetManager target, IMissileLauncher control, ModeType Mode)
+        internal void Destroy(TargetManager target, IMissileLauncher launcher, ModeType Mode)
         {
             int target_number;
             target_number = target.TargetList.Count / 7;
@@ -26,23 +26,46 @@ namespace controller
                 target.SetTarget(target_number);
                 Converter coordinates = new Converter(target.X, target.Y, target.Z);
                 switch (Mode)
-                {
+                {                   
                     case ModeType.fireAll:
                         if (!_shouldStop)
-                            control.MoveBy(coordinates.Phi, coordinates.Theta);
+                            launcher.MoveTo(coordinates.Phi, coordinates.Theta);
                         if (!_shouldStop)
-                            control.Fire();
-
+                            launcher.Fire();
                         break;
                     case ModeType.fireFoes:
-
+                        if (!target.Friend)
+                        {
+                            if (!_shouldStop)
+                                launcher.MoveTo(coordinates.Phi, coordinates.Theta);
+                            if (!_shouldStop)
+                                launcher.Fire();
+                        }
+                        else
+                        {
+                        }
                         break;
                     case ModeType.fireFriends:
+                        if (target.Friend)
+                        {
+                            if (!_shouldStop)
+                                launcher.MoveTo(coordinates.Phi, coordinates.Theta);
+                            if (!_shouldStop)
+                                launcher.Fire();
+                        }
+                        else
+                        {
+                        }
                         break;
                 }
                 target_number--;
             }
             
+        }
+
+        public void Reset(IMissileLauncher launcher)
+        {
+            launcher.Reset();
         }
 
         public void Start()

@@ -20,15 +20,12 @@ using targetManager;
 using modeType;
 using controller;
 using threads;
-using Emgu.CV;
-using Emgu.CV.Structure;
 
 namespace WinForm
 {
     partial class Asml : Form
     {
         IMissileLauncher launcher;
-        Capture camera;
         TargetManager target;
         Thread thread;
         Controller control;
@@ -37,6 +34,7 @@ namespace WinForm
 
         int degree = 4;   // amount to move by
         int mode;
+        bool result_destroy = false, result_reset = false;
         ModeType Mode;
 
         public Asml()
@@ -47,7 +45,6 @@ namespace WinForm
             threadCamera = new Threads();
             target = new TargetManager();
             control = new Controller();
-            camera = new Capture();
             stopwatch = new Stopwatch();
             
             target.AddedTarget +=manager_AddedTarget;
@@ -138,7 +135,7 @@ namespace WinForm
 
             timer_SD.Enabled = true;
 
-            thread = new Thread(() => control.Destroy(target, launcher, Mode));
+            thread = new Thread(() => result_destroy = control.Destroy(target, launcher, Mode));
 
             thread.Start();
 
@@ -152,19 +149,43 @@ namespace WinForm
         }
         private void timer_SD_Tick(object sender, EventArgs e)
         {
-            TimeSpan timeSpan = stopwatch.Elapsed;
-            timeLabel.Text = timeSpan.ToString("mm\\:ss") ;
-            phiLabel.Text = launcher.Phi.ToString();
-            thetaLabel.Text = launcher.Theta.ToString();
+            if (!result_destroy)
+            {
+                TimeSpan timeSpan = stopwatch.Elapsed;
+                timeLabel.Text = timeSpan.ToString("mm\\:ss");
+                phiLabel.Text = launcher.Phi.ToString();
+                thetaLabel.Text = launcher.Theta.ToString();
+            }
+            else
+            {
+                control.Stop();
+                stopwatch.Stop();
+                result_destroy = false;
+            }
+
         }
         //===============================RESET===============================
         private void reset_Click(object sender, EventArgs e)
         {
+            timer_reset.Enabled = true;
+
+            thread = new Thread(() => result_reset = control.Reset(launcher));
             
-            thread = new Thread(() => control.Reset(launcher));
             thread.Start();
-            phiLabel.Text = launcher.Phi.ToString();
-            thetaLabel.Text = launcher.Theta.ToString();
+        }
+
+        private void timer_reset_Tick(object sender, EventArgs e)
+        {
+            if (!result_reset)
+            {
+                phiLabel.Text = launcher.Phi.ToString();
+                thetaLabel.Text = launcher.Theta.ToString();
+            }
+            else
+            {
+                timer_reset.Enabled = false;
+                result_reset = false;
+            }
         }
         //==============================Open File============================
         // opens file, sends it to file reader and returns with targets

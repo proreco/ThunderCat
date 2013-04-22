@@ -42,8 +42,6 @@ namespace Xml
                     XmlDocument document = new XmlDocument();
                     document.Load(reader);
 
-                    
-
                     // Grab the first node
                     XmlNode mainNode = document.FirstChild;
                     mainNode = mainNode.NextSibling;

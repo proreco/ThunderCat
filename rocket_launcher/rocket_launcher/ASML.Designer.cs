@@ -57,7 +57,12 @@
             this.timeLabel = new System.Windows.Forms.Label();
             this.startVideo = new System.Windows.Forms.Button();
             this.stopVideo = new System.Windows.Forms.Button();
+            this.timer_reset = new System.Windows.Forms.Timer(this.components);
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.cameraBox)).BeginInit();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // left
@@ -132,7 +137,7 @@
             // 
             // start
             // 
-            this.start.Location = new System.Drawing.Point(13, 283);
+            this.start.Location = new System.Drawing.Point(13, 15);
             this.start.Name = "start";
             this.start.Size = new System.Drawing.Size(65, 23);
             this.start.TabIndex = 5;
@@ -142,7 +147,7 @@
             // 
             // stop
             // 
-            this.stop.Location = new System.Drawing.Point(84, 283);
+            this.stop.Location = new System.Drawing.Point(84, 15);
             this.stop.Name = "stop";
             this.stop.Size = new System.Drawing.Size(57, 23);
             this.stop.TabIndex = 6;
@@ -153,9 +158,9 @@
             // TargetList
             // 
             this.TargetList.FormattingEnabled = true;
-            this.TargetList.Location = new System.Drawing.Point(16, 337);
+            this.TargetList.Location = new System.Drawing.Point(16, 285);
             this.TargetList.Name = "TargetList";
-            this.TargetList.Size = new System.Drawing.Size(180, 212);
+            this.TargetList.Size = new System.Drawing.Size(180, 264);
             this.TargetList.TabIndex = 8;
             // 
             // Version
@@ -179,7 +184,7 @@
             // 
             // reset
             // 
-            this.reset.Location = new System.Drawing.Point(147, 283);
+            this.reset.Location = new System.Drawing.Point(147, 15);
             this.reset.Name = "reset";
             this.reset.Size = new System.Drawing.Size(49, 23);
             this.reset.TabIndex = 11;
@@ -189,7 +194,7 @@
             // 
             // openFile
             // 
-            this.openFile.Location = new System.Drawing.Point(16, 555);
+            this.openFile.Location = new System.Drawing.Point(16, 570);
             this.openFile.Name = "openFile";
             this.openFile.Size = new System.Drawing.Size(95, 23);
             this.openFile.TabIndex = 12;
@@ -204,7 +209,7 @@
             "Fire at All",
             "Fire at Foes",
             "Fire at Friends"});
-            this.modes.Location = new System.Drawing.Point(57, 245);
+            this.modes.Location = new System.Drawing.Point(57, 231);
             this.modes.Name = "modes";
             this.modes.Size = new System.Drawing.Size(139, 21);
             this.modes.TabIndex = 14;
@@ -213,7 +218,7 @@
             // modeLabel
             // 
             this.modeLabel.AutoSize = true;
-            this.modeLabel.Location = new System.Drawing.Point(14, 248);
+            this.modeLabel.Location = new System.Drawing.Point(14, 234);
             this.modeLabel.Name = "modeLabel";
             this.modeLabel.Size = new System.Drawing.Size(37, 13);
             this.modeLabel.TabIndex = 15;
@@ -284,31 +289,58 @@
             // 
             // startVideo
             // 
-            this.startVideo.Location = new System.Drawing.Point(695, 555);
+            this.startVideo.Location = new System.Drawing.Point(6, 15);
             this.startVideo.Name = "startVideo";
-            this.startVideo.Size = new System.Drawing.Size(75, 23);
+            this.startVideo.Size = new System.Drawing.Size(62, 23);
             this.startVideo.TabIndex = 23;
-            this.startVideo.Text = "start";
+            this.startVideo.Text = "Start";
             this.startVideo.UseVisualStyleBackColor = true;
             this.startVideo.Click += new System.EventHandler(this.startVideo_Click);
             // 
             // stopVideo
             // 
-            this.stopVideo.Location = new System.Drawing.Point(776, 555);
+            this.stopVideo.Location = new System.Drawing.Point(74, 15);
             this.stopVideo.Name = "stopVideo";
-            this.stopVideo.Size = new System.Drawing.Size(75, 23);
+            this.stopVideo.Size = new System.Drawing.Size(63, 23);
             this.stopVideo.TabIndex = 24;
-            this.stopVideo.Text = "stop";
+            this.stopVideo.Text = "Stop";
             this.stopVideo.UseVisualStyleBackColor = true;
             this.stopVideo.Click += new System.EventHandler(this.stopVideo_Click);
+            // 
+            // timer_reset
+            // 
+            this.timer_reset.Tick += new System.EventHandler(this.timer_reset_Tick);
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.start);
+            this.groupBox1.Controls.Add(this.stop);
+            this.groupBox1.Controls.Add(this.reset);
+            this.groupBox1.Location = new System.Drawing.Point(216, 555);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(208, 44);
+            this.groupBox1.TabIndex = 25;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Search and Destroy";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.startVideo);
+            this.groupBox2.Controls.Add(this.stopVideo);
+            this.groupBox2.Location = new System.Drawing.Point(706, 555);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(145, 44);
+            this.groupBox2.TabIndex = 26;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Video Feed";
             // 
             // Asml
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(863, 590);
-            this.Controls.Add(this.stopVideo);
-            this.Controls.Add(this.startVideo);
+            this.ClientSize = new System.Drawing.Size(863, 600);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.timeLabel);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.thetaLabel);
@@ -319,12 +351,9 @@
             this.Controls.Add(this.modeLabel);
             this.Controls.Add(this.modes);
             this.Controls.Add(this.openFile);
-            this.Controls.Add(this.reset);
             this.Controls.Add(this.GroupName);
             this.Controls.Add(this.Version);
             this.Controls.Add(this.TargetList);
-            this.Controls.Add(this.stop);
-            this.Controls.Add(this.start);
             this.Controls.Add(this.fire);
             this.Controls.Add(this.down);
             this.Controls.Add(this.up);
@@ -333,6 +362,8 @@
             this.Name = "Asml";
             this.Text = "Asml-ThunderCat";
             ((System.ComponentModel.ISupportInitialize)(this.cameraBox)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -368,6 +399,9 @@
         private System.Windows.Forms.Label timeLabel;
         private System.Windows.Forms.Button startVideo;
         private System.Windows.Forms.Button stopVideo;
+        private System.Windows.Forms.Timer timer_reset;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBox2;
     }
 }
 

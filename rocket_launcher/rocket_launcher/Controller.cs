@@ -9,14 +9,13 @@ using converter;
 using targetManager;
 using ASMLEngineSdk;
 using modeType;
-using System.Windows.Forms;
 
 namespace controller
 {
     class Controller
     {
 
-        internal void Destroy(TargetManager target, IMissileLauncher launcher, ModeType Mode)
+        public bool Destroy(TargetManager target, IMissileLauncher launcher, ModeType Mode)
         {
             int number_of_targets = target.TargetList.Count / 7;
             int target_number = 1;
@@ -60,12 +59,14 @@ namespace controller
                 }
                 target_number++;
             }
+            return true;
             
         }
 
-        public void Reset(IMissileLauncher launcher)
+        public bool Reset(IMissileLauncher launcher)
         {
             launcher.Reset();
+            return true;
         }
 
         public void Start()

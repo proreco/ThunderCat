@@ -41,11 +41,13 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>lib\ASMLEngineSdk.dll</HintPath>
     </Reference>
-    <Reference Include="Emgu.CV">
-      <HintPath>..\..\..\..\..\..\Emgu\emgucv-windows-universal-gpu 2.4.9.1847\bin\Emgu.CV.dll</HintPath>
+    <Reference Include="Emgu.CV, Version=2.4.9.1847, Culture=neutral, PublicKeyToken=7281126722ab4438, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\Emgu.CV.dll</HintPath>
     </Reference>
-    <Reference Include="Emgu.Util">
-      <HintPath>..\..\..\..\..\..\Emgu\emgucv-windows-universal-gpu 2.4.9.1847\bin\Emgu.Util.dll</HintPath>
+    <Reference Include="Emgu.Util, Version=2.4.9.1847, Culture=neutral, PublicKeyToken=7281126722ab4438, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\Emgu.Util.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

@@ -18,10 +18,10 @@ namespace controller
 
         internal void Destroy(TargetManager target, IMissileLauncher launcher, ModeType Mode)
         {
-            int target_number;
-            target_number = target.TargetList.Count / 7;
+            int number_of_targets = target.TargetList.Count / 7;
+            int target_number = 1;
 
-            while (target_number > 0 && !_shouldStop)
+            while (target_number <= number_of_targets && !_shouldStop)
             {
                 target.SetTarget(target_number);
                 Converter coordinates = new Converter(target.X, target.Y, target.Z);
@@ -58,7 +58,7 @@ namespace controller
                         }
                         break;
                 }
-                target_number--;
+                target_number++;
             }
             
         }

@@ -148,7 +148,6 @@ namespace WinForm
         private void stop_Click(object sender, EventArgs e)
         {
             control.Stop();
-
             stopwatch.Stop();
         }
         private void timer_SD_Tick(object sender, EventArgs e)

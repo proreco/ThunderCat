@@ -85,11 +85,7 @@ C:\Users\KGB\Desktop\ThunderCat\rocket_launcher\rocket_launcher\bin\Debug\ASMLEn
 C:\Users\KGB\Desktop\ThunderCat\rocket_launcher\rocket_launcher\bin\Debug\USBLib.DLL
 C:\Users\KGB-LapTop\Desktop\ThunderCat\rocket_launcher\rocket_launcher\bin\Debug\Asml-ThunderCat.exe
 C:\Users\KGB-LapTop\Desktop\ThunderCat\rocket_launcher\rocket_launcher\bin\Debug\Asml-ThunderCat.pdb
-C:\Users\KGB-LapTop\Desktop\ThunderCat\rocket_launcher\rocket_launcher\bin\Debug\ASMLEngineSdk.dll
-C:\Users\KGB-LapTop\Desktop\ThunderCat\rocket_launcher\rocket_launcher\bin\Debug\USBLib.DLL
 C:\Users\KGB-LapTop\Desktop\ThunderCat\rocket_launcher\rocket_launcher\obj\x86\Debug\rocket_launcher.csprojResolveAssemblyReference.cache
 C:\Users\KGB-LapTop\Desktop\ThunderCat\rocket_launcher\rocket_launcher\obj\x86\Debug\WinForm.Asml.resources
 C:\Users\KGB-LapTop\Desktop\ThunderCat\rocket_launcher\rocket_launcher\obj\x86\Debug\ASML.Properties.Resources.resources
 C:\Users\KGB-LapTop\Desktop\ThunderCat\rocket_launcher\rocket_launcher\obj\x86\Debug\rocket_launcher.csproj.GenerateResource.Cache
-C:\Users\KGB-LapTop\Desktop\ThunderCat\rocket_launcher\rocket_launcher\bin\Debug\Emgu.CV.dll
-C:\Users\KGB-LapTop\Desktop\ThunderCat\rocket_launcher\rocket_launcher\bin\Debug\Emgu.Util.dll

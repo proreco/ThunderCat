@@ -155,7 +155,7 @@
             this.TargetList.FormattingEnabled = true;
             this.TargetList.Location = new System.Drawing.Point(16, 337);
             this.TargetList.Name = "TargetList";
-            this.TargetList.Size = new System.Drawing.Size(164, 212);
+            this.TargetList.Size = new System.Drawing.Size(180, 212);
             this.TargetList.TabIndex = 8;
             // 
             // Version
@@ -201,9 +201,9 @@
             // 
             this.modes.FormattingEnabled = true;
             this.modes.Items.AddRange(new object[] {
-            "Fire All",
-            "Fire Foes",
-            "Fire Friends"});
+            "Fire at All",
+            "Fire at Foes",
+            "Fire at Friends"});
             this.modes.Location = new System.Drawing.Point(57, 245);
             this.modes.Name = "modes";
             this.modes.Size = new System.Drawing.Size(139, 21);

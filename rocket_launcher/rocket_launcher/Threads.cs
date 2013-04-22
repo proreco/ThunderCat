@@ -49,7 +49,7 @@ namespace threads
         /// <summary>
         /// Fired when data is ready.        
         /// </summary>
-        public event EventHandler<CEventArgs> DataCaptured;
+        public event EventHandler<CameraEventArgs> DataCaptured;
         /// <summary>
         /// Fired when the processing is started.
         /// </summary>
@@ -132,7 +132,7 @@ namespace threads
                             }
                             if (this.DataCaptured != null && m_lastData != null)
                             {
-                                this.DataCaptured(this, new CEventArgs(m_lastData));
+                                this.DataCaptured(this, new CameraEventArgs(m_lastData));
                             }
                         }
                     }
@@ -189,14 +189,14 @@ namespace threads
     }
     
 
-        public class CEventArgs : EventArgs
+        public class CameraEventArgs : EventArgs
         {
 
             /// <summary>
             /// Constructor.
             /// </summary>
             /// <param name="data">Data to share with rest of the application.</param>
-            public CEventArgs(Image<Bgr, byte> data)
+            public CameraEventArgs(Image<Bgr, byte> data)
             {
                 LastData = data;
             }

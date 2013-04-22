@@ -58,9 +58,9 @@ namespace Ini
                     else if (line.StartsWith(";"))
                     {
                     }
-                    else if (line.StartsWith("x") || line.StartsWith("y"))
+                    else if (line.StartsWith("x") || line.StartsWith("y") || line.StartsWith("z") && !line.EndsWith("."))
                         list.Add(line);
-                    else if (line.StartsWith("z") && line.EndsWith("."))
+                    else if (line.StartsWith("x") || line.StartsWith("y") || line.StartsWith("z") && line.EndsWith("."))
                         list.Add(line.TrimEnd('.'));
                     else if (line == "friend = yes")
                         list.Add("Friend = True");

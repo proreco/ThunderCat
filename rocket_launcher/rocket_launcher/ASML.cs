@@ -51,17 +51,17 @@ namespace WinForm
             stopwatch = new Stopwatch();
             
             target.AddedTarget +=manager_AddedTarget;
-            threadCamera.DataCaptured += new EventHandler<CEventArgs>(thread_DataCaptured);
+            threadCamera.DataCaptured += new EventHandler<CameraEventArgs>(thread_DataCaptured);
         }
         private void manager_AddedTarget(object sender, reader target)
         {
             TargetList.DataSource = target.list;            
         }
-        void thread_DataCaptured(object sender, CEventArgs e)
+        void thread_DataCaptured(object sender, CameraEventArgs e)
         {
                 DataHandler(sender, e);
         }
-        private void DataHandler(object sender, CEventArgs e)
+        private void DataHandler(object sender, CameraEventArgs e)
         {
             cameraBox.Image = e.LastData.ToBitmap();
         }

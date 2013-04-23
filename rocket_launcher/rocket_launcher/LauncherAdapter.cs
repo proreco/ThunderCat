@@ -29,7 +29,7 @@ namespace adapter
             current_theta += theta;
 
             if (phi >= 0)
-                adapter_launcher.command_Up(Convert.ToInt32(phi*23));
+                adapter_launcher.command_Up(Convert.ToInt32(phi * 17));
             else
                 adapter_launcher.command_Down(Convert.ToInt32(phi * -23));
             current_phi += phi;
@@ -69,12 +69,12 @@ namespace adapter
                 if (current_phi >= 0)
                 {
                     if (phi > current_phi)
-                        adapter_launcher.command_Up(Convert.ToInt32(phi - current_phi) * 21);
+                        adapter_launcher.command_Up(Convert.ToInt32(phi - current_phi) * 17);
                     else
-                        adapter_launcher.command_Down(Convert.ToInt32(current_phi - phi) * 19);
+                        adapter_launcher.command_Down(Convert.ToInt32(current_phi - phi) * 23);
                 }
                 else
-                    adapter_launcher.command_Up(Convert.ToInt32((phi - current_phi) * 21));
+                    adapter_launcher.command_Up(Convert.ToInt32((phi - current_phi) * 17));
                 current_phi = phi;
             }
             else
@@ -82,12 +82,12 @@ namespace adapter
                 if (current_theta < 0)
                 {
                     if (phi > current_phi)
-                        adapter_launcher.command_Up(Convert.ToInt32(phi - current_phi) * -21);
+                        adapter_launcher.command_Up(Convert.ToInt32(phi - current_phi) * -17);
                     else
-                        adapter_launcher.command_Down(Convert.ToInt32(current_phi - phi) * -19);
+                        adapter_launcher.command_Down(Convert.ToInt32(current_phi - phi) * -123);
                 }
                 else
-                    adapter_launcher.command_Down(Convert.ToInt32((current_phi + phi) * 19));
+                    adapter_launcher.command_Down(Convert.ToInt32((current_phi + phi) * 23));
                 current_phi = phi;
             }         
         }

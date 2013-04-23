@@ -39,26 +39,28 @@ namespace fileReader
             string path="/0";
            
                 
-                string extension = Path.GetExtension(filefetch);
+            string extension = Path.GetExtension(filefetch);
 
-                if (extension == ".ini" || extension == ".INI" || extension == ".Ini")
-                    fType = FileType.ini;
-                else if (extension == ".xml" || extension == ".XML" || extension == ".Xml")
-                    fType = FileType.xml;
+            if (extension == ".ini" || extension == ".INI" || extension == ".Ini")
+                fType = FileType.ini;
+            else if (extension == ".xml" || extension == ".XML" || extension == ".Xml")
+                fType = FileType.xml;
 
-                if (fType == FileType.ini || fType == FileType.xml)
-                {
-                    path = filefetch;
-                }
-            
+            if (fType == FileType.ini || fType == FileType.xml)
+            {
+                path = filefetch;
+            }
+            Context context;
             reader file = null;
             switch (fType)
             {  
                 case FileType.ini:
-                    file = new Ini.INIreader(path);
+                    context = new Context(new Ini.INIreader());
+                    file = context.ReadContext(path);
                     break;
                 case FileType.xml:
-                    file = new Xml.XMLreader(path);
+                    context = new Context(new Xml.XMLreader());
+                    file = context.ReadContext(path);
                     break;
                 default:
                     break;

@@ -12,10 +12,6 @@ namespace Xml
     // XML file reader
     public sealed class XMLreader : reader
     {
-        public XMLreader(string filepath)
-        {
-            ReadFile(filepath);
-        }
         // Check if file has a right format
         private bool CheckFile(string filepath)
         {

@@ -11,10 +11,6 @@ namespace Ini
     // INI file reader
     public class INIreader : reader
     {
-        public INIreader(string filepath)
-        {
-            ReadFile(filepath);
-        }
         // Check if file has a right format
         private bool CheckFile(string filepath)
         {

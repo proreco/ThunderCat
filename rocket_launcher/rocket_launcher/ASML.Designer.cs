@@ -170,7 +170,7 @@
             this.Version.Name = "Version";
             this.Version.Size = new System.Drawing.Size(43, 13);
             this.Version.TabIndex = 9;
-            this.Version.Text = "v. 0.6.0";
+            this.Version.Text = "v. 0.8.0";
             // 
             // GroupName
             // 

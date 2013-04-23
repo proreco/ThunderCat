@@ -1,0 +1,5 @@
+C:\Users\minievangion\Documents\GitHub\ThunderCat\rocket_launcher\rocket_launcher\bin\Release\Asml-ThunderCat.exe.config
+C:\Users\minievangion\Documents\GitHub\ThunderCat\rocket_launcher\rocket_launcher\obj\x86\Release\rocket_launcher.csprojResolveAssemblyReference.cache
+C:\Users\minievangion\Documents\GitHub\ThunderCat\rocket_launcher\rocket_launcher\obj\x86\Release\WinForm.Asml.resources
+C:\Users\minievangion\Documents\GitHub\ThunderCat\rocket_launcher\rocket_launcher\obj\x86\Release\ASML.Properties.Resources.resources
+C:\Users\minievangion\Documents\GitHub\ThunderCat\rocket_launcher\rocket_launcher\obj\x86\Release\rocket_launcher.csproj.GenerateResource.Cache

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="3768f4ea-2f57-4ed8-bab9-b2042fdc93c7"
+  name="modeType"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="f9b49375-2e6c-47ce-b6d4-87157f143b27"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DmodeType"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <enumeration
+        Id="1ffd86a9-b4a1-41c4-bf9a-9956b0ccd3a1"
+        name="ModeType"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="5591bf37-19a7-4dce-b37b-b224989f48ac"
+            handle="viewcode://./CodeSchema_Enum?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DmodeType Type%3DModeType"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="239e442c-e15d-47e8-90a7-674acf1e27e2"
+            name="enum"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6da9264f-4503-431e-a0cf-b84388e4eb8a">
+                <propertyInstance
+                  Id="4818c8c1-ab5d-4c7c-a6bf-6c073f184cfd"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="62aef27e-65cd-4f1e-bf3f-0485f98cd006">
+                <propertyInstance
+                  Id="c52e5eda-1f49-496c-8072-11d665db81ea"
+                  name="BaseType"
+                  value="int" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bef6703c-7987-4251-ae10-1b3f12076f7a">
+                <propertyInstance
+                  Id="7aead7ab-f520-4007-9c92-0ea593673ed3"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedLiterals>
+          <enumerationLiteral
+            Id="f3257c75-e1d7-4e00-9727-a5859792e071"
+            name="fireAll">
+            <referencesInternal>
+              <reference
+                Id="51792be1-7f52-4210-a5a8-8e7785246891"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DmodeType Type%3DModeType Member%3DfireAll"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+          <enumerationLiteral
+            Id="58671449-908f-4f30-a45d-5ce3de556a6d"
+            name="fireFoes">
+            <referencesInternal>
+              <reference
+                Id="50522a27-f5b0-4689-ad33-c24bd1b1e8d0"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DmodeType Type%3DModeType Member%3DfireFoes"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+          <enumerationLiteral
+            Id="7dbe3331-a85f-4646-8ad4-9ea36d88fd6e"
+            name="fireFriends">
+            <referencesInternal>
+              <reference
+                Id="df22d98c-9930-4ad1-89f3-4947450f71d6"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3DmodeType Type%3DModeType Member%3DfireFriends"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+        </ownedLiterals>
+      </enumeration>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm9="http://schemas.microsoft.com/dsltools/UseCaseModel"
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
   dslVersion="1.0.0.0"
   Id="af1fb06b-0376-44fc-9480-9c670654e694"
   name="Asml" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
@@ -709,6 +709,48 @@
           </extend>
         </extendedCases>
       </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="fe5ffc19-a5be-4fdc-8272-d736f3d81ed9"
+        LastKnownName="threads"
+        LastKnownLocation="Package_1122.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="4361d79d-281d-466c-809e-8782ea5e19e9"
+        LastKnownName="ASMLEngineSdk"
+        LastKnownLocation="Package1_1122.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="242ec1c6-cd7f-41b8-bb1e-0cbcb073bef0"
+        LastKnownName="targetManager"
+        LastKnownLocation="Package2_1122.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="f6026fdd-9e34-4514-ab47-54c82352c7ac"
+        LastKnownName="controller"
+        LastKnownLocation="Package4_1122.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="3768f4ea-2f57-4ed8-bab9-b2042fdc93c7"
+        LastKnownName="modeType"
+        LastKnownLocation="Package6_1122.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="a1be5be8-3795-49c6-9b6a-93be7af25ac1"
+        LastKnownName="converter"
+        LastKnownLocation="Package_1124.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="665c4d9c-48b9-4835-a289-04d4707df1b5"
+        LastKnownName="Emgu"
+        LastKnownLocation="Package_1127.uml" />
     </packageHasNamedElement>
   </packagedElements>
   <primitiveType

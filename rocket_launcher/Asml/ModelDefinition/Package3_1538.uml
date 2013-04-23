@@ -15,7 +15,6 @@
       <class
         Id="81f0aaba-fd68-408e-bdd2-202f03000397"
         name="List&lt;String‎&gt;"
-        visibility="Private"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
@@ -94,7 +93,6 @@
       <class
         Id="f20b0794-15ea-4866-bf76-4431271e7042"
         name="List"
-        visibility="Private"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">

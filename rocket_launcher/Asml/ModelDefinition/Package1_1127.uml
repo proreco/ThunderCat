@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="432a6ce9-34d3-4ae0-98c2-a58e01f09aac"
+  name="CV"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="3ea6ca49-7491-43a4-b5c0-9ef8cd114bce"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DEmgu.CV"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="260de2fa-d4e8-4dfb-9781-49076333841b"
+        name="Image&lt;Bgr‎, Byte‎&gt;"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="b988b1dc-3a15-414e-a074-99328bcd72a7"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bfe1ec9d-56ab-49d1-8c19-c7f20232062f">
+                <propertyInstance
+                  Id="2a5f9b90-db91-4f58-808a-be3bfa736f83"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="10d81bee-182a-49e0-8bb4-482cc3e999ac">
+                <propertyInstance
+                  Id="e66d3ca9-aedb-4a85-9221-1b0e9c7486fe"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="130a9e88-2da3-49dd-9e66-11867f5f2af3">
+                <propertyInstance
+                  Id="3b350b8f-4d22-453a-827e-abda0d3c1ed8"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0afe9c4b-7f2e-48b3-95ba-0fefc6c49df8">
+                <propertyInstance
+                  Id="46d5eebc-9623-4ae5-b337-1d1ef5181708"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="be608fc1-6d9d-4c24-b209-7c815108dbe6">
+                <propertyInstance
+                  Id="e8e57f88-ae7f-46c3-b03c-52160be64c93"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <signatures>
+          <templateBinding
+            Id="048ce247-e408-45f6-bb79-d3924c8df86a">
+            <redefinableTemplateSignatureMoniker
+              Id="339f9329-3cc5-4126-a00f-56e10920e147"
+              LastKnownLocation="Package1_1127.uml" />
+            <relationshipOwnedElementsInternal>
+              <templateBindingHasTemplateParameterSubstitution>
+                <templateParameterSubstitution
+                  Id="b216d449-a29a-44b6-b41d-5e552652c3c3">
+                  <actuals>
+                    <classMoniker
+                      Id="c1874ee3-c5be-44d6-9d7e-49d1f52902bc"
+                      LastKnownName="Bgr"
+                      LastKnownLocation="Package2_1127.uml" />
+                  </actuals>
+                  <formal>
+                    <classifierTemplateParameterMoniker
+                      Id="b3a7d5aa-8cc8-480f-a893-0ebe06bbabda"
+                      LastKnownLocation="Package1_1127.uml" />
+                  </formal>
+                </templateParameterSubstitution>
+              </templateBindingHasTemplateParameterSubstitution>
+              <templateBindingHasTemplateParameterSubstitution>
+                <templateParameterSubstitution
+                  Id="c4109c71-8b3a-49dc-a7c5-ccfa3f927eb2">
+                  <actuals>
+                    <classMoniker
+                      Id="5cb6f488-8f7b-45b7-bc0a-23ab35bb2e08"
+                      LastKnownName="Byte"
+                      LastKnownLocation="Package1_1538.uml" />
+                  </actuals>
+                  <formal>
+                    <classifierTemplateParameterMoniker
+                      Id="d1384f05-604e-4229-b397-a246a9bfc364"
+                      LastKnownLocation="Package1_1127.uml" />
+                  </formal>
+                </templateParameterSubstitution>
+              </templateBindingHasTemplateParameterSubstitution>
+            </relationshipOwnedElementsInternal>
+          </templateBinding>
+        </signatures>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="f7c3628f-f6ac-47cd-adcc-fa2945f67af7"
+        name="Image"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="7d407423-8249-4e13-8100-da6db617d0a5"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Flib%2FEmgu.CV.dll Namespace%3DEmgu.CV Type%3D(Name%3DImage GenericParameterCount%3D2)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="600c1150-c946-4e1a-a72f-5aa2e8098e5c"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="290af58a-7978-4e50-9931-1f8a9257b0c1">
+                <propertyInstance
+                  Id="5381ca29-6702-4559-a728-c1222680b4bb"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e5362720-88d6-4770-9a7e-5875ce4bb539">
+                <propertyInstance
+                  Id="86be0886-cf2b-4b46-a0ca-fe594e51f3fd"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c10d2e03-2a76-47fb-a98c-af9e5bc5d387">
+                <propertyInstance
+                  Id="1cd9805b-5c76-4882-9be3-53c3fefeb1c9"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7157546e-e60f-4b5b-8c1d-13a4e65c3890">
+                <propertyInstance
+                  Id="6e442b6f-b44c-48b8-ba96-c3f3ed541e77"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b9768ebd-30fd-41f3-a5cf-f10736eeb057">
+                <propertyInstance
+                  Id="d2c9db9d-bd1d-4499-81c7-254289f6e713"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedRedefinableTemplateSignatureInternal>
+          <redefinableTemplateSignature
+            Id="339f9329-3cc5-4126-a00f-56e10920e147"
+            parameters=""
+            name="RedefinableTemplateSignature1"
+            isLeaf="false">
+            <ownedParameters>
+              <classifierTemplateParameter
+                Id="b3a7d5aa-8cc8-480f-a893-0ebe06bbabda">
+                <referencesInternal>
+                  <reference
+                    Id="dfaeb9fb-a76e-43ec-8075-4f0353b9490b"
+                    handle="viewcode://./CodeSchema_GenericParameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Flib%2FEmgu.CV.dll Namespace%3DEmgu.CV Type%3D(Name%3DImage GenericParameterCount%3D2) ParameterIdentifier%3D0"
+                    tag="ViewCode" />
+                </referencesInternal>
+                <ownedParameterableElement>
+                  <class
+                    Id="bf0e28f2-e0b2-4c5c-852e-57f9c91d72f8"
+                    name="TColor"
+                    isAbstract="false"
+                    isLeaf="false"
+                    isActiveClass="false" />
+                </ownedParameterableElement>
+              </classifierTemplateParameter>
+              <classifierTemplateParameter
+                Id="d1384f05-604e-4229-b397-a246a9bfc364">
+                <referencesInternal>
+                  <reference
+                    Id="68619900-5274-45c0-9ab4-e95723619705"
+                    handle="viewcode://./CodeSchema_GenericParameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Flib%2FEmgu.CV.dll Namespace%3DEmgu.CV Type%3D(Name%3DImage GenericParameterCount%3D2) ParameterIdentifier%3D1"
+                    tag="ViewCode" />
+                </referencesInternal>
+                <ownedParameterableElement>
+                  <class
+                    Id="d7708086-838e-4658-9012-dd9b305ad163"
+                    name="TDepth"
+                    isAbstract="false"
+                    isLeaf="false"
+                    isActiveClass="false" />
+                </ownedParameterableElement>
+              </classifierTemplateParameter>
+            </ownedParameters>
+          </redefinableTemplateSignature>
+        </ownedRedefinableTemplateSignatureInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="0cd543ca-720e-465f-b8af-2b711589d0d0"
+        LastKnownName="Structure"
+        LastKnownLocation="Package2_1127.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="cb87bcdb-0155-42b2-bb03-322a0e0a49e6"
+        name="Capture"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="78c8f6c0-8fd1-4e15-a17e-928c825bf205"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Flib%2FEmgu.CV.dll Namespace%3DEmgu.CV Type%3DCapture"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="c27e90c8-b72e-4ad2-b038-ca3ca57e82e2"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7b306871-ba75-4403-8d68-a3042b5297c3">
+                <propertyInstance
+                  Id="ed03b435-428c-4878-8d74-9432f302af79"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1926ddc5-284a-4709-8409-135361130f79">
+                <propertyInstance
+                  Id="04e43ece-57d8-489b-9d74-92d51fc2e39c"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0ccad0d0-12eb-43d1-a235-3c9b36d8afc8">
+                <propertyInstance
+                  Id="00a7369e-1f6d-437a-a062-ca1556957649"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="83903a1b-feb7-4cab-b052-ac55cf002210">
+                <propertyInstance
+                  Id="0ab1afaf-974c-447d-90fa-c27f8b1dabc3"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="433bc072-c998-4261-b7db-b7a6753ccba3">
+                <propertyInstance
+                  Id="f833d369-a1f3-497c-a09b-2a452c481dfa"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

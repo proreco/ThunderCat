@@ -1,0 +1,1299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="fe5ffc19-a5be-4fdc-8272-d736f3d81ed9"
+  name="threads"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="fb1c7068-4cab-40c4-bcb0-2f6bb0204227"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3Dthreads"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="d55a0980-8957-46ab-a541-dd2bcf32dc24"
+        name="CameraEventArgs"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="e8540589-2dbb-4ab7-8476-19b9b28b0c64"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3Dthreads Type%3DCameraEventArgs"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="802c58a9-edb9-4926-8ad8-7df2b7ea24f2"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ef38f878-2e29-478e-8b61-0ebc4847ffae">
+                <propertyInstance
+                  Id="cd9af754-7f66-40d9-9afc-eb7c9b1821fc"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e4753b5f-838e-49aa-a556-ba5af5067b9a">
+                <propertyInstance
+                  Id="55647389-5ce8-4dc3-b851-1909d421d056"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a2bbfce3-65a8-45bb-aa34-5eabbe1c9fb6">
+                <propertyInstance
+                  Id="84d6129f-0eb4-47fd-94f3-7da12641bd72"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="981bba68-56bb-42c0-b458-e8815091444a">
+                <propertyInstance
+                  Id="6ffc00f8-11b8-47d2-a497-67c62206a8d9"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7288d75a-b11a-49ff-90ea-23af3516b24e">
+                <propertyInstance
+                  Id="f4ca29ca-ee45-4691-9f7d-c835ace92054"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="4ad90fd3-4fd7-4097-ac0b-37c2b346cf37"
+            isSubstitutable="false">
+            <classMoniker
+              Id="7d7cdb80-e38b-4a5b-a777-82b7fe6133af"
+              LastKnownName="EventArgs"
+              LastKnownLocation="Package1_1538.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="66abe575-46bc-4ca5-868a-28686bd08443"
+        name="Threads"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="e71aac3a-5653-4ea9-8daa-6a5da7d255ba"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3Dthreads Type%3DThreads"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="a2e4f24a-f4bf-424f-9ed5-404eb2c17370"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fae8aba7-a8a7-41c0-99f7-e0b4ba62da82">
+                <propertyInstance
+                  Id="1e85611d-e843-43a9-ae40-2d3189b5d339"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="aa9d5009-b6da-4690-b6ef-2645342c86ba">
+                <propertyInstance
+                  Id="25b03b93-26ca-4644-8aea-d558e1eea0d2"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="41649669-7ada-4267-8da9-c55f641f5331">
+                <propertyInstance
+                  Id="f7eaa225-3c31-459d-835c-daeea7067937"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="39b9aa95-0c03-4158-9a97-a230ffe1e1cc">
+                <propertyInstance
+                  Id="d9e02046-dd57-40f8-af98-6d28e8aa6711"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0b31386e-f6bb-4476-8e39-6291db9df011">
+                <propertyInstance
+                  Id="e821dd00-7278-4287-8f89-6c29884987e0"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="bc64ab4e-d95b-405d-83b8-1dd505a331b7"
+            name="Name"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="d7edcafb-3edb-4928-a9f2-d837e44cd0a5"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3Dthreads Type%3DThreads Member%3DName"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f6e50099-f7a3-4530-a74a-ec253b9e167a"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="65a7e429-97a8-488c-b2ff-653b80763eb1">
+                    <propertyInstance
+                      Id="8cdfaa5d-36ba-42e4-b0ad-6d4ecb6655ce"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e50a5feb-566d-426e-abbd-558d1ef97563">
+                    <propertyInstance
+                      Id="3f1903bb-b8d4-466a-87b3-ee051fe08b6d"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="077128e7-be83-4e3f-a0da-399f11702cba">
+                    <propertyInstance
+                      Id="58bd994a-5c57-4463-be6b-b1cc6c386397"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="41d6765c-0d53-4b4d-96a2-7323bf920d75">
+                    <propertyInstance
+                      Id="cfe8a909-acc1-4bb2-817c-a7c8968c0db5"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="de6f4d56-585d-4062-ba0d-879e2c30b80c">
+                    <propertyInstance
+                      Id="56ba16a3-740c-4b9e-9bea-23887c2278e6"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5ca3ed90-d1aa-4361-9ca8-4f258daedb9a">
+                    <propertyInstance
+                      Id="9e8673f0-3228-41c4-9fef-49f8ba2534ca"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="80e67719-e306-49cf-9f8e-fcf47263af21">
+                    <propertyInstance
+                      Id="cb76daa6-bcd0-4eb4-930b-4d2e06a61581"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="Asml.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="5bc75ece-d201-4a1e-9363-85421ef9460b"
+            name="m_lockObject"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="94c356ff-0186-4fa6-b834-29bbfa5f4325"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3Dthreads Type%3DThreads Member%3Dm_lockObject"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c81008ea-00c5-43cb-af8f-cb7cd7e24989"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="84cac9ee-68b1-4861-8465-9d3fed4b6436">
+                    <propertyInstance
+                      Id="03dd824f-68d2-48f8-9891-b6c410a1bf37"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1cecf427-5c68-44bc-903f-a442dda777d1">
+                    <propertyInstance
+                      Id="fe18db41-4e30-474d-b448-305e760241eb"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="749b8082-3d54-43f8-8e2e-5d25bd76cf72">
+                    <propertyInstance
+                      Id="17a703fa-b412-4774-8489-1a15986bc01f"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0a28277e-c400-452f-9ed8-20773fd88630">
+                    <propertyInstance
+                      Id="6cd5c947-4575-48f5-b293-7227564d411a"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="56122099-bff9-4585-a67a-12a5774cd17d">
+                    <propertyInstance
+                      Id="83d9fbb1-c1fa-44d0-bc45-097cd4e4834e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="344c1ce6-2d45-4cfb-b8aa-a289343d9d5f"
+                LastKnownName="Object"
+                LastKnownLocation="Package1_1538.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="88e04624-cc9f-460f-9089-29c635cdd9fa"
+            name="m_lastData"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="a4349855-fb86-499c-ae68-cbcbf5def7ff"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3Dthreads Type%3DThreads Member%3Dm_lastData"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="eb237a52-e358-492e-b2e0-1ce3f6f0167d"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="11e6c6ce-58c7-491b-ae58-e56ce030f6a4">
+                    <propertyInstance
+                      Id="97f404ee-f0b3-462b-9d32-cc967ecff38d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="403af08c-8a4d-44a9-9348-2376c9b9009d">
+                    <propertyInstance
+                      Id="ea0db323-45cf-4189-ab40-3fdf654395ed"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="282e54e9-f39e-41c2-bedb-82f99341b7bc">
+                    <propertyInstance
+                      Id="df5b02b1-24f6-42d4-bec6-6bc55d5a1274"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e5b258b8-9134-4388-83ad-c04709431c6d">
+                    <propertyInstance
+                      Id="9d4fd01f-1680-4585-b23f-2bac7cbb408e"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="27b2410e-80ef-45a3-b8a6-152bea7abc12">
+                    <propertyInstance
+                      Id="4f610126-982a-4d28-bd64-89b4adf055bb"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="260de2fa-d4e8-4dfb-9781-49076333841b"
+                LastKnownName="Image&lt;Bgr‎, Byte‎&gt;"
+                LastKnownLocation="Package1_1127.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="25764fe5-caaa-459f-af66-85d9aeaa1769"
+            name="m_camera"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="d37dc086-f353-4157-ba64-c31f72ed7dfa"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3Dthreads Type%3DThreads Member%3Dm_camera"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="63915498-a097-4c4a-b575-4ad08c6ca0ff"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="792ab242-2346-4b3c-9adc-00a5c0a48c69">
+                    <propertyInstance
+                      Id="eb696f45-2612-4e87-aa2a-ce5f29af2ce9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4d7afb6b-698b-4c96-8415-fab1a7bf79e6">
+                    <propertyInstance
+                      Id="7d9a3baf-a26b-43c2-8cc1-7999d667264b"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="610fa6dd-14eb-4a90-a154-48a294ebff4d">
+                    <propertyInstance
+                      Id="3320f74a-cc6f-4186-ae7d-c455a782fe76"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="42d89b9c-df8b-456f-b44c-eb65acdd2cb7">
+                    <propertyInstance
+                      Id="6e8c08f7-a9b6-4f68-87e3-fcd14de4ad04"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="51101076-4dde-496a-9392-a17290ec8558">
+                    <propertyInstance
+                      Id="f44ae66b-bd97-461c-b310-5bcb76e23333"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="cb87bcdb-0155-42b2-bb03-322a0e0a49e6"
+                LastKnownName="Capture"
+                LastKnownLocation="Package1_1127.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="548f71c3-e2f2-4e10-9011-637bab5fac64"
+            name="m_thread"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="b02e9588-c418-4672-bbcf-7212d3de55d5"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3Dthreads Type%3DThreads Member%3Dm_thread"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="48a5d47e-0605-45c6-8aeb-227a0d6016be"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ff01797d-62b6-4870-8518-17bd170c3b62">
+                    <propertyInstance
+                      Id="1f839ce2-3d61-4db4-a3d5-551152baf2bb"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fcd260bd-756d-459a-9bb9-238d35da0ebe">
+                    <propertyInstance
+                      Id="cf6325b3-1ec9-451e-83e2-777e0e0e608b"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0a1fe349-d0a0-4279-b03e-b40c8bfb0e6e">
+                    <propertyInstance
+                      Id="4d7c190b-cdb4-49f6-bdcf-cf374fd99b4e"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2e7a1e69-813d-499b-a2e6-12011373c492">
+                    <propertyInstance
+                      Id="1063f4d0-9b49-4fcc-ad47-0f5d9a8b1958"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9dbfd95c-2657-4cd0-9b00-bb3f45e561cf">
+                    <propertyInstance
+                      Id="ce581726-1dce-4ea7-914c-0a7cea46cd3d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="56966305-a6b4-4f6c-9ecc-48aeea9cf7e5"
+                LastKnownName="Thread"
+                LastKnownLocation="Package3_1122.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="2d6240fe-df73-43e2-a309-7fab4824bbed"
+            name="m_isProcessing"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="986bab58-cffc-4387-a5c1-4d0a740bc861"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3Dthreads Type%3DThreads Member%3Dm_isProcessing"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1d56da1f-d7d5-4524-8e0a-0bf262dc7df5"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="588a0f72-20eb-4100-b492-0e3d6ed6ae75">
+                    <propertyInstance
+                      Id="661aa473-9e7a-4cb4-a41e-f9ff74b36f14"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b4c377a3-bdbf-463f-af60-5a8cacf87ca8">
+                    <propertyInstance
+                      Id="cae5b4ec-45af-4907-8fb0-511bf9ace9e7"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="93f12b33-50ff-42dd-9fcd-131e3f2d38e0">
+                    <propertyInstance
+                      Id="748cdfa9-7786-41ea-a7a3-abe325396f41"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c4478e7e-603e-4812-b3cd-726e38f3cfa8">
+                    <propertyInstance
+                      Id="449fcbd9-0078-4ba6-a374-7791e7ec4127"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="25377978-1622-4830-8967-bad834e8f3ab">
+                    <propertyInstance
+                      Id="5a93a6bc-24b5-4833-a001-fc83ba9e37b6"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                LastKnownName="Boolean"
+                LastKnownLocation="Asml.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="2de3a8bc-778d-4fd0-a35d-452d1ec41b6b"
+            name="m_isRunning"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="30c2ac6a-9372-4614-b4e2-0ea6389dd85c"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3Dthreads Type%3DThreads Member%3Dm_isRunning"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="317e89a9-63be-4ed8-81f8-836a0957a855"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4690d227-a558-4466-b4f3-1c9eba24d07f">
+                    <propertyInstance
+                      Id="1254bf5e-b53e-4b68-9c90-2f1b4e265710"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="810e68be-a772-4677-aef1-7648a03bead6">
+                    <propertyInstance
+                      Id="d4e52955-452e-4f8b-940f-8552c31b7541"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5fcc5098-644a-40c4-acae-a5a334c030f9">
+                    <propertyInstance
+                      Id="af6406fe-cb97-4948-a453-c904dab4b593"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="576b22e6-da73-4968-b6a2-837e4a9ddd26">
+                    <propertyInstance
+                      Id="cfaed878-6158-4896-bd58-8bedc793c8b8"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8ede41a7-b025-4a2d-9aae-695e7fd65a5b">
+                    <propertyInstance
+                      Id="4b040434-454c-4fef-bdf4-b888d9a42d4e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                LastKnownName="Boolean"
+                LastKnownLocation="Asml.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="c3c62275-aa0e-4e55-b008-85b3a015d222"
+            name="m_waitEvent"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="93e8cf50-97dd-4a06-beba-f2bb6a6b8fd7"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3Dthreads Type%3DThreads Member%3Dm_waitEvent"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="815e6b25-c457-4647-9479-4cbb290565ec"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a60d3b60-47bc-4632-acab-fddb8305a12a">
+                    <propertyInstance
+                      Id="c37d0dfc-4498-4c0c-bc40-5c024ffe419a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="45d7068c-50d6-4ea1-83c1-34ef2e27f488">
+                    <propertyInstance
+                      Id="7f62c278-dc39-4fac-b902-fab1ed529012"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f1821695-feb6-47bd-b38d-92bcbfac34d9">
+                    <propertyInstance
+                      Id="827d0e3e-6e68-447c-aeb7-66362f2ab70c"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9975c3e6-0ec3-441c-9a6e-5c865d0c3210">
+                    <propertyInstance
+                      Id="c2cb5520-d7a6-4915-80c3-82f2aee07736"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b5b01c30-d0ac-48dc-beac-f39a6dc986d2">
+                    <propertyInstance
+                      Id="ea1fb704-7f9b-4ea4-a6b0-26883ca6289f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="467b6dd7-453b-4884-b9fb-82ac67b829ca"
+                LastKnownName="ManualResetEvent"
+                LastKnownLocation="Package3_1122.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="9ca812f4-baf0-4742-ba89-df1a79faedb0"
+            name="DataCaptured"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="48dab9ab-4058-4fee-bd04-db732aa5537a"
+                handle="viewcode://./CodeSchema_Event?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3Dthreads Type%3DThreads Member%3DDataCaptured"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f1c3387b-61cc-46f9-8a85-9b8bd28fb7e3"
+                name="event"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b45dfaba-10b3-430a-a2af-024f8ebb752d">
+                    <propertyInstance
+                      Id="b11bd380-b87a-4059-9ef8-ea3667ca60e3"
+                      name="Add"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="46ce6e2d-ebc8-4887-a8c1-49c0f3a189f5">
+                    <propertyInstance
+                      Id="29cdb7c0-81e8-41d3-b5cb-893b199e1483"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e3d7a99e-04b0-442d-bf44-8f50a0532fc2">
+                    <propertyInstance
+                      Id="65d9c038-7d6a-4f82-bfb0-705c1648b329"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2db9af09-2a17-4d04-9419-c3bcae5f1adc">
+                    <propertyInstance
+                      Id="e06fa0df-f03a-4102-93a8-6d61b3830ec8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e7a326c7-3fec-484c-ad23-1af824b70966">
+                    <propertyInstance
+                      Id="6a679f2c-90e9-4bd6-8c33-e6a0f9fb2d99"
+                      name="Remove"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="ea196764-5546-4845-b647-4cde92e5a413"
+                LastKnownName="EventHandler&lt;CameraEventArgs‎&gt;"
+                LastKnownLocation="Package1_1538.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="c250dd57-de46-454d-b6c2-b6c255950dc0"
+            name="ThreadStarted"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="7d334efc-7923-4925-9e59-c665958d45a0"
+                handle="viewcode://./CodeSchema_Event?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3Dthreads Type%3DThreads Member%3DThreadStarted"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="33954f0c-d769-4093-9e41-277655b4c387"
+                name="event"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6a5e62a9-d991-424d-92eb-2e6743e0ba4d">
+                    <propertyInstance
+                      Id="e5d1958f-f5df-48fb-b912-0bcf1e624e58"
+                      name="Add"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1f001ed5-d363-4c64-b953-0acf05ea4aab">
+                    <propertyInstance
+                      Id="3e62eb16-e7c6-47aa-b2f4-a3b1368566d5"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6411552f-ba19-442c-850d-198280daa719">
+                    <propertyInstance
+                      Id="010f1179-2fb1-4336-b5e5-b3960338f441"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8ed26601-3b72-4be8-9ef2-7643e2ba9322">
+                    <propertyInstance
+                      Id="61f0bd01-e4de-4a33-8b38-16ffa7d06ff7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5e541b78-eadb-4390-9482-224bbfe0aea3">
+                    <propertyInstance
+                      Id="5419a407-a28a-40ab-bfe0-92b475c04d5b"
+                      name="Remove"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="eace449f-aafb-4baf-969d-49817a5c15cf"
+                LastKnownName="EventHandler"
+                LastKnownLocation="Package1_1538.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="6fab002c-60a4-496d-b8a3-407d887c55f1"
+            name="ThreadStopped"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="2b060e28-0775-473a-abc5-5e3f8bc30be7"
+                handle="viewcode://./CodeSchema_Event?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3Dthreads Type%3DThreads Member%3DThreadStopped"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="bb2fc402-e82d-410d-8e2e-1e6f671eb2a2"
+                name="event"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a62b5de8-a582-43cf-bf7a-e2daab548101">
+                    <propertyInstance
+                      Id="b5516d21-8789-4432-8f72-fd0ba5fb5338"
+                      name="Add"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0dc7ceb7-3b14-40f6-9d64-93bdd734dc60">
+                    <propertyInstance
+                      Id="3dce411c-a977-4acd-b7d7-61c364268911"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="576e5de6-2a69-4c6f-81c5-a51844e9c004">
+                    <propertyInstance
+                      Id="fc485542-3e2d-4061-9c80-c002b0822b65"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e81dd420-653f-4e2e-a104-91ecb0ec7824">
+                    <propertyInstance
+                      Id="4688a9ec-b25c-4abd-adef-93549486801b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="582a8c39-4108-4500-8fa6-40e20dd34fd6">
+                    <propertyInstance
+                      Id="24fc073f-24e2-4a25-99b2-2672a07c5f77"
+                      name="Remove"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="eace449f-aafb-4baf-969d-49817a5c15cf"
+                LastKnownName="EventHandler"
+                LastKnownLocation="Package1_1538.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="36ce4398-1e3f-4362-91a0-5d83368e6886"
+            name="Threads"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f63a58bc-1c27-48ec-bcee-a03a6f0095dd"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3Dthreads Type%3DThreads Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="46d78785-cb26-42d0-8b09-cb0528f985bd"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6d8f1c9f-c3fd-42e1-8f8c-c83e0164a140">
+                    <propertyInstance
+                      Id="4ab2c1f9-d04a-4194-9404-0f3ed0bfe812"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c8960366-8927-4f50-9fd0-fb43076372b4">
+                    <propertyInstance
+                      Id="c9e461fe-2644-4879-8143-57444789162a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0993d710-3470-4303-94b6-b266cfc64d99">
+                    <propertyInstance
+                      Id="5a3af587-fc99-474b-8367-695a981781da"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b7390304-ae1f-46b6-b0f4-e36ee90713cd">
+                    <propertyInstance
+                      Id="2506ad66-3aa0-45f7-a254-190d45eb69b6"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3ed664fe-2f19-4294-b90b-dedc2af4d492">
+                    <propertyInstance
+                      Id="de25f279-4b08-47cc-8303-e6249f3a21b5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="904079de-91fa-4519-9ae0-e4fe86b1fade">
+                    <propertyInstance
+                      Id="56717fc7-79bb-4ca9-9c4c-98260db54f43"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="375eb4a5-74f7-43ce-aff9-397c1be006b0"
+            name="SetupThread"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="202f5dfb-17fe-4e29-ac0e-52a91f4af2b9"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3Dthreads Type%3DThreads Member%3DSetupThread"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4f711c71-df66-45e7-a094-aa60beee6592"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="33b6bbfb-f4e5-4788-b027-711c195e4963">
+                    <propertyInstance
+                      Id="33f001e0-650f-4bd9-8ae5-ac053410e7f5"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3963df33-f504-455d-a9ca-d3a49ef92145">
+                    <propertyInstance
+                      Id="640de290-f0f1-48e1-8551-b8893e63c589"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6b88a301-ac06-4e91-bfea-2e60da0de4c1">
+                    <propertyInstance
+                      Id="cd201343-4458-4511-bb25-c5d1f6e5f46d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ad62c4cc-561f-4599-a764-40dffc6b9c5e">
+                    <propertyInstance
+                      Id="387976f5-4a95-40c8-a4cf-c7937683d57d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9609f790-4f7c-4505-8f00-6e21700cdb64">
+                    <propertyInstance
+                      Id="8cc6cb67-0244-4c75-bc4e-b385fa3cf512"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6e039863-c6c1-47cf-bb5a-bdb4bffeea64">
+                    <propertyInstance
+                      Id="38cc01de-1bd0-4ccb-8c4f-dd108025aa52"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="2dac45d4-1c9c-4c4e-87db-fd58d1176da4"
+            name="ImagingThread"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="94b6b2c0-afce-498c-a212-ba09e944b050"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3Dthreads Type%3DThreads Member%3DImagingThread"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="21b14b60-96a1-451a-bc4c-177b050a72c2"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3522a27d-5a3e-4640-a092-0edb6e83d0a1">
+                    <propertyInstance
+                      Id="5b942bc7-997d-41ba-8abc-5b6d61bec87a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="261eb95d-240d-4afc-b959-b46f1e1c9cb3">
+                    <propertyInstance
+                      Id="510cf4ee-6737-41a1-b011-6fcedd29be56"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fae5852f-956b-428b-beab-c998659274a5">
+                    <propertyInstance
+                      Id="edd1b64f-557f-4c15-8fb7-40cacc2af5b3"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="93db38c8-ae79-4514-a186-b0a6e3580917">
+                    <propertyInstance
+                      Id="65e8774c-b52a-476f-8e0d-8ad31639fd4a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3c577391-28d8-4bcb-9b77-f343812bf429">
+                    <propertyInstance
+                      Id="9632fe0e-b2f3-4e84-8c94-5abd0d4fb583"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d6c3b066-d581-46a0-9181-b0e8e2d69af5">
+                    <propertyInstance
+                      Id="7571301a-13d3-4ed1-8b17-5af8e15e5cc0"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="843caa23-b48d-4d3c-8d85-c7f218b0a43f"
+            name="Start"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="95f2f691-9308-4ce2-99a3-62e53e0edc61"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3Dthreads Type%3DThreads Member%3DStart"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b43a38a7-eff0-44fc-9be3-09a916d6f73b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="258a4829-b1be-4b28-8ced-8f65d5b3be90">
+                    <propertyInstance
+                      Id="3b0453f6-de42-433e-a45f-60cae51f6126"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f7f0679c-22dc-4b43-aa35-23b551c5f7be">
+                    <propertyInstance
+                      Id="b296c64b-a0ed-4654-905b-4f790a9ef6b7"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="80be0b9a-c067-4c58-963d-0cf35375433d">
+                    <propertyInstance
+                      Id="ac3e64ad-2d7e-4b44-812b-e9b0659e87d4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aec0e696-10f7-4213-a231-82d7cc8c763f">
+                    <propertyInstance
+                      Id="574f66bd-7e28-40ad-b44f-5ae3c99e94f8"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9c964f9b-2a79-47fb-af16-01c7a450c25d">
+                    <propertyInstance
+                      Id="6db9252e-16e9-4c1e-9e7d-18b66afce71a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b5ba7102-4829-41ff-9c22-7fb803fd4abf">
+                    <propertyInstance
+                      Id="334a2877-91d8-461b-87c3-b2a219ac2472"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="cd7d4d9e-7b87-439f-90ac-1a10e4fbe592"
+            name="Stop"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a0cfdad1-1fd8-47bf-8c35-44c70251ac13"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3Dthreads Type%3DThreads Member%3DStop"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3b519431-be7b-47fb-85d6-7341dead3175"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="96d3815f-1a1c-4835-b46c-9e7c192c7cf3">
+                    <propertyInstance
+                      Id="fb3dd08c-a824-41f9-8ae5-6663fc362068"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="21ae5e53-c7d1-4965-8516-7b5659172fbc">
+                    <propertyInstance
+                      Id="cccf7cca-a9ff-413b-9491-e2e9088eb0bb"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="81c10a01-a5f2-4c3a-938a-042b46367524">
+                    <propertyInstance
+                      Id="e1f67ef0-c523-4998-8be6-e97a077cd560"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2b2753a7-29b6-4b9b-b58b-b196915504a3">
+                    <propertyInstance
+                      Id="d8a250c1-19bc-4b86-a6ff-2df3be3107e8"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="34fefec3-948f-4d3f-b984-040cbb68add1">
+                    <propertyInstance
+                      Id="8372061a-2778-4bd1-b5f9-612a311ad412"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a3a35874-a2ef-4d8e-ad60-b26afbd40554">
+                    <propertyInstance
+                      Id="b7d6e270-63e8-49b1-a438-833c19869843"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="90100288-0150-458a-849e-626e11ac8ffb"
+            name="GetLastData"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="5eeec9ff-e546-4e8b-b163-54cae0580e00"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Fbin%2FDebug%2FAsml-ThunderCat.exe Namespace%3Dthreads Type%3DThreads Member%3DGetLastData"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c4c9fef0-c5b7-404b-8ae4-938ded781e53"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cf7dd3b5-4126-46a6-9ecd-2756bbdbafed">
+                    <propertyInstance
+                      Id="4d8a91d9-830e-4126-af1e-49d6517b5865"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="de6eee8e-6b54-4440-893b-3169027854cf">
+                    <propertyInstance
+                      Id="10b34b08-ff34-4b82-b4e6-153181e9ee98"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="051cbdcd-8238-41e7-ae7a-cab7fd1ea3ea">
+                    <propertyInstance
+                      Id="a3d99004-576a-4415-9c3b-81a40759936f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="93a5b90f-b9a1-43f2-b819-da3efd72bd9b">
+                    <propertyInstance
+                      Id="98f277e7-9af9-4699-9e1c-3db144444a6b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="501f9910-ac53-4124-a0e4-baee101cdd16">
+                    <propertyInstance
+                      Id="0fc37627-0b04-414f-8dc0-abf987c1b635"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f736e357-5ef3-462f-90f5-a6226bd64047">
+                    <propertyInstance
+                      Id="09af033c-9c9a-43d4-8048-1c4497d8fd34"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="7e87ef6f-bfc3-4b79-9403-f47183c1556a"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="260de2fa-d4e8-4dfb-9781-49076333841b"
+                      LastKnownName="Image&lt;Bgr‎, Byte‎&gt;"
+                      LastKnownLocation="Package1_1127.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

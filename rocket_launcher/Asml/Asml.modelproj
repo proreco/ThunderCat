@@ -22,6 +22,12 @@
   </PropertyGroup>
   <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
   <ItemGroup>
+    <Content Include="ModelDefinition\Package1_1122.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package1_1127.uml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ModelDefinition\Package1_1538.uml">
       <SubType>Content</SubType>
     </Content>
@@ -29,6 +35,12 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package1_1548.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package2_1122.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package2_1127.uml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package2_1538.uml">
@@ -40,6 +52,9 @@
     <Content Include="ModelDefinition\Package2_1548.uml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="ModelDefinition\Package3_1122.uml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ModelDefinition\Package3_1538.uml">
       <SubType>Content</SubType>
     </Content>
@@ -49,19 +64,37 @@
     <Content Include="ModelDefinition\Package3_1548.uml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="ModelDefinition\Package4_1122.uml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ModelDefinition\Package4_1538.uml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package4_1539.uml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="ModelDefinition\Package5_1122.uml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ModelDefinition\Package5_1539.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package6_1122.uml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package_0032.uml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package_0041.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1122.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1124.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1127.uml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package_1538.uml">

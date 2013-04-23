@@ -1,134 +1,124 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
   dslVersion="1.0.0.0"
-  Id="76cb01bc-5cd3-4ff7-99e1-fb347a9e85dc"
-  name="UsbLibrary"
+  Id="abab7dec-f22c-42da-a327-425d67bf2eca"
+  name="Threading"
   visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
   <referencesInternal>
     <reference
-      Id="4a6ffc43-ff58-4e6b-abed-65492efaf838"
-      handle="viewcode://./CodeSchema_Namespace?Namespace%3DUsbLibrary"
+      Id="176d1356-fcc1-47b6-982c-8c91797271fe"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DSystem.Threading"
       tag="ViewCode" />
   </referencesInternal>
   <packagedElements>
     <packageHasNamedElement>
       <class
-        Id="9e361425-0e1e-49f2-8cdd-dcc5b3c5a83e"
-        name="DataRecievedEventArgs"
+        Id="56966305-a6b4-4f6c-9ecc-48aeea9cf7e5"
+        name="Thread"
         isAbstract="false"
-        isLeaf="false"
+        isLeaf="true"
         isActiveClass="false">
         <referencesInternal>
           <reference
-            Id="17037358-dec8-4f25-a06f-585b702b7b2f"
-            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Flib%2FUSBLib.DLL Namespace%3DUsbLibrary Type%3DDataRecievedEventArgs"
+            Id="0cf9d66f-af02-4e8c-8282-a37a40b61273"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Threading Type%3DThread"
             tag="ViewCode" />
         </referencesInternal>
         <appliedStereotypesInternal>
           <stereotypeInstance
-            Id="f6831f04-098b-402d-a587-02c5bc2c9738"
+            Id="a2209f56-f052-4663-8b53-b5666fa9bead"
             name="class"
             profile="CSharpProfile">
             <propertyInstances>
               <stereotypeInstanceHasPropertyInstances
-                Id="dcca1342-a2a0-4d14-9e3e-f183d00ce49a">
+                Id="7d3274db-c33b-427b-a805-7279ad660fc1">
                 <propertyInstance
-                  Id="d6d19756-e074-40db-b4ad-c3eacd0f7092"
+                  Id="d26feff9-c22b-4413-8059-d3f96737c7ca"
                   name="ClrAttributes" />
               </stereotypeInstanceHasPropertyInstances>
               <stereotypeInstanceHasPropertyInstances
-                Id="83b7296b-82f0-4c52-a180-88284572b242">
+                Id="3a5a1ecf-0bfa-4b06-bd35-5a73773f79fc">
                 <propertyInstance
-                  Id="d3e66945-d145-4a69-aa17-606c98bdda85"
+                  Id="f08d23e3-fc00-4369-9b57-08b42305c45c"
                   name="IsPartial"
                   value="false" />
               </stereotypeInstanceHasPropertyInstances>
               <stereotypeInstanceHasPropertyInstances
-                Id="cff52b59-7cca-454e-bd60-dd2f9b544007">
+                Id="9ee02a35-e6d6-4e7e-95cc-dac041662f1d">
                 <propertyInstance
-                  Id="70f83e13-99cb-4e23-8a75-858ab7c0e41b"
+                  Id="3e5b6b0a-ed7a-4c41-bf57-412dde0a57b3"
                   name="IsStatic"
                   value="False" />
               </stereotypeInstanceHasPropertyInstances>
               <stereotypeInstanceHasPropertyInstances
-                Id="c298aec0-ef79-4e48-977e-5aa28c655013">
+                Id="fd9206cc-0cf3-45ec-abd7-cee64a72ee27">
                 <propertyInstance
-                  Id="9d264ed2-674e-4cb0-a32e-a1fefaa6f77e"
+                  Id="ae3f25b3-a424-4074-a0cb-99a5ac275a4e"
                   name="IsUnsafe"
                   value="false" />
               </stereotypeInstanceHasPropertyInstances>
               <stereotypeInstanceHasPropertyInstances
-                Id="94b96a1c-7092-4287-ae5a-b2e841014a3c">
+                Id="f75e9ffc-25a6-4b63-9caa-14e0c05008b5">
                 <propertyInstance
-                  Id="65b5038e-ed8a-4630-a5cc-8d1708e37a03"
+                  Id="17253d5b-3085-4e64-8c87-723de7f9ff29"
                   name="PackageVisibility"
                   value="internal" />
               </stereotypeInstanceHasPropertyInstances>
             </propertyInstances>
           </stereotypeInstance>
         </appliedStereotypesInternal>
-        <generalsInternal>
-          <generalization
-            Id="95adc9c7-7319-4ee1-8ff9-d4780a3d0e5b"
-            isSubstitutable="false">
-            <classMoniker
-              Id="7d7cdb80-e38b-4a5b-a777-82b7fe6133af"
-              LastKnownName="EventArgs"
-              LastKnownLocation="Package1_1538.uml" />
-          </generalization>
-        </generalsInternal>
       </class>
     </packageHasNamedElement>
     <packageHasNamedElement>
       <class
-        Id="d77e6303-6317-41d1-afa2-49e843535761"
-        name="UsbHidPort"
+        Id="467b6dd7-453b-4884-b9fb-82ac67b829ca"
+        name="ManualResetEvent"
         isAbstract="false"
-        isLeaf="false"
+        isLeaf="true"
         isActiveClass="false">
         <referencesInternal>
           <reference
-            Id="66e3163a-af6a-4d45-88aa-a2743c7c44fd"
-            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKGB-LapTop%2FDesktop%2FThunderCat%2Frocket_launcher%2Frocket_launcher%2Flib%2FUSBLib.DLL Namespace%3DUsbLibrary Type%3DUsbHidPort"
+            Id="19cb1b5f-463e-449b-9fc8-d782c3c142ef"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Threading Type%3DManualResetEvent"
             tag="ViewCode" />
         </referencesInternal>
         <appliedStereotypesInternal>
           <stereotypeInstance
-            Id="47d5c7cc-be1a-49a1-8880-339864d6be2d"
+            Id="25288741-49fe-4edb-9aa5-7fdcb6ade788"
             name="class"
             profile="CSharpProfile">
             <propertyInstances>
               <stereotypeInstanceHasPropertyInstances
-                Id="4e992a2a-7a54-481d-bc72-a97753ecee47">
+                Id="fa553690-b6ff-4cbd-b69e-53ea3796dad7">
                 <propertyInstance
-                  Id="d7c66743-1cab-419b-a58c-3126110e2c04"
+                  Id="0acf9a72-32d5-42f7-8218-900366bceacd"
                   name="ClrAttributes" />
               </stereotypeInstanceHasPropertyInstances>
               <stereotypeInstanceHasPropertyInstances
-                Id="c21b7313-f93c-445a-8b29-a82a03b1e9ab">
+                Id="d9900185-d056-444a-ba30-c11c6501c4b9">
                 <propertyInstance
-                  Id="cc81a4c2-48ee-4a13-be3b-e284d1e32426"
+                  Id="6a7186d4-6edb-4c77-b89a-3d5aca6a1d78"
                   name="IsPartial"
                   value="false" />
               </stereotypeInstanceHasPropertyInstances>
               <stereotypeInstanceHasPropertyInstances
-                Id="08d681be-9b6a-44bd-92d1-b90554e4a5fe">
+                Id="285d6e64-dad5-4183-9ecf-c5c6b5a3924e">
                 <propertyInstance
-                  Id="629fb7f6-8f6c-4782-9935-8d9dfe819ade"
+                  Id="e080d190-6f1e-4bbf-a1f7-10743877fec2"
                   name="IsStatic"
                   value="False" />
               </stereotypeInstanceHasPropertyInstances>
               <stereotypeInstanceHasPropertyInstances
-                Id="931f7dec-b48d-4c77-b0cd-be734c52351c">
+                Id="eccccce9-7b16-4641-9952-c81ec37b5451">
                 <propertyInstance
-                  Id="31a44bc4-0c3d-4e40-8453-55821e1ba847"
+                  Id="2080961e-386a-4517-807d-a653b2b2e0e8"
                   name="IsUnsafe"
                   value="false" />
               </stereotypeInstanceHasPropertyInstances>
               <stereotypeInstanceHasPropertyInstances
-                Id="d132d5b2-9c08-4ca3-a5ef-761e8666fa3c">
+                Id="6f61290c-a3ea-4863-93ff-80176b2360b0">
                 <propertyInstance
-                  Id="658f597a-4fc6-472a-8ac2-3ff4713a438d"
+                  Id="c07b1841-7293-4a22-9c92-d0de0f8c1ba8"
                   name="PackageVisibility"
                   value="internal" />
               </stereotypeInstanceHasPropertyInstances>

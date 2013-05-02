@@ -41,9 +41,9 @@ namespace fileReader
                 
             string extension = Path.GetExtension(filefetch);
 
-            if (extension == ".ini" || extension == ".INI" || extension == ".Ini")
+            if (extension.ToUpper() == ".INI")
                 fType = FileType.ini;
-            else if (extension == ".xml" || extension == ".XML" || extension == ".Xml")
+            else if (extension.ToUpper() == ".XML")
                 fType = FileType.xml;
 
             if (fType == FileType.ini || fType == FileType.xml)

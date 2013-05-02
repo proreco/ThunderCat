@@ -32,7 +32,7 @@ namespace WinForm
         Stopwatch stopwatch;
         Threads threadCamera;
 
-        int degree = 4;   // amount to move by
+        int degree = 5;   // amount to move by
         int mode;
         bool result_destroy = false, result_reset = false;
         ModeType Mode;
@@ -56,7 +56,7 @@ namespace WinForm
         }
         void thread_DataCaptured(object sender, CameraEventArgs e)
         {
-                DataHandler(sender, e);
+            DataHandler(sender, e);
         }
         private void DataHandler(object sender, CameraEventArgs e)
         {
@@ -130,15 +130,10 @@ namespace WinForm
         //==============================START===============================
         private void start_Click(object sender, EventArgs e)
         {
-
             control.Start();
-
             timer_SD.Enabled = true;
-
             thread = new Thread(() => result_destroy = control.Destroy(target, launcher, Mode));
-
             thread.Start();
-
             stopwatch.Restart();
         }
         //===============================STOP===============================
@@ -162,18 +157,15 @@ namespace WinForm
                 stopwatch.Stop();
                 result_destroy = false;
             }
-
+            
         }
         //===============================RESET===============================
         private void reset_Click(object sender, EventArgs e)
         {
             timer_reset.Enabled = true;
-
             thread = new Thread(() => result_reset = control.Reset(launcher));
-            
             thread.Start();
         }
-
         private void timer_reset_Tick(object sender, EventArgs e)
         {
             if (!result_reset)

@@ -109,6 +109,27 @@
     <Content Include="ModelDefinition\Package_1548.uml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Program_Main.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Program_Main.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Program_Main.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="UMLActivityDiagram1.activitydiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UMLActivityDiagram1.activitydiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>UMLActivityDiagram1.activitydiagram</DependentUpon>
+    </Content>
+    <Content Include="UMLComponentDiagram1.componentdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UMLComponentDiagram1.componentdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>UMLComponentDiagram1.componentdiagram</DependentUpon>
+    </Content>
     <Content Include="UMLUseCaseDiagram1.usecasediagram">
       <SubType>Content</SubType>
     </Content>

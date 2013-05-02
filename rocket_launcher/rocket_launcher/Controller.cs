@@ -14,10 +14,11 @@ namespace controller
 {
     class Controller
     {
-
+        // Controller depending on the mode, performs the search and destroy using targets data
         public bool Destroy(TargetManager target, IMissileLauncher launcher, ModeType Mode)
         {
-            int number_of_targets = target.TargetList.Count / 7;
+            int number_of_lines_per_target = 7;
+            int number_of_targets = target.TargetList.Count / number_of_lines_per_target;
             int target_number = 1;
 
             while (target_number <= number_of_targets && !_shouldStop)
@@ -40,9 +41,6 @@ namespace controller
                             if (!_shouldStop)
                                 launcher.Fire();
                         }
-                        else
-                        {
-                        }
                         break;
                     case ModeType.fireFriends:
                         if (target.Friend)
@@ -52,33 +50,25 @@ namespace controller
                             if (!_shouldStop)
                                 launcher.Fire();
                         }
-                        else
-                        {
-                        }
                         break;
                 }
                 target_number++;
             }
-            return true;
-            
+            return true;          
         }
-
         public bool Reset(IMissileLauncher launcher)
         {
             launcher.Reset();
             return true;
         }
-
         public void Start()
         {
             _shouldStop = false;
         }
-
         public void Stop()
         {
             _shouldStop = true;
         }
-
         private volatile bool _shouldStop;
 
     }

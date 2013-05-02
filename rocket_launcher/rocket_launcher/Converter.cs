@@ -8,6 +8,7 @@ namespace converter
 {
     class Converter
     {      
+        // Converter class. Converts from x, y and z coordinates to theta and phi
         private double phi;
         private double theta;
 

@@ -92,6 +92,7 @@ namespace threads
 
             ThreadStart start1 = new ThreadStart(ImagingThread);
             m_thread = new Thread(start1);
+            m_thread.IsBackground = true;
             m_thread.Start();
         }
         /// <summary>
@@ -126,10 +127,9 @@ namespace threads
                         {
                             // Wait around the data, so that when we write 
                             // we know nothing else can touch it.
-                            lock (m_lockObject)
-                            {
+                            
                                 m_lastData = m_camera.QueryFrame();
-                            }
+                            
                             if (this.DataCaptured != null && m_lastData != null)
                             {
                                 this.DataCaptured(this, new CameraEventArgs(m_lastData));
@@ -187,8 +187,6 @@ namespace threads
 
         
     }
-    
-
         public class CameraEventArgs : EventArgs
         {
 

@@ -102,7 +102,7 @@ namespace adapter
             adapter_launcher.command_Left(5500);
             adapter_launcher.command_Right(3100);
             adapter_launcher.command_Up(1500);
-            adapter_launcher.command_Down(600);
+            adapter_launcher.command_Down(550);
             current_theta = 0;
             current_phi = 0;
         }

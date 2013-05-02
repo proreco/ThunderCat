@@ -18,17 +18,11 @@ namespace Ini
             foreach (string lineCheck in lines)
             {
                 if (lineCheck.StartsWith("T"))
-                {
                     return false;
-                }
                 else if (lineCheck.StartsWith("[") && !lineCheck.EndsWith("]"))
-                {
                     return false;
-                }
                 else if (!lineCheck.StartsWith("[") && lineCheck.EndsWith("]"))
-                {
                     return false;
-                }
             }
             return true;
         }
@@ -50,9 +44,7 @@ namespace Ini
                         targetCount++;
                         list.Add("Target " + targetCount);
                     }
-                    else if (line.StartsWith(";"))
-                    {
-                    }
+                    else if (line.StartsWith(";")) { }
                     else if (line.StartsWith("x") || line.StartsWith("y") || line.StartsWith("z") && !line.EndsWith("."))
                         list.Add(line);
                     else if (line.StartsWith("x") || line.StartsWith("y") || line.StartsWith("z") && line.EndsWith("."))

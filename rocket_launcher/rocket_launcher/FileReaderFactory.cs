@@ -17,28 +17,22 @@ namespace fileReader
     public class FileReader
     {
         private static FileReader instance;
-
         private FileReader()
         {
         }
-
         static public FileReader GetInstance()
-        {
-            
+        {          
                 if (instance == null)
                 {
                     instance = new FileReader();
                 }
-                return instance;
-            
+                return instance;       
         }
         // Adds file to reader and checks if it is of a right format
         public reader readFile(string filefetch)
         {
             FileType fType = 0;
             string path="/0";
-           
-                
             string extension = Path.GetExtension(filefetch);
 
             if (extension.ToUpper() == ".INI")

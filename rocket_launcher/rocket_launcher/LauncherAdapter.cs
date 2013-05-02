@@ -96,13 +96,13 @@ namespace adapter
         {
             adapter_launcher.command_Fire();
         }
-        // Resets the missile launcher and the current positions to 0,0
+        // Resets the missile launcher and the current positions to 0, 0
         public void Reset()
         {
             adapter_launcher.command_Left(5500);
-            adapter_launcher.command_Right(2900);
+            adapter_launcher.command_Right(2920);
             adapter_launcher.command_Up(1500);
-            adapter_launcher.command_Down(500);
+            adapter_launcher.command_Down(600);
             current_theta = 0;
             current_phi = 0;
         }

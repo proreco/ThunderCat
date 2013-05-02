@@ -1,1 +1,105 @@
-﻿ 
+﻿<?xml version="1.0" encoding="utf-8"?>
+<componentModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="644fdcdd-f3f3-406b-a6e4-a8a17cf96cf6" name="UMLComponentDiagram1" linkedPackageId="ed314fcd-e65c-4224-a3e6-8d391f16ce43" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="bbfffe2e-365d-4c76-9e9a-f99c393dfa96">
+      <profileInstance Id="38dc775c-ef38-426a-ac56-668a4d2206ca" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="de56b587-a686-4fa9-886d-85589e0fa1ad">
+      <profileInstance Id="79712a5d-50b5-4e47-a66b-f45dbbd2fec3" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="339a2632-7911-4084-92f7-47173e22d463">
+      <profileInstance Id="804cdee5-968e-4611-9a74-0fc0b4f5e933" name="CSharpProfile">
+        <elementDefinition Id="3a3d2738-893f-4aa4-a90a-8ccf9d4f0759" />
+      </profileInstance>
+      <elementDefinition Id="e069f444-99d6-4df8-b1ee-25f259022bac" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <componentModelHasComponents>
+      <component Id="a7da34fc-dd61-4b89-8688-e78a7724adef" name="ASML" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="68b65024-04bb-4302-8b1b-08af7b427ebe" />
+        <ownedAttributesInternal>
+          <requiredInterface Id="fa198b6c-f2b5-454f-8986-bbae4cbf48cc" name="Port1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="2be3d7dc-8532-4e43-9d9e-e3d2c2f86455" />
+            <suppliersInternal>
+              <dependency Id="2d6f0ff7-8a9f-41c6-9686-b2f958a78571">
+                <providedInterfaceMoniker Id="6745a544-d10c-4bff-ad62-fefa6a8566ca" LastKnownName="Port1" />
+                <elementDefinition Id="8e5f24d5-b297-40b8-934b-c33b87e3e6ab" />
+              </dependency>
+            </suppliersInternal>
+            <type_NamedElement>
+              <interfaceMoniker Id="311c878d-6956-4f76-a4a0-abbe2d1fd3d8" LastKnownName="IMissileLauncher" />
+            </type_NamedElement>
+          </requiredInterface>
+        </ownedAttributesInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="08283e5c-b2fb-4986-b250-a80234ed14a1" name="Controller" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="97f9b6ea-4f43-4ed6-a5f0-e4b0bb9810c3" />
+        <ownedAttributesInternal>
+          <requiredInterface Id="8f3215e2-7e61-40d4-b237-1a440dc66250" name="Port1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="22cb5994-7faa-4966-b67a-5c6a2105b868" />
+            <suppliersInternal>
+              <dependency Id="de6bdd4f-d976-49c1-a63b-9bee41c5adf2">
+                <providedInterfaceMoniker Id="8eebf12b-d1ab-4593-97dd-b9b22ebdcef3" LastKnownName="Port2" />
+                <elementDefinition Id="abaa6fcb-e99c-4cf3-8088-d543f11f5637" />
+              </dependency>
+            </suppliersInternal>
+            <type_NamedElement>
+              <interfaceMoniker Id="2a5fb702-d992-467a-bf2f-0420a7920b88" LastKnownName="IMissleLauncher" />
+            </type_NamedElement>
+          </requiredInterface>
+        </ownedAttributesInternal>
+      </component>
+    </componentModelHasComponents>
+    <modelContainsNamedElements>
+      <Interface Id="311c878d-6956-4f76-a4a0-abbe2d1fd3d8" name="IMissileLauncher" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9b0e2e12-99c4-4340-9ed3-1ba480e08c4e" />
+      </Interface>
+    </modelContainsNamedElements>
+    <modelContainsNamedElements>
+      <Interface Id="2a5fb702-d992-467a-bf2f-0420a7920b88" name="IMissleLauncher" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="04d26506-2767-49cf-8a0d-b976e3e05eb6" />
+      </Interface>
+    </modelContainsNamedElements>
+    <componentModelHasComponents>
+      <component Id="4175eb3f-d49b-42c7-a637-129bb0721d1b" name="Launcher Adapter" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="eb4e773f-bd02-4400-85aa-117f71c57288" />
+        <ownedAttributesInternal>
+          <providedInterface Id="6745a544-d10c-4bff-ad62-fefa6a8566ca" name="Port1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="1100508b-70ac-49ae-9e4c-5bd9cd8ddb3a" />
+            <type_NamedElement>
+              <interfaceMoniker Id="a87122d1-f97b-4886-8cf4-0c54007e8c88" LastKnownName="IMissileLauncher" />
+            </type_NamedElement>
+          </providedInterface>
+          <providedInterface Id="8eebf12b-d1ab-4593-97dd-b9b22ebdcef3" name="Port2" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="12b73539-007d-40e5-a859-f510d85a01fe" />
+            <type_NamedElement>
+              <interfaceMoniker Id="5ab53dd8-e0b5-468f-9ed1-32bdf75a44cc" LastKnownName="IMissileLauncher" />
+            </type_NamedElement>
+          </providedInterface>
+        </ownedAttributesInternal>
+      </component>
+    </componentModelHasComponents>
+    <modelContainsNamedElements>
+      <Interface Id="a87122d1-f97b-4886-8cf4-0c54007e8c88" name="IMissileLauncher" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b82a5119-b07d-49e2-8049-3da1630ea4b3" />
+      </Interface>
+    </modelContainsNamedElements>
+    <modelContainsNamedElements>
+      <Interface Id="5ab53dd8-e0b5-468f-9ed1-32bdf75a44cc" name="IMissileLauncher" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="de6f9add-caf5-4e3e-a12e-1a888ffa2b7d" />
+      </Interface>
+    </modelContainsNamedElements>
+  </packagedElements>
+  <package Id="ed314fcd-e65c-4224-a3e6-8d391f16ce43" name="Asml">
+    <elementDefinition Id="af1fb06b-0376-44fc-9480-9c670654e694" />
+  </package>
+</componentModel>

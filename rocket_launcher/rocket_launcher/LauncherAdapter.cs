@@ -100,7 +100,7 @@ namespace adapter
         public void Reset()
         {
             adapter_launcher.command_Left(5500);
-            adapter_launcher.command_Right(2920);
+            adapter_launcher.command_Right(3100);
             adapter_launcher.command_Up(1500);
             adapter_launcher.command_Down(600);
             current_theta = 0;

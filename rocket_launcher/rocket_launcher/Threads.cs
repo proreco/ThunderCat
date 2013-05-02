@@ -15,7 +15,6 @@ namespace threads
 {
     class Threads
     {
-
         #region Members
         /// <summary>
         /// Object for synchronizing
@@ -87,6 +86,7 @@ namespace threads
         /// <summary>
         /// Sets up and starts the processing thread.
         /// </summary>
+        /// 
         private void SetupThread()
         {
 
@@ -178,14 +178,7 @@ namespace threads
                 ThreadStopped(this, null);
             }
         }
-
-        public Image<Bgr, byte> GetLastData()
-        {
-            return m_lastData;
-        }
-        #endregion
-
-        
+        #endregion   
     }
         public class CameraEventArgs : EventArgs
         {

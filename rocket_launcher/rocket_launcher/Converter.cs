@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace converter
 {
     class Converter
@@ -14,8 +15,14 @@ namespace converter
 
         public Converter (double x, double y, double z)
         {
-            theta = Math.Round(Math.Atan(x / y) * 180 / Math.PI);
-            phi = Math.Round(Math.Atan(z / y) * 180 / Math.PI);
+            if (x != 0 || y != 0)
+                theta = Math.Round(Math.Atan(x / y) * 180 / Math.PI);
+            else
+                theta = 0;
+            if (z != 0 || y != 0)
+                phi = Math.Round(Math.Atan(z / y) * 180 / Math.PI);
+            else
+                phi = 0;
         }
 
         public double Phi

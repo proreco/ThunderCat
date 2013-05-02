@@ -55,12 +55,12 @@ namespace adapter
                 if (current_theta < 0)
                 {
                     if (theta > current_theta)
-                        adapter_launcher.command_Right(Convert.ToInt32(theta - current_theta) * -21);
+                        adapter_launcher.command_Right(Convert.ToInt32(theta - current_theta) * 21);
                     else
-                        adapter_launcher.command_Left(Convert.ToInt32(current_theta - theta) * -19);
+                        adapter_launcher.command_Left(Convert.ToInt32(current_theta - theta) * 19);
                 }
                 else
-                    adapter_launcher.command_Left(Convert.ToInt32((current_theta + theta) * 19));
+                    adapter_launcher.command_Left(Convert.ToInt32((current_theta - theta) * 19));
                 current_theta = theta;
             }
 
@@ -79,15 +79,15 @@ namespace adapter
             }
             else
             {
-                if (current_theta < 0)
+                if (current_phi < 0)
                 {
                     if (phi > current_phi)
-                        adapter_launcher.command_Up(Convert.ToInt32(phi - current_phi) * -17);
+                        adapter_launcher.command_Up(Convert.ToInt32(phi - current_phi) * 17);
                     else
-                        adapter_launcher.command_Down(Convert.ToInt32(current_phi - phi) * -123);
+                        adapter_launcher.command_Down(Convert.ToInt32(current_phi - phi) * 23);
                 }
                 else
-                    adapter_launcher.command_Down(Convert.ToInt32((current_phi + phi) * 23));
+                    adapter_launcher.command_Down(Convert.ToInt32((current_phi - phi) * 23));
                 current_phi = phi;
             }         
         }

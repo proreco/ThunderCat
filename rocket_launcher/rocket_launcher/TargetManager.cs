@@ -10,7 +10,7 @@ namespace targetManager
     class TargetManager
     {
         // Target manager class, manages list of targets and encapsulates targets' data.
-        private int x, y, z;
+        private double x, y, z;
         private bool friend;
         private string name;
         public List<string> targetList = new List<string>();
@@ -44,11 +44,11 @@ namespace targetManager
                 if (correct_target) 
                 {
                     if (line.StartsWith("x"))
-                        x = Convert.ToInt32(line.Remove(0, 4));
+                        x = Convert.ToDouble(line.Remove(0, 4));
                     else if (line.StartsWith("y"))
-                        y = Convert.ToInt32(line.Remove(0, 4));
+                        y = Convert.ToDouble(line.Remove(0, 4));
                     else if (line.StartsWith("z"))
-                        z = Convert.ToInt32(line.Remove(0, 4));
+                        z = Convert.ToDouble(line.Remove(0, 4));
                     else if (line == "Friend = True")
                         friend = true;
                     else if (line == "Friend = False")
@@ -62,17 +62,17 @@ namespace targetManager
                 lines++;
             }
         }
-        public int X
+        public double X
         {
             get { return x; }
             set { x = value; }
         }
-        public int Y
+        public double Y
         {
             get { return y; }
             set { y = value; }
         }
-        public int Z
+        public double Z
         {
             get { return z; }
             set { z = value; }

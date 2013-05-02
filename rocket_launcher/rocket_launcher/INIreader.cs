@@ -61,7 +61,7 @@ namespace Ini
                         list.Add("Friend = True");
                     else if (line.ToUpper() == "FRIEND = NO")
                         list.Add("Friend = False");
-                    else if (line.StartsWith("name  "))
+                    else if (line.StartsWith("name"))
                     {
                         list.Add("Name" + line.Remove(0, 6));
                         list.Add("\n");

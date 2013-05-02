@@ -1,1 +1,273 @@
-﻿ 
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="775b24a2-76ca-4ded-a27c-f043fe6938f5" name="Activity1" linkedPackageId="e06321d2-6621-4ec3-875a-71154eece03e" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="c1439968-aa30-43a7-a330-14658fbd2f22">
+      <profileInstance Id="3eb47c51-2ca6-4e7f-93eb-b143bc5e2ac0" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="900d58d5-bed8-4065-905f-6cc9584cc7d6">
+      <profileInstance Id="49fb3b83-65d9-4720-ac0a-eebd47552f62" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="447a4bb8-99dd-4570-a918-3ebeb4c71866">
+      <profileInstance Id="1db69327-8853-480c-bf0d-7c5d21d9bf13" name="CSharpProfile">
+        <elementDefinition Id="3a3d2738-893f-4aa4-a90a-8ccf9d4f0759" />
+      </profileInstance>
+      <elementDefinition Id="e069f444-99d6-4df8-b1ee-25f259022bac" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="21c05875-40f9-4f38-b119-dede6cfdf1dd" name="Activity1" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="e2f5c3e3-6713-48a6-a27c-669b079b946d" />
+        <nodes>
+          <initialNode Id="c8c9a10a-7334-4a65-bfc6-2e3404f781f3" name="Initial1" isLeaf="false">
+            <elementDefinition Id="89c27388-f374-4240-bdc2-bdd165de9e9d" />
+            <flowNodeTargets>
+              <controlFlow Id="8e614cb6-7692-4b3c-8426-e854c82bc24f" isLeaf="false">
+                <opaqueActionMoniker Id="4cd6e87f-54bd-4fb5-8713-309a59524501" LastKnownName="Start Application" />
+                <elementDefinition Id="46062198-2078-41dc-b5ac-74e7595363b0" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <activityFinalNode Id="7ee1db69-81f0-47a0-8c33-65d232f7484b" name="ActivityFinal1" isLeaf="false">
+            <elementDefinition Id="708381e2-464b-4638-b6da-ba89aff22380" />
+          </activityFinalNode>
+          <forkNode Id="4f46250e-f61f-4195-be0e-59208ade54fc" name="Fork1" isLeaf="false">
+            <elementDefinition Id="eeafcb87-6aa2-4987-a199-b2004d53599e" />
+            <flowNodeTargets>
+              <controlFlow Id="c40362e5-456a-40ef-a639-7ec743795c82" isLeaf="false">
+                <opaqueActionMoniker Id="63c217fa-0b39-46db-9d36-767fec864ad2" LastKnownName="Show Video" />
+                <elementDefinition Id="69414bf0-2d3a-4191-9c52-0eac4203c340" />
+              </controlFlow>
+              <controlFlow Id="413a0655-750c-4c50-a14a-92a44db549ba" isLeaf="false">
+                <opaqueActionMoniker Id="07972832-7e00-42cc-b109-5cf1fe1c7915" LastKnownName="Start Search and Destroy" />
+                <elementDefinition Id="170e40c6-7ba1-4657-b3ea-619cf22392a9" />
+              </controlFlow>
+            </flowNodeTargets>
+          </forkNode>
+          <opaqueAction Id="4cd6e87f-54bd-4fb5-8713-309a59524501" name="Start Application" isLeaf="false">
+            <elementDefinition Id="4da3accd-6937-4156-918c-25e42f7a1008" />
+            <flowNodeTargets>
+              <controlFlow Id="bcf73768-567f-4812-a429-e4b7e85b54c8" isLeaf="false">
+                <opaqueActionMoniker Id="375fa3ae-dbf0-43c9-992c-88af912b9e5c" LastKnownName="Choose mode" />
+                <elementDefinition Id="f80595ce-a481-49f8-b5b1-9ef4892436c2" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="d7e5eaf3-111b-4cd4-8e00-cd2a9bd9a51f" name="Load Target File" isLeaf="false">
+            <elementDefinition Id="845f53e0-6378-4f35-a632-2b5e3f2d1a38" />
+            <flowNodeTargets>
+              <controlFlow Id="001b57c4-e6f1-48fe-91f6-2830df8ef089" isLeaf="false">
+                <opaqueActionMoniker Id="b9beb1b5-24e9-4747-a20b-bff822cf2b21" LastKnownName="Start Video" />
+                <elementDefinition Id="6d88f70a-bfe4-40fd-8a2d-6d7da197c66e" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="b9beb1b5-24e9-4747-a20b-bff822cf2b21" name="Start Video" isLeaf="false">
+            <elementDefinition Id="eb2f3531-2e2c-4f64-87f7-25aae48c7b8a" />
+            <flowNodeTargets>
+              <controlFlow Id="dfb4ed91-3d4e-422b-baf7-f84d4d74ec87" isLeaf="false">
+                <decisionNodeMoniker Id="7f572260-860a-4e2f-bb39-7ecb5b14ae87" LastKnownName="Decision2" />
+                <elementDefinition Id="114c4b24-2d4a-4cde-a099-bf00003bc112" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="63c217fa-0b39-46db-9d36-767fec864ad2" name="Show Video" isLeaf="false">
+            <elementDefinition Id="ee3c068c-570e-40a0-a33b-375e1c245397" />
+            <flowNodeTargets>
+              <controlFlow Id="2fcbe8a0-ebb6-43e0-bb2f-695de520ee44" isLeaf="false">
+                <decisionNodeMoniker Id="42cdc13a-7450-415a-8498-3cd59f2feb90" LastKnownName="Decision1" />
+                <elementDefinition Id="893e3799-a72b-4059-a8e1-ea00fd47ab56" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="f170fcdf-0f46-4ae4-b39f-940d0b24de2c" name="Stop Video" isLeaf="false">
+            <elementDefinition Id="158bbf0c-36b0-4873-8b56-8ae986725beb" />
+            <flowNodeTargets>
+              <controlFlow Id="833efc96-d442-4f5e-bb95-ef07441e1ecd" isLeaf="false">
+                <decisionNodeMoniker Id="ef29b894-8686-44b9-a50d-968ef4f316d3" LastKnownName="Decision3" />
+                <elementDefinition Id="0c6ba482-bca8-44b8-b2d1-8f30b02b12d3" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="07972832-7e00-42cc-b109-5cf1fe1c7915" name="Start Search and Destroy" isLeaf="false">
+            <elementDefinition Id="3a651780-25ec-4104-babc-2604c3c33b80" />
+            <flowNodeTargets>
+              <controlFlow Id="2e606db5-3b61-4ee8-b82c-092c672bb840" isLeaf="false">
+                <forkNodeMoniker Id="90d54850-3a62-4027-8750-bd6eedf6fad6" LastKnownName="Fork2" />
+                <elementDefinition Id="25eebfc4-30e3-41c4-861e-e7628e239f0f" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <forkNode Id="90d54850-3a62-4027-8750-bd6eedf6fad6" name="Fork2" isLeaf="false">
+            <elementDefinition Id="18981dd9-1638-4f09-ae13-cede83de5801" />
+            <flowNodeTargets>
+              <controlFlow Id="3de8935c-21a1-4ea3-8af2-92935b68b7bb" isLeaf="false">
+                <opaqueActionMoniker Id="cb72c895-9328-4110-a143-0cd4964d67f9" LastKnownName="Search and Destroy Runs" />
+                <elementDefinition Id="58a278d1-de8b-4690-9ec6-dbfa2c2793d7" />
+              </controlFlow>
+              <controlFlow Id="6bc12429-b9b0-4e73-8a41-1060fbdf4f31" isLeaf="false">
+                <opaqueActionMoniker Id="e4af5d36-8722-4585-91ae-d61e6fd900d5" LastKnownName="GUI idles" />
+                <elementDefinition Id="cbd0c682-7b77-47c1-80a4-ba84705cd56c" />
+              </controlFlow>
+            </flowNodeTargets>
+          </forkNode>
+          <opaqueAction Id="cb72c895-9328-4110-a143-0cd4964d67f9" name="Search and Destroy Runs" isLeaf="false">
+            <elementDefinition Id="426632c5-e938-4545-84e1-6198123d77a3" />
+            <flowNodeTargets>
+              <controlFlow Id="f8ee8c9b-a572-4275-9f42-8b2d3d996b72" isLeaf="false">
+                <decisionNodeMoniker Id="58c4d4f4-f87b-4ec8-90ed-de57fcefc13f" LastKnownName="Decision4" />
+                <elementDefinition Id="3b7be85f-9ac1-4afa-8128-e79784d17256" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="e4af5d36-8722-4585-91ae-d61e6fd900d5" name="GUI idles" isLeaf="false">
+            <elementDefinition Id="8b5a1cd3-07a4-42bf-a0ec-ff07baf38633" />
+            <flowNodeTargets>
+              <controlFlow Id="7599d326-d5cf-41cb-be14-bd929259713d" isLeaf="false">
+                <joinNodeMoniker Id="ddaa84c6-6a5c-41fa-8ea4-3a290a0de28b" LastKnownName="Join1" />
+                <elementDefinition Id="42d4a75f-ae5f-4477-949b-2611545e6a53" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="b9fb274d-c343-4095-82f8-2d1b23a242b6" name="Search and Destroy stops" isLeaf="false">
+            <elementDefinition Id="503261a4-8185-4f56-bf2d-c4fd46265dc7" />
+            <flowNodeTargets>
+              <controlFlow Id="fe35eaba-42a6-43ac-8fd5-d8f3ee30799b" isLeaf="false">
+                <joinNodeMoniker Id="ddaa84c6-6a5c-41fa-8ea4-3a290a0de28b" LastKnownName="Join1" />
+                <elementDefinition Id="405edd1d-3ed7-4b49-8e55-5922b7256c27" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <joinNode Id="ddaa84c6-6a5c-41fa-8ea4-3a290a0de28b" name="Join1" isLeaf="false">
+            <elementDefinition Id="7a8bd779-a3ca-462e-9b69-feb043b82cf8" />
+            <flowNodeTargets>
+              <controlFlow Id="9637b982-8912-407e-839a-2f66d78e488b" isLeaf="false">
+                <opaqueActionMoniker Id="f170fcdf-0f46-4ae4-b39f-940d0b24de2c" LastKnownName="Stop Video" />
+                <elementDefinition Id="39a1c8f2-89a1-4e29-aa56-7e1ea1a01f1e" />
+              </controlFlow>
+            </flowNodeTargets>
+          </joinNode>
+          <joinNode Id="1775002d-9a70-461b-bedf-d3c23d25c814" name="Join2" isLeaf="false">
+            <elementDefinition Id="127705f7-e774-4253-923f-437a86d8df83" />
+            <flowNodeTargets>
+              <controlFlow Id="c168348f-4093-4cb1-a136-ede79051268b" isLeaf="false">
+                <opaqueActionMoniker Id="13e42d16-d0f7-41c7-8741-d2e21c9cf27b" LastKnownName="Exit Application" />
+                <elementDefinition Id="0fb31fdf-02bd-4f63-a8e3-89030876889f" />
+              </controlFlow>
+            </flowNodeTargets>
+          </joinNode>
+          <opaqueAction Id="13e42d16-d0f7-41c7-8741-d2e21c9cf27b" name="Exit Application" isLeaf="false">
+            <elementDefinition Id="1363327e-64a1-448e-9549-a74fdfe718fa" />
+            <flowNodeTargets>
+              <controlFlow Id="bf0703e8-b007-47e4-b4d3-b023aa5cf480" isLeaf="false">
+                <activityFinalNodeMoniker Id="7ee1db69-81f0-47a0-8c33-65d232f7484b" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="24b9a3f1-3083-4bb0-adba-f0a3d1e9ec36" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="42cdc13a-7450-415a-8498-3cd59f2feb90" name="Decision1" isLeaf="false">
+            <elementDefinition Id="84dfb53a-0b67-44a8-9f3f-9e841a306c6f" />
+            <flowNodeTargets>
+              <controlFlow Id="872f159d-a082-4b4f-bc0b-ef87e2bcca89" guard="Stopped" isLeaf="false">
+                <joinNodeMoniker Id="1775002d-9a70-461b-bedf-d3c23d25c814" LastKnownName="Join2" />
+                <elementDefinition Id="e574c2c9-a82e-48b0-8702-0eb6a080e5ae" />
+              </controlFlow>
+              <controlFlow Id="5e827a6e-97ad-42f1-8c3d-4fc75f20e818" guard="Running" isLeaf="false">
+                <opaqueActionMoniker Id="63c217fa-0b39-46db-9d36-767fec864ad2" LastKnownName="Show Video" />
+                <elementDefinition Id="ba5f828d-b091-4c83-8f3a-7682086e72c5" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <decisionNode Id="7f572260-860a-4e2f-bb39-7ecb5b14ae87" name="Decision2" isLeaf="false">
+            <elementDefinition Id="5382ed24-aa8d-494b-b69e-a55c03d7a1a3" />
+            <flowNodeTargets>
+              <controlFlow Id="791a3ba5-5435-4517-a5bc-563e83d9bf7b" guard="No" isLeaf="false">
+                <opaqueActionMoniker Id="07972832-7e00-42cc-b109-5cf1fe1c7915" LastKnownName="Start Search and Destroy" />
+                <elementDefinition Id="ea3b4716-ee16-4d33-ae30-0c4ed15abf71" />
+              </controlFlow>
+              <controlFlow Id="644f2aa1-8b11-4ef3-876a-2573c9b4dabd" guard="Yes" isLeaf="false">
+                <forkNodeMoniker Id="4f46250e-f61f-4195-be0e-59208ade54fc" LastKnownName="Fork1" />
+                <elementDefinition Id="c2272338-a858-48bc-810d-35faf7555d74" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <decisionNode Id="ef29b894-8686-44b9-a50d-968ef4f316d3" name="Decision3" isLeaf="false">
+            <elementDefinition Id="087b739d-2b94-494b-86cc-718d27b19584" />
+            <flowNodeTargets>
+              <controlFlow Id="91d01dcd-e543-400b-8772-eaeae959bf07" guard="Not Running" isLeaf="false">
+                <opaqueActionMoniker Id="13e42d16-d0f7-41c7-8741-d2e21c9cf27b" LastKnownName="Exit Application" />
+                <elementDefinition Id="8846f534-af9f-447c-ba6a-b4911a7e4be1" />
+              </controlFlow>
+              <controlFlow Id="d309170d-48c7-4215-9fb4-74a099cdc924" guard="Running" isLeaf="false">
+                <joinNodeMoniker Id="1775002d-9a70-461b-bedf-d3c23d25c814" LastKnownName="Join2" />
+                <elementDefinition Id="e5614c3b-87c4-4b71-b9a4-36a3340e42b2" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <decisionNode Id="58c4d4f4-f87b-4ec8-90ed-de57fcefc13f" name="Decision4" isLeaf="false">
+            <elementDefinition Id="302f9d43-4ab3-4a80-b520-8b3acb875e52" />
+            <flowNodeTargets>
+              <controlFlow Id="5b71efbd-9a54-4d24-803c-efc98a52577c" guard="If all" isLeaf="false">
+                <opaqueActionMoniker Id="eee74db5-58a7-4631-952f-85c262a5b2a7" LastKnownName="Fire at All" />
+                <elementDefinition Id="c9a34342-74c8-4cc0-aee0-3ade6b2a7bb6" />
+              </controlFlow>
+              <controlFlow Id="fe599e67-0366-4b46-99f4-6d6240c6f3cb" guard="If foe" isLeaf="false">
+                <opaqueActionMoniker Id="25b0f20c-8409-4b3a-9e23-85df785d6779" LastKnownName="Fire at Foe" />
+                <elementDefinition Id="cab72c0d-2af5-4aa2-9974-080f14d07a65" />
+              </controlFlow>
+              <controlFlow Id="09ade937-3229-4185-be1a-4216453a14a7" guard="If friend" isLeaf="false">
+                <opaqueActionMoniker Id="4ffc8905-e11e-4919-96f1-5737623b1975" LastKnownName="Fire at Friend" />
+                <elementDefinition Id="d2d35d70-a8b1-40ee-9802-e0f2e1615bc0" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="eee74db5-58a7-4631-952f-85c262a5b2a7" name="Fire at All" isLeaf="false">
+            <elementDefinition Id="dffb6633-8adb-4465-958d-a7deb3307c79" />
+            <flowNodeTargets>
+              <controlFlow Id="8f7d5910-f549-4c1c-9935-c94100753113" isLeaf="false">
+                <opaqueActionMoniker Id="b9fb274d-c343-4095-82f8-2d1b23a242b6" LastKnownName="Search and Destroy stops" />
+                <elementDefinition Id="68e73cef-d563-453d-b86e-6d3e6b069829" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="25b0f20c-8409-4b3a-9e23-85df785d6779" name="Fire at Foe" isLeaf="false">
+            <elementDefinition Id="e904cc09-0bc3-4a2c-a1c8-795ca68f0703" />
+            <flowNodeTargets>
+              <controlFlow Id="7ae7b534-8fcb-4978-84d0-3c7ada7973f2" isLeaf="false">
+                <opaqueActionMoniker Id="b9fb274d-c343-4095-82f8-2d1b23a242b6" LastKnownName="Search and Destroy stops" />
+                <elementDefinition Id="6566a4af-c898-4f36-b46a-0c61d9be7e1b" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="4ffc8905-e11e-4919-96f1-5737623b1975" name="Fire at Friend" isLeaf="false">
+            <elementDefinition Id="ce3b14b5-2703-49d0-8c91-b52a42940515" />
+            <flowNodeTargets>
+              <controlFlow Id="93549ee6-f813-49c8-a9bc-4348634f5005" isLeaf="false">
+                <opaqueActionMoniker Id="b9fb274d-c343-4095-82f8-2d1b23a242b6" LastKnownName="Search and Destroy stops" />
+                <elementDefinition Id="dc09f343-6bd7-40b1-8871-1f1f2992ca4c" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="375fa3ae-dbf0-43c9-992c-88af912b9e5c" name="Choose mode" isLeaf="false">
+            <elementDefinition Id="1d8cdc3e-1648-4ca3-b825-13b08914b12e" />
+            <flowNodeTargets>
+              <controlFlow Id="ae6adc75-e402-4c8a-9dfd-b2c4b58b83cf" isLeaf="false">
+                <opaqueActionMoniker Id="d7e5eaf3-111b-4cd4-8e00-cd2a9bd9a51f" LastKnownName="Load Target File" />
+                <elementDefinition Id="e1eda37c-50cc-4f40-bb5e-97146f8ebaa9" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="e06321d2-6621-4ec3-875a-71154eece03e" name="Asml">
+    <elementDefinition Id="af1fb06b-0376-44fc-9480-9c670654e694" />
+  </package>
+</activityRootModel>

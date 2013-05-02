@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner"
   dslVersion="1.0.0.0"
   Id="af1fb06b-0376-44fc-9480-9c670654e694"
   name="Asml" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
@@ -751,6 +751,434 @@
         Id="665c4d9c-48b9-4835-a289-04d4707df1b5"
         LastKnownName="Emgu"
         LastKnownLocation="Package_1127.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <activity
+        Id="e2f5c3e3-6713-48a6-a27c-669b079b946d"
+        name="Activity1"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <initialNode
+            Id="89c27388-f374-4240-bdc2-bdd165de9e9d"
+            name="Initial1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="46062198-2078-41dc-b5ac-74e7595363b0"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="4da3accd-6937-4156-918c-25e42f7a1008"
+                  LastKnownName="Start Application"
+                  LastKnownLocation="Asml.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <activityFinalNode
+            Id="708381e2-464b-4638-b6da-ba89aff22380"
+            name="ActivityFinal1"
+            isLeaf="false" />
+          <forkNode
+            Id="eeafcb87-6aa2-4987-a199-b2004d53599e"
+            name="Fork1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="69414bf0-2d3a-4191-9c52-0eac4203c340"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="ee3c068c-570e-40a0-a33b-375e1c245397"
+                  LastKnownName="Show Video"
+                  LastKnownLocation="Asml.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="170e40c6-7ba1-4657-b3ea-619cf22392a9"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="3a651780-25ec-4104-babc-2604c3c33b80"
+                  LastKnownName="Start Search and Destroy"
+                  LastKnownLocation="Asml.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </forkNode>
+          <opaqueAction
+            Id="4da3accd-6937-4156-918c-25e42f7a1008"
+            name="Start Application"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="f80595ce-a481-49f8-b5b1-9ef4892436c2"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="1d8cdc3e-1648-4ca3-b825-13b08914b12e"
+                  LastKnownName="Choose mode"
+                  LastKnownLocation="Asml.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="845f53e0-6378-4f35-a632-2b5e3f2d1a38"
+            name="Load Target File"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="6d88f70a-bfe4-40fd-8a2d-6d7da197c66e"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="eb2f3531-2e2c-4f64-87f7-25aae48c7b8a"
+                  LastKnownName="Start Video"
+                  LastKnownLocation="Asml.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="eb2f3531-2e2c-4f64-87f7-25aae48c7b8a"
+            name="Start Video"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="114c4b24-2d4a-4cde-a099-bf00003bc112"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="5382ed24-aa8d-494b-b69e-a55c03d7a1a3"
+                  LastKnownName="Decision2"
+                  LastKnownLocation="Asml.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="ee3c068c-570e-40a0-a33b-375e1c245397"
+            name="Show Video"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="893e3799-a72b-4059-a8e1-ea00fd47ab56"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="84dfb53a-0b67-44a8-9f3f-9e841a306c6f"
+                  LastKnownName="Decision1"
+                  LastKnownLocation="Asml.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="158bbf0c-36b0-4873-8b56-8ae986725beb"
+            name="Stop Video"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="0c6ba482-bca8-44b8-b2d1-8f30b02b12d3"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="087b739d-2b94-494b-86cc-718d27b19584"
+                  LastKnownName="Decision3"
+                  LastKnownLocation="Asml.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="3a651780-25ec-4104-babc-2604c3c33b80"
+            name="Start Search and Destroy"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="25eebfc4-30e3-41c4-861e-e7628e239f0f"
+                isLeaf="false">
+                <forkNodeMoniker
+                  Id="18981dd9-1638-4f09-ae13-cede83de5801"
+                  LastKnownName="Fork2"
+                  LastKnownLocation="Asml.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <forkNode
+            Id="18981dd9-1638-4f09-ae13-cede83de5801"
+            name="Fork2"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="58a278d1-de8b-4690-9ec6-dbfa2c2793d7"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="426632c5-e938-4545-84e1-6198123d77a3"
+                  LastKnownName="Search and Destroy Runs"
+                  LastKnownLocation="Asml.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="cbd0c682-7b77-47c1-80a4-ba84705cd56c"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="8b5a1cd3-07a4-42bf-a0ec-ff07baf38633"
+                  LastKnownName="GUI idles"
+                  LastKnownLocation="Asml.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </forkNode>
+          <opaqueAction
+            Id="426632c5-e938-4545-84e1-6198123d77a3"
+            name="Search and Destroy Runs"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="3b7be85f-9ac1-4afa-8128-e79784d17256"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="302f9d43-4ab3-4a80-b520-8b3acb875e52"
+                  LastKnownName="Decision4"
+                  LastKnownLocation="Asml.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="8b5a1cd3-07a4-42bf-a0ec-ff07baf38633"
+            name="GUI idles"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="42d4a75f-ae5f-4477-949b-2611545e6a53"
+                isLeaf="false">
+                <joinNodeMoniker
+                  Id="7a8bd779-a3ca-462e-9b69-feb043b82cf8"
+                  LastKnownName="Join1"
+                  LastKnownLocation="Asml.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="503261a4-8185-4f56-bf2d-c4fd46265dc7"
+            name="Search and Destroy stops"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="405edd1d-3ed7-4b49-8e55-5922b7256c27"
+                isLeaf="false">
+                <joinNodeMoniker
+                  Id="7a8bd779-a3ca-462e-9b69-feb043b82cf8"
+                  LastKnownName="Join1"
+                  LastKnownLocation="Asml.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <joinNode
+            Id="7a8bd779-a3ca-462e-9b69-feb043b82cf8"
+            name="Join1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="39a1c8f2-89a1-4e29-aa56-7e1ea1a01f1e"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="158bbf0c-36b0-4873-8b56-8ae986725beb"
+                  LastKnownName="Stop Video"
+                  LastKnownLocation="Asml.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </joinNode>
+          <joinNode
+            Id="127705f7-e774-4253-923f-437a86d8df83"
+            name="Join2"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="0fb31fdf-02bd-4f63-a8e3-89030876889f"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="1363327e-64a1-448e-9549-a74fdfe718fa"
+                  LastKnownName="Exit Application"
+                  LastKnownLocation="Asml.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </joinNode>
+          <opaqueAction
+            Id="1363327e-64a1-448e-9549-a74fdfe718fa"
+            name="Exit Application"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="24b9a3f1-3083-4bb0-adba-f0a3d1e9ec36"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="708381e2-464b-4638-b6da-ba89aff22380"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="Asml.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode
+            Id="84dfb53a-0b67-44a8-9f3f-9e841a306c6f"
+            name="Decision1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="e574c2c9-a82e-48b0-8702-0eb6a080e5ae"
+                guard="Stopped"
+                isLeaf="false">
+                <joinNodeMoniker
+                  Id="127705f7-e774-4253-923f-437a86d8df83"
+                  LastKnownName="Join2"
+                  LastKnownLocation="Asml.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="ba5f828d-b091-4c83-8f3a-7682086e72c5"
+                guard="Running"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="ee3c068c-570e-40a0-a33b-375e1c245397"
+                  LastKnownName="Show Video"
+                  LastKnownLocation="Asml.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <decisionNode
+            Id="5382ed24-aa8d-494b-b69e-a55c03d7a1a3"
+            name="Decision2"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="ea3b4716-ee16-4d33-ae30-0c4ed15abf71"
+                guard="No"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="3a651780-25ec-4104-babc-2604c3c33b80"
+                  LastKnownName="Start Search and Destroy"
+                  LastKnownLocation="Asml.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="c2272338-a858-48bc-810d-35faf7555d74"
+                guard="Yes"
+                isLeaf="false">
+                <forkNodeMoniker
+                  Id="eeafcb87-6aa2-4987-a199-b2004d53599e"
+                  LastKnownName="Fork1"
+                  LastKnownLocation="Asml.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <decisionNode
+            Id="087b739d-2b94-494b-86cc-718d27b19584"
+            name="Decision3"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="8846f534-af9f-447c-ba6a-b4911a7e4be1"
+                guard="Not Running"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="1363327e-64a1-448e-9549-a74fdfe718fa"
+                  LastKnownName="Exit Application"
+                  LastKnownLocation="Asml.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="e5614c3b-87c4-4b71-b9a4-36a3340e42b2"
+                guard="Running"
+                isLeaf="false">
+                <joinNodeMoniker
+                  Id="127705f7-e774-4253-923f-437a86d8df83"
+                  LastKnownName="Join2"
+                  LastKnownLocation="Asml.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <decisionNode
+            Id="302f9d43-4ab3-4a80-b520-8b3acb875e52"
+            name="Decision4"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="c9a34342-74c8-4cc0-aee0-3ade6b2a7bb6"
+                guard="If all"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="dffb6633-8adb-4465-958d-a7deb3307c79"
+                  LastKnownName="Fire at All"
+                  LastKnownLocation="Asml.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="cab72c0d-2af5-4aa2-9974-080f14d07a65"
+                guard="If foe"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="e904cc09-0bc3-4a2c-a1c8-795ca68f0703"
+                  LastKnownName="Fire at Foe"
+                  LastKnownLocation="Asml.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="d2d35d70-a8b1-40ee-9802-e0f2e1615bc0"
+                guard="If friend"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="ce3b14b5-2703-49d0-8c91-b52a42940515"
+                  LastKnownName="Fire at Friend"
+                  LastKnownLocation="Asml.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction
+            Id="dffb6633-8adb-4465-958d-a7deb3307c79"
+            name="Fire at All"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="68e73cef-d563-453d-b86e-6d3e6b069829"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="503261a4-8185-4f56-bf2d-c4fd46265dc7"
+                  LastKnownName="Search and Destroy stops"
+                  LastKnownLocation="Asml.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="e904cc09-0bc3-4a2c-a1c8-795ca68f0703"
+            name="Fire at Foe"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="6566a4af-c898-4f36-b46a-0c61d9be7e1b"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="503261a4-8185-4f56-bf2d-c4fd46265dc7"
+                  LastKnownName="Search and Destroy stops"
+                  LastKnownLocation="Asml.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="ce3b14b5-2703-49d0-8c91-b52a42940515"
+            name="Fire at Friend"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="dc09f343-6bd7-40b1-8871-1f1f2992ca4c"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="503261a4-8185-4f56-bf2d-c4fd46265dc7"
+                  LastKnownName="Search and Destroy stops"
+                  LastKnownLocation="Asml.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="1d8cdc3e-1648-4ca3-b825-13b08914b12e"
+            name="Choose mode"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="e1eda37c-50cc-4f40-bb5e-97146f8ebaa9"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="845f53e0-6378-4f35-a632-2b5e3f2d1a38"
+                  LastKnownName="Load Target File"
+                  LastKnownLocation="Asml.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+        </nodes>
+      </activity>
     </packageHasNamedElement>
   </packagedElements>
   <primitiveType
